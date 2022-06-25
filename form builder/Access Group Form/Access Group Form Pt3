@@ -1,7 +1,7 @@
-id: ppE8Yzk43EOZdhAxFZaI9Q
+id: nVwBsUuyIEW4KanuNyKPHg
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T04:12:55.5430755Z
+created: 2022-06-25T05:39:15.8937265Z
 protocol: 1
 tests:
 - id: qOwKNyyKSEqIcSMEAMaSqw
@@ -12,11 +12,11 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-13T04:52:25.0000000
-  modificationDate: 2022-03-13T02:21:54.0000000
+  modificationDate: 2022-06-25T05:39:16.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
-    stepSleepTime: 500
+    stepSleepTime: 1000
     stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
@@ -621,6 +621,48 @@ auxTests:
   - master
   - login
 elements:
+- id: ZMqsbaYtvkmFoXazdolIEQ
+  name: email2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
+    priority: 1
+- id: zRXNK1Bx2UK6aCUwLg530Q
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
+    priority: 1
+- id: AQsJjVKyU0m3Nsuxix6SHw
+  name: SIGN IN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
+    priority: 2
 - id: oOxUU5XuWkqO62EcUWvg2A
   name: field_192096
   type:
@@ -656,20 +698,6 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/form/input[9]
-    priority: 1
-- id: 6Q0QelnKa0yo0VmO-D2Gzw
-  name: short text box in form
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/div[2]/div/div/input
     priority: 1
 - id: irzcKQnOWUi5bnk7uS5ExA
   name: user
@@ -722,66 +750,34 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
-- id: ZMqsbaYtvkmFoXazdolIEQ
-  name: email2
+- id: 6Q0QelnKa0yo0VmO-D2Gzw
+  name: short text box in form
+  description: ''
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
   - name: XPATH
-    value: //div[4]/input
+    value: //div/input
     priority: 0
   - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
+    value: /html/body/div/div[1]/div[2]/div/form/div[2]/div/div/input
     priority: 1
-- id: zRXNK1Bx2UK6aCUwLg530Q
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[5]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
-    priority: 1
-- id: AQsJjVKyU0m3Nsuxix6SHw
-  name: SIGN IN
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Sign In']
-    priority: 0
-  - name: XPATH
-    value: //div[6]/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
-    priority: 2
-projectParameters: []
+projectParameters:
+- id: MrKVVd4LBEiIesXHrSN82g
+  name: access_group_form_url
+  description: ''
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_load_form&form_id=11116&return_nd=vms_form_list
+- id: _YguaED0bUq8R4hDs2fgmA
+  name: global_pw
+  description: ''
+  value: p@ssword1
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
   version: 1.1.9
   actions:
-  - id: 22Nw5UqP7EGqvQhuHT2kqg
-    name: Accept alert
-    description: Accept alert
-    className: io.testproject.addons.web.alert.AcceptAlert
-  - id: SFW6Rf9DW0G4jpBW38V4xw
-    name: Execute JavaScript
-    description: Execute JavaScript {{code}} with arguments {{args}}
-    className: io.testproject.addons.web.actions.ExecuteJavascript
-  - id: cFwIaQAe2kKuqTip20sJhg
-    name: Select an option by index
-    description: Select option indexed {{index}} in {{element}}
-    className: io.testproject.addons.web.element.select.SelectOptionByIndex
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
