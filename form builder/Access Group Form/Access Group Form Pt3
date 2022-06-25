@@ -1,7 +1,7 @@
-id: nVwBsUuyIEW4KanuNyKPHg
+id: Kj3klYzCoUmldKDxRCB-Ig
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T05:39:15.8937265Z
+created: 2022-06-25T05:42:53.0857573Z
 protocol: 1
 tests:
 - id: qOwKNyyKSEqIcSMEAMaSqw
@@ -12,11 +12,11 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-13T04:52:25.0000000
-  modificationDate: 2022-06-25T05:39:16.0000000
+  modificationDate: 2022-06-25T05:42:53.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
-    stepSleepTime: 1000
+    stepSleepTime: 500
     stepTimeout: 15000
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
@@ -105,10 +105,77 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: wEOQxjN3ekKBW2IYeUzB-g
+  - id: MiLn5eKTm0aswuEIP6e0mQ
     enabled: true
     invertResult: false
     order: 4
+    repeat: 1
+    type: Action
+    elementId: 6Q0QelnKa0yo0VmO-D2Gzw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: no it is not
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: td111j3fNEeANf2aSZrgLQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: 2n-MdgWqVEiWNpWAS5OUug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: d_Z7dyBjrUaPfPG4wGVEsg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 22Nw5UqP7EGqvQhuHT2kqg
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: pause
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wEOQxjN3ekKBW2IYeUzB-g
+    enabled: true
+    invertResult: false
+    order: 7
     repeat: 1
     type: Action
     elementId: oOxUU5XuWkqO62EcUWvg2A
@@ -128,7 +195,7 @@ tests:
   - id: UlwoLQjgmkmCfCHiWKdkmg
     enabled: true
     invertResult: false
-    order: 5
+    order: 8
     repeat: 1
     type: Action
     elementId: KtiGL6FwFEG0W7MJWKMG0A
@@ -142,69 +209,6 @@ tests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: td111j3fNEeANf2aSZrgLQ
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Action
-    elementId: 2n-MdgWqVEiWNpWAS5OUug
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: egjzrEkA5UC3GmOKlZs4Iw
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    elementId: 6Q0QelnKa0yo0VmO-D2Gzw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: MiLn5eKTm0aswuEIP6e0mQ
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Action
-    elementId: 6Q0QelnKa0yo0VmO-D2Gzw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: no it is not
-      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -759,11 +763,8 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //div/input
+    value: /html/body/div/div[1]/div[2]/div/form/div[3]/div/div/input
     priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/div[2]/div/div/input
-    priority: 1
 projectParameters:
 - id: MrKVVd4LBEiIesXHrSN82g
   name: access_group_form_url
@@ -778,6 +779,10 @@ addons:
   source: Store
   version: 1.1.9
   actions:
+  - id: 22Nw5UqP7EGqvQhuHT2kqg
+    name: Accept alert
+    description: Accept alert
+    className: io.testproject.addons.web.alert.AcceptAlert
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
