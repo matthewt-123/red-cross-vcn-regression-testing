@@ -1,7 +1,7 @@
-id: Kj3klYzCoUmldKDxRCB-Ig
+id: u6DP_zLbKkaW5COiiDSlwg
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T05:42:53.0857573Z
+created: 2022-06-25T06:15:16.6543044Z
 protocol: 1
 tests:
 - id: qOwKNyyKSEqIcSMEAMaSqw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-13T04:52:25.0000000
-  modificationDate: 2022-06-25T05:42:53.0000000
+  modificationDate: 2022-06-25T06:15:04.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -105,77 +105,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: MiLn5eKTm0aswuEIP6e0mQ
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: 6Q0QelnKa0yo0VmO-D2Gzw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: no it is not
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: td111j3fNEeANf2aSZrgLQ
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: 2n-MdgWqVEiWNpWAS5OUug
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: d_Z7dyBjrUaPfPG4wGVEsg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 22Nw5UqP7EGqvQhuHT2kqg
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
-    parameterMaps:
-    - name: pause
-      value: ''
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: wEOQxjN3ekKBW2IYeUzB-g
     enabled: true
     invertResult: false
-    order: 7
+    order: 4
     repeat: 1
     type: Action
     elementId: oOxUU5XuWkqO62EcUWvg2A
@@ -195,7 +128,7 @@ tests:
   - id: UlwoLQjgmkmCfCHiWKdkmg
     enabled: true
     invertResult: false
-    order: 8
+    order: 5
     repeat: 1
     type: Action
     elementId: KtiGL6FwFEG0W7MJWKMG0A
@@ -212,10 +145,53 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: td111j3fNEeANf2aSZrgLQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: 2n-MdgWqVEiWNpWAS5OUug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MiLn5eKTm0aswuEIP6e0mQ
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: Ut1bRrdGKkqjeZm_dyqH5Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: no it is not
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   - id: 81Hh5SLVFEal7I7drJNeBg
     enabled: true
     invertResult: false
-    order: 9
+    order: 8
     repeat: 1
     type: Action
     elementId: 2n-MdgWqVEiWNpWAS5OUug
@@ -236,7 +212,7 @@ tests:
     comments: wait for form to submit
     enabled: true
     invertResult: false
-    order: 10
+    order: 9
     repeat: 1
     type: Action
     settings:
@@ -754,8 +730,8 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
-- id: 6Q0QelnKa0yo0VmO-D2Gzw
-  name: short text box in form
+- id: Ut1bRrdGKkqjeZm_dyqH5Q
+  name: field_203244
   description: ''
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
@@ -763,13 +739,16 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/div[3]/div/div/input
+    value: //div/input
     priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/form/div[2]/div/div/input
+    priority: 1
 projectParameters:
 - id: MrKVVd4LBEiIesXHrSN82g
   name: access_group_form_url
   description: ''
-  value: https://arc-testproject.tcheetah09.com/?nd=vms_load_form&form_id=11116&return_nd=vms_form_list
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_load_form&form_id=11120&return_nd=vms_form_list
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
   description: ''
@@ -779,10 +758,6 @@ addons:
   source: Store
   version: 1.1.9
   actions:
-  - id: 22Nw5UqP7EGqvQhuHT2kqg
-    name: Accept alert
-    description: Accept alert
-    className: io.testproject.addons.web.alert.AcceptAlert
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
