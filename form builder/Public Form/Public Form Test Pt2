@@ -1,7 +1,7 @@
-id: 3E3Mo-auHkuKwL_rIHK-Cg
+id: tKNaAVnPdkKM9a-wo_mtmA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T04:12:55.5425423Z
+created: 2022-06-25T05:59:51.8825495Z
 protocol: 1
 tests:
 - id: rAjVXm9_k0SdTdXTD1wQRg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-13T02:17:56.0000000
-  modificationDate: 2021-11-13T06:01:28.0000000
+  modificationDate: 2022-06-25T05:59:35.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -96,7 +96,7 @@ tests:
     order: 4
     repeat: 1
     type: Action
-    elementId: JKKuJQGekUeYAChdJPQ2GQ
+    elementId: RxgwurcNaUOzfjqdutQ9UA
     settings:
       sleepTime: -1
       timeout: -1
@@ -116,7 +116,7 @@ tests:
     order: 5
     repeat: 1
     type: Action
-    elementId: JKKuJQGekUeYAChdJPQ2GQ
+    elementId: 7JCVrpsjx0q5ukFCeXqShA
     settings:
       sleepTime: -1
       timeout: -1
@@ -177,80 +177,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 8hZQqezk00CwGe19N5CwPw
+  - id: FXtOzyN2BkiSsNDBUNjWHw
     enabled: true
     invertResult: false
     order: 8
     repeat: 1
     type: Action
-    elementId: WUKzJq-OZ0SZ_kc-50LqUg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: email
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: _PdcMdjliUKnTh5dqh2m3Q
-    enabled: true
-    invertResult: false
-    order: 9
-    repeat: 1
-    type: Action
-    elementId: vFfPvv4TxUSSzYx39EFVGQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: wOr47ZD3HECOMWWu1a_llQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 10
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 22Nw5UqP7EGqvQhuHT2kqg
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
-    parameterMaps:
-    - name: pause
-      value: ''
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: FXtOzyN2BkiSsNDBUNjWHw
-    enabled: true
-    invertResult: false
-    order: 11
-    repeat: 1
-    type: Action
-    elementId: WUKzJq-OZ0SZ_kc-50LqUg
+    elementId: 7JCVrpsjx0q5ukFCeXqShA
     settings:
       sleepTime: -1
       timeout: -1
@@ -270,7 +203,7 @@ tests:
   - id: uELmbc7ehkqgWzDddfyBJA
     enabled: true
     invertResult: false
-    order: 12
+    order: 9
     repeat: 1
     type: Action
     elementId: vFfPvv4TxUSSzYx39EFVGQ
@@ -291,7 +224,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 13
+    order: 10
     repeat: 1
     type: Action
     settings:
@@ -321,6 +254,19 @@ tests:
   - form-builder
 auxTests: []
 elements:
+- id: vFfPvv4TxUSSzYx39EFVGQ
+  name: INPUT4
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[8]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/form/input[8]
+    priority: 1
 - id: 1ilDm8hz2EujiA43VLcamA
   name: field_192072
   type:
@@ -347,58 +293,39 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/form/div[1]/div/div/div[2]/input
     priority: 1
-- id: JKKuJQGekUeYAChdJPQ2GQ
-  name: field_192073
+- id: RxgwurcNaUOzfjqdutQ9UA
+  name: field_203234
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/form/fieldset/div[2]/div/div/div[3]/input
+    priority: 1
+- id: 7JCVrpsjx0q5ukFCeXqShA
+  name: field_203233
+  description: ''
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#field_192073'
-    priority: 2
-  - name: CSSSELECTOR
-    value: "[name='field_192073']"
-    priority: 1
   - name: XPATH
-    value: //div[2]/div/div/input
+    value: //div[3]/div//input
     priority: 0
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/div[2]/div/div/input
-    priority: 3
-- id: vFfPvv4TxUSSzYx39EFVGQ
-  name: INPUT4
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //input[8]
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/input[8]
+    value: /html/body/div/div[1]/div[2]/div/form/fieldset/div[3]/div/div/input
     priority: 1
-- id: WUKzJq-OZ0SZ_kc-50LqUg
-  name: field_192074
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#field_192074'
-    priority: 2
-  - name: CSSSELECTOR
-    value: "[name='field_192074']"
-    priority: 1
-  - name: XPATH
-    value: //div[3]//input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/div[3]/div/div/input
-    priority: 3
-projectParameters: []
+projectParameters:
+- id: ta6oFa_4d0ON9PRYvTwpXg
+  name: public_form_url
+  description: ''
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_public_form&form_id=11119
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
@@ -408,18 +335,6 @@ addons:
     name: Accept alert
     description: Accept alert
     className: io.testproject.addons.web.alert.AcceptAlert
-  - id: SFW6Rf9DW0G4jpBW38V4xw
-    name: Execute JavaScript
-    description: Execute JavaScript {{code}} with arguments {{args}}
-    className: io.testproject.addons.web.actions.ExecuteJavascript
-  - id: cFwIaQAe2kKuqTip20sJhg
-    name: Select an option by index
-    description: Select option indexed {{index}} in {{element}}
-    className: io.testproject.addons.web.element.select.SelectOptionByIndex
-  - id: 7dUz-B_UEEyf3F5EVJ9dXA
-    name: Set window size
-    description: Set window size to ({{width}},{{height}})
-    className: io.testproject.addons.web.window.SetWindowSize
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
