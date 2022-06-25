@@ -1,7 +1,7 @@
-id: 3lc6fg3pl0qfCy-YZjtfNw
+id: a_3qdxicfU6hYSVX3ypniA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T05:43:03.1595750Z
+created: 2022-06-25T06:09:39.4195128Z
 protocol: 1
 tests:
 - id: yCqa_exLy0uFHdC_9XJxqw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-13T04:08:58.0000000
-  modificationDate: 2022-06-25T05:40:26.0000000
+  modificationDate: 2022-06-25T06:06:44.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -1187,10 +1187,54 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: M_kJ73JqIkqEq3BNKSFfew
+  - id: s9EnuHUX9k2b4aM5QV-1Sw
     enabled: true
     invertResult: false
     order: 55
+    repeat: 1
+    type: Action
+    elementId: w3b4feG8eU2WtTBVwsNJRA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MpNeKfdpe0OAaJbZ3rpvDA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 56
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 22Nw5UqP7EGqvQhuHT2kqg
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: pause
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: M_kJ73JqIkqEq3BNKSFfew
+    enabled: true
+    invertResult: false
+    order: 57
     repeat: 1
     type: Action
     elementId: vi1eg1v_ck-hnzKMD9h3dQ
@@ -1210,7 +1254,7 @@ tests:
   - id: vXEYP0DiJUupywyJ_l3dtg
     enabled: true
     invertResult: false
-    order: 56
+    order: 58
     repeat: 1
     type: Action
     elementId: 05W7Lyy3GEKrsNF2hnYFBw
@@ -1230,7 +1274,7 @@ tests:
   - id: KHkSQ0q3YESLMkbi7zO6iw
     enabled: true
     invertResult: false
-    order: 57
+    order: 59
     repeat: 1
     type: Action
     elementId: 05W7Lyy3GEKrsNF2hnYFBw
@@ -1253,7 +1297,7 @@ tests:
   - id: 8DvLZM4n6kCKNSrMzWOIRA
     enabled: true
     invertResult: false
-    order: 58
+    order: 60
     repeat: 1
     type: Action
     elementId: C3MQ-Ub7t0SuL6jWLB-lGA
@@ -1273,7 +1317,7 @@ tests:
   - id: wqYCW1ByHk-8A9qwC1eJXg
     enabled: true
     invertResult: false
-    order: 59
+    order: 61
     repeat: 1
     type: Action
     elementId: YmLxbbgmoEijzGe75dE6lg
@@ -1294,7 +1338,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 60
+    order: 62
     repeat: 1
     type: Action
     settings:
@@ -2257,6 +2301,22 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
+- id: w3b4feG8eU2WtTBVwsNJRA
+  name: Delete3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[2]//a[. = 'Delete']
+    priority: 0
+  - name: XPATH
+    value: //tr[2]//a[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/table/tbody/tr[2]/td[3]/a[2]
+    priority: 2
 - id: KFlNRZXvhUSsimyyBKcrUQ
   name: SPAN13
   type:
@@ -2274,11 +2334,11 @@ projectParameters:
 - id: 4o2t5VxVkkil-O5c7uPMRA
   name: access_group_uid
   description: ''
-  value: gaplllbqehuipikgarna
+  value: vusybcdwpkwyvjzpwgto
 - id: MrKVVd4LBEiIesXHrSN82g
   name: access_group_form_url
   description: ''
-  value: https://arc-testproject.tcheetah09.com/?nd=vms_load_form&form_id=11116&return_nd=vms_form_list
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_load_form&form_id=11120&return_nd=vms_form_list
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
   description: ''
@@ -2305,6 +2365,10 @@ addons:
     name: Select an option by index
     description: Select option indexed {{index}} in {{element}}
     className: io.testproject.addons.web.element.select.SelectOptionByIndex
+  - id: 22Nw5UqP7EGqvQhuHT2kqg
+    name: Accept alert
+    description: Accept alert
+    className: io.testproject.addons.web.alert.AcceptAlert
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
