@@ -1,0 +1,1866 @@
+id: wQPcYbDDHkidVwQnK8VxHg
+projectId: 0gbsDtz4lkyiB8B6W2gvHA
+projectName: Red Cross VCN Regression Testing
+created: 2022-06-25T04:12:50.2677111Z
+protocol: 1
+tests:
+- id: KgkDgloN-EuR70D6cQyXWw
+  name: Intake Opportunity
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2021-10-31T01:38:06.0000000
+  modificationDate: 2021-11-02T04:29:23.0000000
+  settings:
+    automationAssistant: true
+    appId: ySlnJ6rOCUaGlfrlfNXE2Q
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: ySlnJ6rOCUaGlfrlfNXE2Q
+    name: VCN dev site(testproject)
+    url: https://arc-testproject.tcheetah09.com/
+    platform: Web
+  steps:
+  - id: 6h0gbDQ4VE6srE0AYuYKLA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wngvR2SjKEiqcnBovDNTlg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 7Z9p956I8Ei00lLhwo_iPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1ZAiGdMbOE-MJ9D92Riiig
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 7Z9p956I8Ei00lLhwo_iPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: matthew.tsai+OpQAdmin@redcross.org
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: L5dpXEX1skmdzeywQyYGcQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: FW8GFyujfEWdKMsm6UlwKw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: hD7TTPu08EW1vYeH9ey-FQ
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: FW8GFyujfEWdKMsm6UlwKw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{vcn_opq_pw}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: J-_0-CftmUe4fTrOodtmMg
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: B4ybKGXKwkioZonafCWkPg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Kdm2nMSivUiNgUTJFIexdA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: epcR_i7DEUakKZuPJYRjKw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yXcIMf4udkSHFIBguIldmA
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: YKYPrG-LhkCGcoFhC7SLfg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2Uv8cEz2CEeMOXX8G85Dug
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: r-BGhVn8akaj5udRNWASNQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: IswrYKXTjEOeXssMNcUCyA
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: Cc4HL2BifkK7bxYXgFqUJw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZgKjfq-t3E67a-qqEn0vfA
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: tzcufl9L9U2sI-_96oZowg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zoc7pDytlU-kzj2MNsVr0A
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: tzcufl9L9U2sI-_96oZowg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: 3
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cEHun8k29UyAhqssvsxFfw
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: tzcufl9L9U2sI-_96oZowg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: j2k62gtJ_0CXeOLzo3BJtg
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: 17cMHC0JuUWR5AX2DU005Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vWZ1ucnv_UiCplKl9F2J1g
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: 17cMHC0JuUWR5AX2DU005Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: intakeopreferral
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MWAF0-WIk0udeOtsYZOmcw
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: 17cMHC0JuUWR5AX2DU005Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 928bf14e-7a56-4371-b92a-9cb9de53f632
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ENTER
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 1TFD3tqY5kCWXIszoNziIA
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: F21BqgWRzkaw_7Cven4CoQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3O0_4zWAg0Kbzak-l0sh-g
+    enabled: true
+    invertResult: false
+    order: 18
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 1
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GrlIV-7Opk2aPqDrzlGuyQ
+    enabled: true
+    invertResult: false
+    order: 19
+    repeat: 1
+    type: Action
+    elementId: S4TlN34VT0aTpXXMvtdRsA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xy-UGwQTiE6mjgWs_uv_Cg
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: WZ7j-UG_akmEVKfZf3zjAQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HEjJ2SzUQkegeZy605BskA
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: WZ7j-UG_akmEVKfZf3zjAQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: 201119
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: J2oEGfbO9Umw7gRUPphDtg
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: WZ7j-UG_akmEVKfZf3zjAQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LlpcrzZu7U2izdUfzngQLw
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: D3hT29TasE2Gxy-2GiyHpg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: U5mxGEDAbkaPDWjRY02Mdw
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: YQUdR95GY0S2mszAE74eDA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: tsai
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DpwovOFsI0ORkYb2QReGVw
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    elementId: pZ6p2nQwiU2UIm5KG0GR5g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: X7xzBZe90E2dkWDqcCnzqg
+    enabled: true
+    invertResult: false
+    order: 26
+    repeat: 1
+    type: Action
+    elementId: okJ7qvYXpEysS7pCvOqkbg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: E-tdGdKGyk-EgYgeVRnvpA
+    enabled: true
+    invertResult: false
+    order: 27
+    repeat: 1
+    type: Action
+    elementId: okJ7qvYXpEysS7pCvOqkbg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: 64622
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 2FkbVdUl9ku_t2mgGMQvxA
+    enabled: true
+    invertResult: false
+    order: 28
+    repeat: 1
+    type: Action
+    elementId: okJ7qvYXpEysS7pCvOqkbg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: mrwSwkn17E-EkvL8vCDD6w
+    enabled: true
+    invertResult: false
+    order: 29
+    repeat: 1
+    type: Action
+    elementId: REGeXKhpIkqx_iXxZ2iAcg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZsRIF-R9J0WHNmT6bwuisQ
+    enabled: true
+    invertResult: false
+    order: 30
+    repeat: 1
+    type: Action
+    elementId: HNvompyZl0m4aSRnsFbMlw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: opq
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Zwa63rV8EUm91-zMLzrT0Q
+    enabled: true
+    invertResult: false
+    order: 31
+    repeat: 1
+    type: Action
+    elementId: 0gDKX4pFTkSKv64NXcZpsA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BLt5s22yKkKwJJRo3dBscA
+    enabled: true
+    invertResult: false
+    order: 32
+    repeat: 1
+    type: Action
+    elementId: BIH8a2QsakqUw7POSyTxWA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dTK63nNw-ku47QK5Rdq26w
+    enabled: true
+    invertResult: false
+    order: 33
+    repeat: 1
+    type: Action
+    elementId: tgvXgWlAHUylPLUQ8l6o9Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jdRWAa0jBUqmzW-46SQsTg
+    enabled: true
+    invertResult: false
+    order: 34
+    repeat: 1
+    type: Action
+    elementId: 4EUeneb2c0K1eqI3XFgS-A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: p-sUhqVPp0SY2DJq3_sbcA
+    enabled: true
+    invertResult: false
+    order: 35
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 3a7a12fb-66a4-47c2-aaf0-deeb7b1f748a
+      source: System
+    parameterMaps:
+    - name: index
+      value: 2
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Or4yAo0F00uhoD151DADvA
+    enabled: true
+    invertResult: false
+    order: 36
+    repeat: 1
+    type: Action
+    elementId: ZzTqGVx6lkOkTK5p3JMlew
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: yU7Z0fy4hEmrnGCUynUHCw
+    enabled: true
+    invertResult: false
+    order: 37
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 400
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: z5HUK6JHrU6BnBa4A5TxXQ
+    enabled: true
+    invertResult: false
+    order: 38
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kGud5vlxRkmR8UDCqVeb9Q
+    enabled: true
+    invertResult: false
+    order: 39
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Kj7KSMfZQEKeIEF9th_bdQ
+    enabled: true
+    invertResult: false
+    order: 40
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SpulLrmJjESj6fAe4UhKUA
+    enabled: true
+    invertResult: false
+    order: 41
+    repeat: 1
+    type: Action
+    elementId: cuihBY3_LkK-ffzKdprG9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: sslC8ENU4EiGfAxSJxJgeQ
+    enabled: true
+    invertResult: false
+    order: 42
+    repeat: 1
+    type: Action
+    elementId: cuihBY3_LkK-ffzKdprG9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: Referral Submitted
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8hIWkGAfNUOFPXnlNdS5RA
+    enabled: true
+    invertResult: false
+    order: 43
+    repeat: 1
+    type: Action
+    elementId: cuihBY3_LkK-ffzKdprG9A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AlJS6iGTH0emaa7gPCB6wA
+    enabled: true
+    invertResult: false
+    order: 44
+    repeat: 1
+    type: Action
+    elementId: PEE80GBhx0ur1K1pLmowJw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0IvshVRGSUyQZZh2a59YCg
+    enabled: true
+    invertResult: false
+    order: 45
+    repeat: 1
+    type: Action
+    elementId: ITyb5jpptk29OTCWR0fNqw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WKKIVizszkST2sqz6blDTw
+    enabled: true
+    invertResult: false
+    order: 46
+    repeat: 1
+    type: Action
+    elementId: 1Xk0PHlAQEmln2kvwxzxZA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 9TkUt1-2ukSJzrQU0xqOdA
+    enabled: true
+    invertResult: false
+    order: 47
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 600
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Jm5-H5GrkkeGfoUsBCUHGA
+    enabled: true
+    invertResult: false
+    order: 48
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 200
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -XY6F1zcv0i42ccWdLrnDA
+    enabled: true
+    invertResult: false
+    order: 49
+    repeat: 1
+    type: Action
+    elementId: oueUq_U8EUyujg_zkI2UgA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: BPrSrRoKH0SdMXwkiaNCcg
+    enabled: true
+    invertResult: false
+    order: 50
+    repeat: 1
+    type: Action
+    elementId: RGYUYfxXmEuQuoGixofYKQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5FMrEA-RPUyPRn0O-szbYw
+    enabled: true
+    invertResult: false
+    order: 51
+    repeat: 1
+    type: Action
+    elementId: RGYUYfxXmEuQuoGixofYKQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: 201119
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _VcY0S23y0-Gc_REyT7exA
+    enabled: true
+    invertResult: false
+    order: 52
+    repeat: 1
+    type: Action
+    elementId: RGYUYfxXmEuQuoGixofYKQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: uTONfLGKkkmhbKefK-vmJQ
+    enabled: true
+    invertResult: false
+    order: 53
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 400
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Vg3ef3Mph0mt_oJKI0ftzw
+    enabled: true
+    invertResult: false
+    order: 54
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rmaY9aZFtUCEeo34FrU11g
+    enabled: true
+    invertResult: false
+    order: 55
+    repeat: 1
+    type: Action
+    elementId: rK1AEOoJJ02iGMnNxdQAEw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Vws0t01EFEilC0IidEvVPQ
+    enabled: true
+    invertResult: false
+    order: 56
+    repeat: 1
+    type: Action
+    elementId: je8WtHdBaUWtAjTj69U7aQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pd-HgAcTLUWUAnTCWp6DiA
+    enabled: true
+    invertResult: false
+    order: 57
+    repeat: 1
+    type: Action
+    elementId: je8WtHdBaUWtAjTj69U7aQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: tsai
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wOrv8m7CcEG71ChHKkc-Lg
+    enabled: true
+    invertResult: false
+    order: 58
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 100
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vY77QrseokmKrp7jkXFmWQ
+    enabled: true
+    invertResult: false
+    order: 59
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: 300
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5LaTq98tI0-OOVN2cXcS_w
+    enabled: true
+    invertResult: false
+    order: 60
+    repeat: 1
+    type: Action
+    elementId: vlQ2HmeVAka0tSIRhLMHfg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://arc-testproject.tcheetah09.com/
+    type: Input
+  - name: vcn_opq_pw
+    description: ''
+    type: Input
+  tags:
+  - vms
+  - dev
+  - web
+  - opq
+auxTests: []
+elements:
+- id: 7Z9p956I8Ei00lLhwo_iPg
+  name: email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
+    priority: 0
+  - name: CSSSELECTOR
+    value: '#nd_login > div > div.page-wrap > div.site-main > div > div > div > div > form > div:nth-child(7) > input'
+    priority: 1
+  - name: XPATH
+    value: //*[@id="nd_login"]/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
+    priority: 2
+- id: FW8GFyujfEWdKMsm6UlwKw
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#nd_login > div > div.page-wrap > div.site-main > div > div > div > div > form > div:nth-child(8) > input'
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
+    priority: 1
+  - name: XPATH
+    value: //*[@id="nd_login"]/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
+    priority: 2
+- id: B4ybKGXKwkioZonafCWkPg
+  name: SIGN IN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //*[@id="nd_login"]/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
+    priority: 1
+  - name: CSSSELECTOR
+    value: '#nd_login > div > div.page-wrap > div.site-main > div > div > div > div > form > div:nth-child(10) > input'
+    priority: 2
+- id: epcR_i7DEUakKZuPJYRjKw
+  name: ADMINISTRATION
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div//a[. = 'Administration']
+    priority: 0
+  - name: XPATH
+    value: //div/nav/ul/li[8]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/a
+    priority: 2
+- id: YKYPrG-LhkCGcoFhC7SLfg
+  name: Intake
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div//a[. = 'Intake']
+    priority: 0
+  - name: XPATH
+    value: //div/nav/ul/li[8]/ul/li[4]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/ul/li[4]/a
+    priority: 2
+- id: r-BGhVn8akaj5udRNWASNQ
+  name: Shared Inbox
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/a[. = 'Shared Inbox']
+    priority: 0
+  - name: XPATH
+    value: //header/div[2]/div[1]/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/header/div[2]/div[1]/div/a
+    priority: 2
+- id: Cc4HL2BifkK7bxYXgFqUJw
+  name: People Listing
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'People Listing']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/div/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/header/div[2]/div[1]/div/ul/li[1]/a
+    priority: 2
+- id: tzcufl9L9U2sI-_96oZowg
+  name: intake_queue_id
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#intake_queue_id'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='intake_queue_id']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[2]/div[1]/select
+    priority: 3
+- id: 17cMHC0JuUWR5AX2DU005Q
+  name: INPUT1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //th[2]/div[2]/div/div/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/div[2]/table/thead/tr/th[2]/div[2]/div/div[1]/input
+    priority: 1
+- id: F21BqgWRzkaw_7Cven4CoQ
+  name: intakeopreferral, matthewTEST
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'intakeopreferral, matthewTEST']
+    priority: 0
+  - name: XPATH
+    value: //td[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/div[2]/table/tbody/tr/td[2]/a
+    priority: 2
+- id: S4TlN34VT0aTpXXMvtdRsA
+  name: Add Referral
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Add Referral']
+    priority: 0
+  - name: XPATH
+    value: //div/div[4]/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[2]/div[2]/div[4]/div[3]/a
+    priority: 2
+- id: WZ7j-UG_akmEVKfZf3zjAQ
+  name: placement_id
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#placement_id'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='placement_id']"
+    priority: 1
+  - name: XPATH
+    value: //div[7]//select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/section[2]/div[1]/article[2]/div/div[1]/div/div/div[2]/form/div/div[7]/div/select
+    priority: 3
+- id: D3hT29TasE2Gxy-2GiyHpg
+  name: account_name_1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#account_name_1'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='account_name_1']"
+    priority: 1
+  - name: XPATH
+    value: //li[1]//input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/form/ul/li[1]/div/input[1]
+    priority: 3
+- id: YQUdR95GY0S2mszAE74eDA
+  name: search_value_1_1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#search_value_1_1'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='search_value_1_1']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/table//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]/table/tbody/tr/td[3]/input
+    priority: 3
+- id: pZ6p2nQwiU2UIm5KG0GR5g
+  name: Tsai, Matthew1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+      						Tsai, Matthew
+      							']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div[3]/table/tbody/tr[3]//a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[2]/div/div[3]/table/tbody/tr[3]/td[1]/a
+    priority: 2
+- id: okJ7qvYXpEysS7pCvOqkbg
+  name: referred_query_group_id
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#referred_query_group_id'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='referred_query_group_id']"
+    priority: 1
+  - name: XPATH
+    value: //tr[15]//select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/form/div[1]/div[2]/table/tbody/tr[15]/td[2]/select
+    priority: 3
+- id: REGeXKhpIkqx_iXxZ2iAcg
+  name: account_name_2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#account_name_2'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='account_name_2']"
+    priority: 1
+  - name: XPATH
+    value: //li[4]//input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/form/ul/li[4]/div/input[1]
+    priority: 3
+- id: HNvompyZl0m4aSRnsFbMlw
+  name: search_value_1_2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#search_value_1_2'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='search_value_1_2']"
+    priority: 1
+  - name: XPATH
+    value: //td/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[2]/div[2]/div[2]/table/tbody/tr/td[3]/input
+    priority: 3
+- id: 0gDKX4pFTkSKv64NXcZpsA
+  name: OpQAdmin, MatthewTEST
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+      						OpQAdmin, MatthewTEST
+      							']
+    priority: 0
+  - name: XPATH
+    value: //td/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[2]/div[2]/div/div[3]/table/tbody/tr/td[1]/a
+    priority: 2
+- id: BIH8a2QsakqUw7POSyTxWA
+  name: referral_submit
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#referral_submit'
+    priority: 0
+  - name: XPATH
+    value: //div[3]/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/div[3]/input
+    priority: 2
+- id: tgvXgWlAHUylPLUQ8l6o9Q
+  name: I1
+  type:
+    id: jUwODgyNjAyNzk2NTk2MjQ
+    name: i
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[5]//i
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/nav/ul/li[5]/a/i
+    priority: 1
+- id: 4EUeneb2c0K1eqI3XFgS-A
+  name: Opportunity Queue
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Opportunity Queue']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div[2]/div[1]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/section[1]/div[4]/article/div/div[3]/div[2]/div[1]/a/span
+    priority: 2
+- id: ZzTqGVx6lkOkTK5p3JMlew
+  name: Update Status
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[1]/div/a
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/div[2]/div[2]/table/tbody/tr[1]/td[1]/div/a
+    priority: 1
+- id: cuihBY3_LkK-ffzKdprG9A
+  name: p_status
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#p_status'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='p_status']"
+    priority: 1
+  - name: XPATH
+    value: //tr[21]//select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/form/div[1]/div[2]/table/tbody/tr[21]/td[2]/select
+    priority: 3
+- id: PEE80GBhx0ur1K1pLmowJw
+  name: p_date
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#p_date'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='p_date']"
+    priority: 1
+  - name: XPATH
+    value: //tr[22]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/form/div[1]/div[2]/table/tbody/tr[22]/td[2]/input
+    priority: 3
+- id: ITyb5jpptk29OTCWR0fNqw
+  name: 30
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = '30']
+    priority: 0
+  - name: XPATH
+    value: //tr[5]/td[7]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[7]/table/tbody/tr[5]/td[7]/a
+    priority: 2
+- id: 1Xk0PHlAQEmln2kvwxzxZA
+  name: save
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/input[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/form/div[1]/div[3]/input[1]
+    priority: 1
+- id: oueUq_U8EUyujg_zkI2UgA
+  name: approve
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#approve'
+    priority: 0
+  - name: XPATH
+    value: //div/input[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/form/div[1]/div[3]/input[2]
+    priority: 2
+- id: RGYUYfxXmEuQuoGixofYKQ
+  name: placement_id1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[2]//select
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/form/div[1]/div[2]/table/tbody/tr[2]/td[2]/select
+    priority: 1
+- id: rK1AEOoJJ02iGMnNxdQAEw
+  name: Select a supervisor
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span/span[1]/span/span/span[. = 'Select a supervisor']
+    priority: 0
+  - name: XPATH
+    value: //span/span[1]/span/span/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/form/div[1]/div[2]/table/tbody/tr[23]/td[2]/span/span[1]/span/span[1]/span
+    priority: 2
+- id: je8WtHdBaUWtAjTj69U7aQ
+  name: INPUT
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //span/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/span/span/span[1]/input
+    priority: 1
+- id: vlQ2HmeVAka0tSIRhLMHfg
+  name: Save1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Save']
+    priority: 0
+  - name: XPATH
+    value: //form/div/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div/div/div/form/div[3]/a
+    priority: 2
+projectParameters: []
+addons: []

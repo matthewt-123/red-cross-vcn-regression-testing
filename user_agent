@@ -1,0 +1,61 @@
+id: h_4EGQsc8Uq3nYBCtqcDXQ
+projectId: 0gbsDtz4lkyiB8B6W2gvHA
+projectName: Red Cross VCN Regression Testing
+created: 2022-06-25T04:13:23.8663430Z
+protocol: 1
+tests:
+- id: wUzTQcA8K0WTQIGj5-6d0g
+  name: user_agent
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-06-04T01:39:40.0000000
+  modificationDate: 2022-06-04T01:53:36.0000000
+  settings:
+    automationAssistant: true
+    appId: KJ63WhdUE0SEgX-sHwf4Fw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: KJ63WhdUE0SEgX-sHwf4Fw
+    name: arcsso
+    url: https://arcssotest33.tcheetah09.com/
+    platform: Web
+  steps:
+  - id: e77wqsOGFEeoTaM2gj4T5w
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: https://matthewtsai.me/home
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://arcssotest33.tcheetah09.com/
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []

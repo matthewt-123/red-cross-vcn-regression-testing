@@ -1,0 +1,243 @@
+id: mlvNrfXHYk6AnFEpbKFczg
+projectId: 0gbsDtz4lkyiB8B6W2gvHA
+projectName: Red Cross VCN Regression Testing
+created: 2022-06-25T04:13:18.8180978Z
+protocol: 1
+tests:
+- id: ARH5YxE2w0OLaXsUpkTZuw
+  name: headless google sign in
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-01-30T05:13:52.0000000
+  modificationDate: 2022-01-30T05:23:26.0000000
+  settings:
+    automationAssistant: true
+    appId: KJ63WhdUE0SEgX-sHwf4Fw
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: KJ63WhdUE0SEgX-sHwf4Fw
+    name: arcsso
+    url: https://arcssotest33.tcheetah09.com/
+    platform: Web
+  steps:
+  - id: xK-jfUvUGEGQPYvXoZzaRw
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    elementId: 7kDmDaMsKk2-2n8WM0fRpQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jD9-yjUWcEelEsnWkfU4Og
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 7kDmDaMsKk2-2n8WM0fRpQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: v4OVPMjzTU66XJrva3ga4g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 7kDmDaMsKk2-2n8WM0fRpQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: vcnarctp@gmail.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: NblIDpBJJkeAPJEptCjLmw
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: -HQKhtnsjU-a-FXFlxRpPA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Ogo43ygmIUe9IIyqQwOAKg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: IxBPKJLv70aHcGwrQt8BMQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dnFnP5AsjEemLOx_GPfm7A
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: IxBPKJLv70aHcGwrQt8BMQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '[[googlevoice_pw]]'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GEWWfLfAfESjzKOLo-eDXg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 928bf14e-7a56-4371-b92a-9cb9de53f632
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ENTER
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: 7kDmDaMsKk2-2n8WM0fRpQ
+  name: Email
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#Email'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='Email']"
+    priority: 1
+  - name: XPATH
+    value: //input[@placeholder = 'Email or phone']
+    priority: 2
+  - name: XPATH
+    value: //div/div/div/input[1]
+    priority: 3
+  - name: XPATH
+    value: /html/body/div/div[2]/div[2]/div[1]/form/div/div/div/div/div/input[1]
+    priority: 4
+- id: -HQKhtnsjU-a-FXFlxRpPA
+  name: signIn
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#next'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='signIn']"
+    priority: 1
+  - name: XPATH
+    value: //form/div/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div[2]/div[1]/form/div/div/input
+    priority: 3
+- id: IxBPKJLv70aHcGwrQt8BMQ
+  name: Passwd
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='Passwd']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/div[2]/form/span/div/div[2]/input
+    priority: 3
+projectParameters: []
+addons: []
