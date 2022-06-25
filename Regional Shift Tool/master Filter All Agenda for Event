@@ -1,0 +1,42 @@
+id: ni6cbU0X60KKDj5GGgzkXQ
+projectId: 0gbsDtz4lkyiB8B6W2gvHA
+projectName: Red Cross VCN Regression Testing
+created: 2022-06-25T04:13:18.8173831Z
+protocol: 1
+tests:
+- id: 1yc7-menpkCTZpMnEoaZyQ
+  name: master Filter All Agenda for Event
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-01-22T05:09:46.0000000
+  modificationDate: 2022-01-22T05:11:32.0000000
+  settings:
+    automationAssistant: true
+    appId: ySlnJ6rOCUaGlfrlfNXE2Q
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: ySlnJ6rOCUaGlfrlfNXE2Q
+    name: VCN dev site(testproject)
+    url: https://arc-testproject.tcheetah09.com/
+    platform: Web
+  steps: []
+  parameters:
+  - name: js_selector_agenda_td
+    description: ''
+    value: ''
+    type: Input
+  - name: event_name_agenda
+    description: ''
+    value: ''
+    type: Input
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
