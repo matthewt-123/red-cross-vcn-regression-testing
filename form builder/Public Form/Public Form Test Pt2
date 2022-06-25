@@ -1,7 +1,7 @@
-id: Ad6_1XCqS0iK9H8bMBioBg
+id: 0aTMToetHEeVMOJEenu1ew
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T06:11:43.8293864Z
+created: 2022-06-25T06:17:53.9035394Z
 protocol: 1
 tests:
 - id: rAjVXm9_k0SdTdXTD1wQRg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-13T02:17:56.0000000
-  modificationDate: 2022-06-25T06:11:01.0000000
+  modificationDate: 2022-06-25T06:17:29.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -90,30 +90,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 5UQnuofhTkKQdWUAxUBqWA
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: RxgwurcNaUOzfjqdutQ9UA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: W-TGGBVpKkiGACT7K7gLrg
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Action
     elementId: 7JCVrpsjx0q5ukFCeXqShA
@@ -136,7 +116,7 @@ tests:
   - id: XOLQhAqB1EKN5ciwJlmT6Q
     enabled: true
     invertResult: false
-    order: 6
+    order: 5
     repeat: 1
     type: Action
     elementId: vFfPvv4TxUSSzYx39EFVGQ
@@ -157,7 +137,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 7
+    order: 6
     repeat: 1
     type: Addon
     settings:
@@ -180,7 +160,7 @@ tests:
   - id: FXtOzyN2BkiSsNDBUNjWHw
     enabled: true
     invertResult: false
-    order: 8
+    order: 7
     repeat: 1
     type: Action
     elementId: 7JCVrpsjx0q5ukFCeXqShA
@@ -203,7 +183,7 @@ tests:
   - id: uELmbc7ehkqgWzDddfyBJA
     enabled: true
     invertResult: false
-    order: 9
+    order: 8
     repeat: 1
     type: Action
     elementId: vFfPvv4TxUSSzYx39EFVGQ
@@ -224,7 +204,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 10
+    order: 9
     repeat: 1
     type: Action
     settings:
@@ -292,20 +272,6 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/form/div[1]/div/div/div[2]/input
-    priority: 1
-- id: RxgwurcNaUOzfjqdutQ9UA
-  name: field_203234
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDk
-    name: Checkbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/fieldset/div[2]/div/div/div[3]/input
     priority: 1
 - id: 7JCVrpsjx0q5ukFCeXqShA
   name: field_203233
