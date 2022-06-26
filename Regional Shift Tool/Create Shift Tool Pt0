@@ -1,7 +1,7 @@
-id: 4BhSkvnwB02Ttss7d_DHeg
+id: 9f1QZsSfMkKQHlUw0z0nkQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T06:13:46.2656573Z
+created: 2022-06-26T06:14:54.9336395Z
 protocol: 1
 tests:
 - id: uxQBhD-WIkmfs3AUjL004g
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-26T06:11:19.0000000
-  modificationDate: 2022-06-26T06:13:36.0000000
+  modificationDate: 2022-06-26T06:14:42.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -416,116 +416,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: N8yT02rxvECqtPg6P3no8g
+  - id: z1vtqigUB0qnOealmu6ZFw
     enabled: true
     invertResult: false
     order: 18
     repeat: 1
     type: Action
-    elementId: tYAu8ygVPUukZSxaU0WE-g
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 2Dc_kAbv0UynSf1cNWA1Cg
-    enabled: true
-    invertResult: false
-    order: 19
-    repeat: 1
-    type: Action
-    elementId: q12TTFPOOE2CfaU169o8sA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: le4yjo1sBk6C1qvI6OYnhg
-    enabled: true
-    invertResult: false
-    order: 20
-    repeat: 1
-    type: Action
-    elementId: 74_8E2IPq0C8sAziIhT9zg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: hp6C7LaZeEqkXc1bnad77Q
-    enabled: true
-    invertResult: false
-    order: 21
-    repeat: 1
-    type: Action
-    elementId: 74_8E2IPq0C8sAziIhT9zg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: '{{test_uid}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: TKf5F1SqEEyrYDh69QkuDg
-    enabled: true
-    invertResult: false
-    order: 22
-    repeat: 1
-    type: Action
-    elementId: 7A_p9uUNVk-JDketdyOaiA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: fob439Sdn0ume6Ch784y2w
-    enabled: true
-    invertResult: false
-    order: 23
-    repeat: 1
-    type: Action
-    elementId: 9_YskuEIw0qxEYwRH1JfuA
+    elementId: ARzKKQjd-Ey2DvnyP_g02g
     settings:
       sleepTime: -1
       timeout: -1
@@ -543,7 +440,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 24
+    order: 19
     repeat: 1
     type: Action
     settings:
@@ -1058,57 +955,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
-- id: 74_8E2IPq0C8sAziIhT9zg
-  name: filter_tool_name
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#filter_tool_name'
-    priority: 3
-  - name: CSSSELECTOR
-    value: "[name='filter_tool_name']"
-    priority: 1
-  - name: XPATH
-    value: "//input[@placeholder = 'ex: !Judy Test ']"
-    priority: 2
-  - name: XPATH
-    value: //form/div/div/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/div/div[1]/input
-    priority: 4
-- id: 7A_p9uUNVk-JDketdyOaiA
-  name: INPUT9
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[6]//input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/div/div[6]/div/input
-    priority: 1
-- id: 9_YskuEIw0qxEYwRH1JfuA
-  name: View5
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'View']
-    priority: 0
-  - name: XPATH
-    value: //td[4]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/table/tbody/tr[2]/td[4]/a
-    priority: 2
 - id: Uc5gGo79eUq7EypYesOCSA
   name: Shift Tool Manager
   type:
@@ -1125,24 +971,8 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[2]/a[3]/div/span
     priority: 2
-- id: q12TTFPOOE2CfaU169o8sA
-  name: submit_button
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#submit_button'
-    priority: 0
-  - name: XPATH
-    value: //form/div/input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/form/div[2]/input
-    priority: 2
-- id: tYAu8ygVPUukZSxaU0WE-g
-  name: Setup1
+- id: ARzKKQjd-Ey2DvnyP_g02g
+  name: View7
   type:
     id: jUwODgyNjAyNzk2NTk1NTE
     name: Link
@@ -1151,14 +981,14 @@ elements:
   - name: XPATH
     value: >-
       //a[. = '
-                                       Setup
-                                  ']
+      							 View
+      						']
     priority: 0
   - name: XPATH
-    value: //div[2]/div/a[3]
+    value: //div/div/div[2]/div/a[1]
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/div/a[3]
+    value: /html/body/div/div[2]/div/div[2]/div/a[1]
     priority: 2
 - id: 4sMwhK1ySUinw2hRQ9__4Q
   name: Add Shift Tool
