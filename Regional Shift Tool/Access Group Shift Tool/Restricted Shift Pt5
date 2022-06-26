@@ -1,7 +1,7 @@
-id: OZOP3mto4EGfw6rY1m0pHw
+id: 8SN23Qyh8EG_iQu84QIb7Q
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T04:32:12.0344757Z
+created: 2022-06-26T04:36:03.7499438Z
 protocol: 1
 tests:
 - id: cZYeWMBQhEm0bByCYLa9jg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-17T00:01:55.0000000
-  modificationDate: 2022-06-26T04:22:13.0000000
+  modificationDate: 2022-06-26T04:35:53.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -181,7 +181,7 @@ tests:
       addonId: Xey4bVsJQEODIUN7ssaJMg
     parameterMaps:
     - name: code
-      value: document.querySelector("#calendar > div > div > div > a.fc-event.fc-event-hori.fc-event-start.fc-event-end.cal_dkblue").href
+      value: return document.querySelector("#calendar > div > div > div > a.fc-event.fc-event-hori.fc-event-start.fc-event-end.cal_dkblue").href
       direction: Input
     - name: args
       value: ''
@@ -190,7 +190,11 @@ tests:
       value: '{{link}}'
       direction: Output
     conditions: []
-    validations: []
+    validations:
+    - type: NotEquals
+      invert: false
+      field: output
+      value: ''
     contexts: []
   - id: Hsy0ven-E0qTxV1NAuW1dg
     comments: ''
@@ -275,6 +279,26 @@ tests:
     - name: milliseconds
       value: 5000
       direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ju-R54qRgEO5aTDorYz-rA
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: 8MQILDXJDE6bbRYKjVmD2A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -781,6 +805,19 @@ elements:
     priority: 0
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/section/div[2]/form/div[5]/input[4]
+    priority: 1
+- id: 8MQILDXJDE6bbRYKjVmD2A
+  name: DIV43
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[2]/div/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/a[2]/div/div
     priority: 1
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
