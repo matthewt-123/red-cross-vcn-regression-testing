@@ -1,7 +1,7 @@
-id: reBzlHSxmUeUppoZADCfPw
+id: 2x1BxBlkZ0iBDklWBZ9Gig
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T06:04:23.8374026Z
+created: 2022-06-26T06:10:37.6104342Z
 protocol: 1
 tests:
 - id: Q0NyS6oteUS8_zdY75Mmkg
@@ -12,13 +12,13 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-16T22:55:36.0000000
-  modificationDate: 2022-06-26T06:04:21.0000000
+  modificationDate: 2022-06-26T06:10:37.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
-    stepSleepTime: 0
+    stepSleepTime: 500
     stepTimeout: 15000
-    stepSleepTiming: None
+    stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   application:
@@ -1005,7 +1005,7 @@ projectParameters:
 - id: emPRSqs_o06vT8QUjV-S6Q
   name: listviewshift
   description: ''
-  value: ''
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12951
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
