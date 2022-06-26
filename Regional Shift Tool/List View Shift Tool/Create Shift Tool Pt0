@@ -1,7 +1,7 @@
-id: I-exr7_77kmr-wROD96JNg
+id: zIVfNd9p6EOLkSX1wIeXtQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T06:01:07.5636471Z
+created: 2022-06-26T06:30:04.7532511Z
 protocol: 1
 tests:
 - id: VTh9LErCNUu-atshLM4Rfg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-26T05:56:00.0000000
-  modificationDate: 2022-06-26T06:01:03.0000000
+  modificationDate: 2022-06-26T06:30:00.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -479,6 +479,112 @@ tests:
     - name: url
       value: '[[listviewshift]]'
       direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jTf7m-p1JUqzXyjTWbIgkA
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: apH7L4m8FEiBVpPYu8ZhEA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UxXcUjhgtkqaeK3X_zVq8A
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: hqKBa5_cxUa1ZxYzUY-eyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: AgBiv5eb402y7ThSx8gyHQ
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    elementId: FD4vQBgs-0eJE2tEMsuNAg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: manage_attendees
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FVejBI5CQkKX7NYtvuNL-Q
+    enabled: true
+    invertResult: false
+    order: 24
+    repeat: 1
+    type: Action
+    elementId: q12TTFPOOE2CfaU169o8sA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: LfGUtrxht06ydQP-IF_q4Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 25
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5ac5d621-7a53-45a6-94e5-a3348be3969e
+      source: System
+    parameterMaps:
+    - name: milliseconds
+      value: 5000
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -994,6 +1100,22 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[2]/a[3]/div/span
     priority: 2
+- id: q12TTFPOOE2CfaU169o8sA
+  name: submit_button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#submit_button'
+    priority: 0
+  - name: XPATH
+    value: //form/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/form/div[2]/input
+    priority: 2
 - id: ARzKKQjd-Ey2DvnyP_g02g
   name: View7
   type:
@@ -1216,6 +1338,60 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/div[2]/div[2]/div/div[1]/div[1]/div/select
     priority: 3
+- id: apH7L4m8FEiBVpPYu8ZhEA
+  name: Setup2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+                                       Setup
+                                  ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//a[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/a[3]
+    priority: 2
+- id: hqKBa5_cxUa1ZxYzUY-eyQ
+  name: Advanced - Coordinator
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Advanced - Coordinator']
+    priority: 0
+  - name: XPATH
+    value: //div[12]//a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/form/div[1]/div[12]/div[1]/h4/a
+    priority: 2
+- id: FD4vQBgs-0eJE2tEMsuNAg
+  name: coordinator_access
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#coordinator_access'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='coordinator_access']"
+    priority: 1
+  - name: XPATH
+    value: //div[12]/div[2]/div/div[3]/div[2]/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/form/div[1]/div[12]/div[2]/div/div[3]/div[2]/select
+    priority: 3
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
@@ -1224,7 +1400,7 @@ projectParameters:
 - id: emPRSqs_o06vT8QUjV-S6Q
   name: listviewshift
   description: ''
-  value: ''
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12955
 addons:
 - id: isPuWQzkBU-t6MMgxY5QrA
   source: Store
