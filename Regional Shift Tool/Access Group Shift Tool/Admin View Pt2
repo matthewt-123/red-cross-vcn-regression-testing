@@ -1,7 +1,7 @@
-id: AZCaTPhXtUalz2YUl3A01Q
+id: JwWwMVOtx0G1ahT5d_W9eQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T03:39:11.0552294Z
+created: 2022-06-26T03:41:41.7166449Z
 protocol: 1
 tests:
 - id: mX3fJCDOZk6e-qdA_RgrRA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-16T23:49:09.0000000
-  modificationDate: 2022-06-26T02:48:52.0000000
+  modificationDate: 2022-06-26T03:40:46.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -105,7 +105,7 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: G8JqTH0H7Eaw26vYMuzZFQ
+  - id: rMVEu5w10k-sKk8O1bJucw
     comments: ''
     enabled: true
     invertResult: false
@@ -119,27 +119,24 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 72Wa_2Vse0uCOCY58ZbcCA
+      id: SFW6Rf9DW0G4jpBW38V4xw
       source: Store
-      addonId: Ow3LGSkBqUyGjzyAibUJig
+      addonId: Xey4bVsJQEODIUN7ssaJMg
     parameterMaps:
-    - name: byType
-      value: CLASS
+    - name: code
+      value: return document.getElementsByClassName("fc-event-text").length
       direction: Input
-    - name: byString
-      value: fc-event-text
+    - name: args
+      value: ''
       direction: Input
-    - name: amount
+    - name: output
       value: ''
       direction: Output
-    - name: visibleOnly
-      value: ''
-      direction: Input
     conditions: []
     validations:
     - type: Equals
       invert: false
-      field: amount
+      field: output
       value: 2
     contexts: []
   - id: 47ik9NGfLESbS5ltGzEatA
@@ -816,6 +813,10 @@ addons:
   source: Store
   version: 1.1.9
   actions:
+  - id: SFW6Rf9DW0G4jpBW38V4xw
+    name: Execute JavaScript
+    description: Execute JavaScript {{code}} with arguments {{args}}
+    className: io.testproject.addons.web.actions.ExecuteJavascript
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
