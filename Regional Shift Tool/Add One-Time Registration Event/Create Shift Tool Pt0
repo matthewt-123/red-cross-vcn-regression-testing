@@ -1,7 +1,7 @@
-id: tSTL4wCo4kWTx4I8b3L4RQ
+id: Fw4FM1OkcEihu-zgYeOQEw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T05:18:02.4449512Z
+created: 2022-06-26T05:49:59.3565445Z
 protocol: 1
 tests:
 - id: 3VNCPGbQp0O4hvJkHrL9UA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-26T04:43:52.0000000
-  modificationDate: 2022-06-26T05:17:49.0000000
+  modificationDate: 2022-06-26T05:48:23.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -1146,7 +1146,7 @@ tests:
       source: System
     parameterMaps:
     - name: url
-      value: '[[onetimeshift]]'
+      value: '[[losshift]]'
       direction: Output
     conditions: []
     validations: []
@@ -1994,6 +1994,10 @@ projectParameters:
   value: p@ssword1
 - id: KX1t7oEad0q7QMTM3GEGmA
   name: onetimeshift
+  description: ''
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12947&jid=1433
+- id: 7zdEO4Y5yEeeWgbEF_8_ng
+  name: losshift
   description: ''
   value: ''
 addons:
