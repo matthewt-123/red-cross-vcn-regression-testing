@@ -1,7 +1,7 @@
-id: pfbWc47BNkGOJx3FXTp4qQ
+id: NNysFphLo0W5b1E_eoVtLQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T04:13:14.3545482Z
+created: 2022-06-26T02:22:07.7748880Z
 protocol: 1
 tests:
 - id: Q_cWvJsCykqRPwn-ni2JPw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-17T00:09:22.0000000
-  modificationDate: 2022-03-13T19:38:09.0000000
+  modificationDate: 2022-06-26T02:22:00.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -88,7 +88,6 @@ tests:
     order: 3
     repeat: 1
     type: Action
-    elementId: epcR_i7DEUakKZuPJYRjKw
     settings:
       sleepTime: -1
       timeout: -1
@@ -96,19 +95,22 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
       source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: url
+      value: '[[access_shift_url]]'
+      direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: L8-M--bXpUa2AUw93oEeow
+  - id: 4yue0jwZ-kO7kWfCtEmQbQ
     enabled: true
     invertResult: false
     order: 4
     repeat: 1
     type: Action
-    elementId: U1bdDH3QPEieXK8EkE_WEQ
+    elementId: D8BfmpVBtEukn7vtEfzMwQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -122,96 +124,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: ZVj7HeoCzkaTTb1kfCNkZQ
+  - id: yHGRpVc2IkauukuNKvrxNQ
     enabled: true
     invertResult: false
     order: 5
     repeat: 1
     type: Action
-    elementId: Uc5gGo79eUq7EypYesOCSA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 62ZubhqrO06Cyom-iPCVkw
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Action
-    elementId: 74_8E2IPq0C8sAziIhT9zg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: L1oacHsv60yNDG1sdjWOmw
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    elementId: 74_8E2IPq0C8sAziIhT9zg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: '[VCIT] Access Group Shift Tool'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: wfCz8v_9oU-WABRo7dcDKg
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Action
-    elementId: 7A_p9uUNVk-JDketdyOaiA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 0LI2Ci7ta02O0eVhFpJWDw
-    enabled: true
-    invertResult: false
-    order: 9
-    repeat: 1
-    type: Action
-    elementId: fmycJKoAv0OeX0c5Pbg54w
+    elementId: ugeCgT0QEkCvpde0qwl6PA
     settings:
       sleepTime: -1
       timeout: -1
@@ -228,7 +147,7 @@ tests:
   - id: fgfQioAfIkq4Th3Ptt7qBg
     enabled: true
     invertResult: false
-    order: 10
+    order: 6
     repeat: 1
     type: Action
     elementId: ErqlcTZyjE2cfblGLiYQcg
@@ -248,7 +167,7 @@ tests:
   - id: Z9Ll1A7VoU2ui1L5Tnr7JQ
     enabled: true
     invertResult: false
-    order: 11
+    order: 7
     repeat: 1
     type: Action
     elementId: ErqlcTZyjE2cfblGLiYQcg
@@ -271,7 +190,7 @@ tests:
   - id: My0mu-OJM0K6OPEusbfKog
     enabled: true
     invertResult: false
-    order: 12
+    order: 8
     repeat: 1
     type: Action
     elementId: ErqlcTZyjE2cfblGLiYQcg
@@ -291,7 +210,7 @@ tests:
   - id: PdNwUXb0OEa9uxO4HjUt5w
     enabled: true
     invertResult: false
-    order: 13
+    order: 9
     repeat: 1
     type: Action
     elementId: qVg_d8wHtkSD-5gGH81I1A
@@ -311,7 +230,7 @@ tests:
   - id: U5YzbNBLq0G_Ta8LXbqdMw
     enabled: true
     invertResult: false
-    order: 14
+    order: 10
     repeat: 1
     type: Action
     elementId: E-RBvRr-IkSNXrQrv3qnCw
@@ -332,7 +251,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 15
+    order: 11
     repeat: 1
     type: Addon
     settings:
@@ -355,7 +274,7 @@ tests:
   - id: ijhc-y0EzUC1rR2zdQx4NA
     enabled: true
     invertResult: false
-    order: 16
+    order: 12
     repeat: 1
     type: Action
     elementId: V7bshqeJ9k2xNvQTxqdgwg
@@ -376,7 +295,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 17
+    order: 13
     repeat: 1
     type: Addon
     settings:
@@ -400,7 +319,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 18
+    order: 14
     repeat: 1
     type: Action
     settings:
@@ -789,124 +708,67 @@ auxTests:
   - master
   - login
 elements:
-- id: epcR_i7DEUakKZuPJYRjKw
-  name: ADMINISTRATION
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Administration']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[8]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/a
-    priority: 2
-- id: U1bdDH3QPEieXK8EkE_WEQ
-  name: Unit Configuration
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Unit Configuration']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[8]/ul/li[1]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/ul/li[1]/a
-    priority: 2
-- id: Uc5gGo79eUq7EypYesOCSA
-  name: Shift Tool Manager
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //span[. = 'Shift Tool Manager']
-    priority: 0
-  - name: XPATH
-    value: //a[3]//span
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/a[3]/div/span
-    priority: 2
-- id: 74_8E2IPq0C8sAziIhT9zg
-  name: filter_tool_name
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#filter_tool_name'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='filter_tool_name']"
-    priority: 1
-  - name: XPATH
-    value: "//input[@placeholder = 'ex: !Judy Test ']"
-    priority: 2
-  - name: XPATH
-    value: //form/div/div/input
-    priority: 3
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/div/div[1]/input
-    priority: 4
-- id: 7A_p9uUNVk-JDketdyOaiA
-  name: INPUT9
+- id: D8BfmpVBtEukn7vtEfzMwQ
+  name: Manage
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: XPATH
-    value: //div[6]//input
+    value: >-
+      //button[. = '
+      							 Manage 
+      						']
     priority: 0
   - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/div/div[6]/div/input
+    value: //div/div/div/button
     priority: 1
-- id: fmycJKoAv0OeX0c5Pbg54w
-  name: Manage5
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/div/button
+    priority: 2
+- id: ZMqsbaYtvkmFoXazdolIEQ
+  name: email2
   type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
     source: System
   locators:
   - name: XPATH
-    value: //a[. = 'Manage']
+    value: //div[4]/input
     priority: 0
   - name: XPATH
-    value: //td[5]/a
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
     priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/table/tbody/tr[2]/td[5]/a
-    priority: 2
-- id: ErqlcTZyjE2cfblGLiYQcg
-  name: status_filter
+- id: zRXNK1Bx2UK6aCUwLg530Q
+  name: password1
   type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#status_filter'
+  - name: XPATH
+    value: //div[5]/input
     priority: 0
-  - name: CSSSELECTOR
-    value: "[name='status_filter']"
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
+    priority: 1
+- id: AQsJjVKyU0m3Nsuxix6SHw
+  name: SIGN IN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/button
     priority: 1
   - name: XPATH
-    value: //div[7]/select
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
     priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[3]/form/div/div[7]/select
-    priority: 3
 - id: qVg_d8wHtkSD-5gGH81I1A
   name: Filter2
   type:
@@ -923,32 +785,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/div[9]/div/button
     priority: 2
-- id: E-RBvRr-IkSNXrQrv3qnCw
-  name: I5
-  type:
-    id: jUwODgyNjAyNzk2NTk2MjQ
-    name: i
-    source: System
-  locators:
-  - name: XPATH
-    value: //tr[1]/td[9]//i
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[4]/table/tbody/tr[1]/td[9]/a/i
-    priority: 1
-- id: V7bshqeJ9k2xNvQTxqdgwg
-  name: I7
-  type:
-    id: jUwODgyNjAyNzk2NTk2MjQ
-    name: i
-    source: System
-  locators:
-  - name: XPATH
-    value: //td[9]//i
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[5]/table/tbody/tr/td[9]/a/i
-    priority: 1
 - id: irzcKQnOWUi5bnk7uS5ExA
   name: user
   type:
@@ -1000,49 +836,76 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
-- id: ZMqsbaYtvkmFoXazdolIEQ
-  name: email2
+- id: ugeCgT0QEkCvpde0qwl6PA
+  name: List
   type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
     source: System
   locators:
   - name: XPATH
-    value: //div[4]/input
+    value: //a[. = 'List']
     priority: 0
   - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
-    priority: 1
-- id: zRXNK1Bx2UK6aCUwLg530Q
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[5]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
-    priority: 1
-- id: AQsJjVKyU0m3Nsuxix6SHw
-  name: SIGN IN
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Sign In']
-    priority: 0
-  - name: XPATH
-    value: //div[6]/button
+    value: //div/ul/li[2]/a
     priority: 1
   - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/div/ul/li[2]/a
     priority: 2
-projectParameters: []
+- id: ErqlcTZyjE2cfblGLiYQcg
+  name: status_filter
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#status_filter'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='status_filter']"
+    priority: 1
+  - name: XPATH
+    value: //div[7]/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[3]/form/div/div[7]/select
+    priority: 3
+- id: E-RBvRr-IkSNXrQrv3qnCw
+  name: I5
+  type:
+    id: jUwODgyNjAyNzk2NTk2MjQ
+    name: i
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[9]//i
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[4]/table/tbody/tr[1]/td[9]/a/i
+    priority: 1
+- id: V7bshqeJ9k2xNvQTxqdgwg
+  name: I7
+  type:
+    id: jUwODgyNjAyNzk2NTk2MjQ
+    name: i
+    source: System
+  locators:
+  - name: XPATH
+    value: //td[9]//i
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[5]/table/tbody/tr/td[9]/a/i
+    priority: 1
+projectParameters:
+- id: _YguaED0bUq8R4hDs2fgmA
+  name: global_pw
+  description: ''
+  value: p@ssword1
+- id: j1beoVn84E-QqRM0eMC3Jw
+  name: access_shift_url
+  description: ''
+  value: ''
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
@@ -1052,10 +915,6 @@ addons:
     name: Accept alert
     description: Accept alert
     className: io.testproject.addons.web.alert.AcceptAlert
-  - id: SFW6Rf9DW0G4jpBW38V4xw
-    name: Execute JavaScript
-    description: Execute JavaScript {{code}} with arguments {{args}}
-    className: io.testproject.addons.web.actions.ExecuteJavascript
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
