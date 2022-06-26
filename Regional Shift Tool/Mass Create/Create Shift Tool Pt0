@@ -1,18 +1,18 @@
-id: k_fNptYg20WKoAxhEANJZQ
+id: s_JVp03R3kKieZJT7P6gaw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T06:12:11.1572163Z
+created: 2022-06-26T06:12:35.6890281Z
 protocol: 1
 tests:
 - id: uxQBhD-WIkmfs3AUjL004g
-  name: Create Shift Tool Pt0 - copy
+  name: Create Shift Tool Pt0
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-26T06:11:19.0000000
-  modificationDate: 2022-06-26T06:12:11.0000000
+  modificationDate: 2022-06-26T06:12:35.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
