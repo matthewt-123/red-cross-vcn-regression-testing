@@ -1,7 +1,7 @@
-id: s_JVp03R3kKieZJT7P6gaw
+id: 4BhSkvnwB02Ttss7d_DHeg
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T06:12:35.6890281Z
+created: 2022-06-26T06:13:46.2656573Z
 protocol: 1
 tests:
 - id: uxQBhD-WIkmfs3AUjL004g
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-26T06:11:19.0000000
-  modificationDate: 2022-06-26T06:12:35.0000000
+  modificationDate: 2022-06-26T06:13:36.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -230,7 +230,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: one time {{test_uid}}
+      value: mass create {{test_uid}}
       direction: Input
     conditions: []
     validations: []
@@ -436,53 +436,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 3W5aA5k3E0WODNokm3Wd_Q
-    enabled: true
-    invertResult: false
-    order: 19
-    repeat: 1
-    type: Action
-    elementId: eGkoq-C-N0i6Lj41jW4F1Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: XTqWLHLMQECRINveWSX3mg
-    enabled: true
-    invertResult: false
-    order: 20
-    repeat: 1
-    type: Action
-    elementId: RGeOPf4jMUeW1E_JEfeKVw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
-      source: System
-    parameterMaps:
-    - name: value
-      value: 64622
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: 2Dc_kAbv0UynSf1cNWA1Cg
     enabled: true
     invertResult: false
-    order: 21
+    order: 19
     repeat: 1
     type: Action
     elementId: q12TTFPOOE2CfaU169o8sA
@@ -502,7 +459,7 @@ tests:
   - id: le4yjo1sBk6C1qvI6OYnhg
     enabled: true
     invertResult: false
-    order: 22
+    order: 20
     repeat: 1
     type: Action
     elementId: 74_8E2IPq0C8sAziIhT9zg
@@ -522,7 +479,7 @@ tests:
   - id: hp6C7LaZeEqkXc1bnad77Q
     enabled: true
     invertResult: false
-    order: 23
+    order: 21
     repeat: 1
     type: Action
     elementId: 74_8E2IPq0C8sAziIhT9zg
@@ -545,7 +502,7 @@ tests:
   - id: TKf5F1SqEEyrYDh69QkuDg
     enabled: true
     invertResult: false
-    order: 24
+    order: 22
     repeat: 1
     type: Action
     elementId: 7A_p9uUNVk-JDketdyOaiA
@@ -565,7 +522,7 @@ tests:
   - id: fob439Sdn0ume6Ch784y2w
     enabled: true
     invertResult: false
-    order: 25
+    order: 23
     repeat: 1
     type: Action
     elementId: 9_YskuEIw0qxEYwRH1JfuA
@@ -586,7 +543,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 26
+    order: 24
     repeat: 1
     type: Action
     settings:
@@ -601,552 +558,6 @@ tests:
     parameterMaps:
     - name: url
       value: '[[onetimeshift]]'
-      direction: Output
-    conditions: []
-    validations: []
-    contexts: []
-  - id: tSute79_hE2TOVuougoZrQ
-    enabled: true
-    invertResult: false
-    order: 27
-    repeat: 1
-    type: Action
-    elementId: epcR_i7DEUakKZuPJYRjKw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: w_WjNdSfzEWhsFdRj_Rqig
-    enabled: true
-    invertResult: false
-    order: 28
-    repeat: 1
-    type: Action
-    elementId: U1bdDH3QPEieXK8EkE_WEQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: l0QGnlYjBUeh9scPRNEvDA
-    enabled: true
-    invertResult: false
-    order: 29
-    repeat: 1
-    type: Action
-    elementId: Uc5gGo79eUq7EypYesOCSA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Mb6X8D_0g0GYFbNp3RY6hg
-    enabled: true
-    invertResult: false
-    order: 30
-    repeat: 1
-    type: Action
-    elementId: 4sMwhK1ySUinw2hRQ9__4Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: MgAyI1mkREm1p38__1aHsw
-    enabled: true
-    invertResult: false
-    order: 31
-    repeat: 1
-    type: Action
-    elementId: 0cxKlwhOjUyNKeh-fDCTDg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 8sIAg1QRX0yYJyGpoiqxaw
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 32
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: DSQbHbbeuk6jnIGwb23ujA
-      source: Store
-      addonId: isPuWQzkBU-t6MMgxY5QrA
-    parameterMaps:
-    - name: characters
-      value: abcdefghijklmnopqrstuvwxyz
-      direction: Input
-    - name: lengthOfString
-      value: 15
-      direction: Input
-    - name: output
-      value: '{{test_uid}}'
-      direction: Output
-    conditions: []
-    validations: []
-    contexts: []
-  - id: RGjrPxxDj06sjxEdz-Jlyw
-    enabled: true
-    invertResult: false
-    order: 33
-    repeat: 1
-    type: Action
-    elementId: 0cxKlwhOjUyNKeh-fDCTDg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: DCS {{test_uid}}
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: hKuo0dyw2k6pTNav5vWWPA
-    enabled: true
-    invertResult: false
-    order: 34
-    repeat: 1
-    type: Action
-    elementId: w_dGfXRAuUqTiJAqun_Cfw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
-      source: System
-    parameterMaps:
-    - name: value
-      value: Yes
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: d9mnH3R7hUyyKBFPBsKqfQ
-    enabled: true
-    invertResult: false
-    order: 35
-    repeat: 1
-    type: Action
-    elementId: ckIuKXe_7E6UxAEKeo5ajg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
-      source: System
-    parameterMaps:
-    - name: value
-      value: Yes
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 5OszRg9qhkK4OW-NJwsZdg
-    enabled: true
-    invertResult: false
-    order: 36
-    repeat: 1
-    type: Action
-    elementId: dyjkRgU8DEOubsNIPnLqgQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: VCN Team
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: smdEzhrgvU2AcIF8nDho4Q
-    enabled: true
-    invertResult: false
-    order: 37
-    repeat: 1
-    type: Action
-    elementId: DYA2GDGkuUOG9jjRvoryVg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: VCNIT@redcross.org
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: d4jwu1oRcUSIRHjgW9IrIA
-    enabled: true
-    invertResult: false
-    order: 38
-    repeat: 1
-    type: Action
-    elementId: MSKROMF1L0mq5dDfCSdIlQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: VCNIT@redcross.org
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: U1ghiq8KoUqQN0as5XugCA
-    enabled: true
-    invertResult: false
-    order: 39
-    repeat: 1
-    type: Action
-    elementId: Fx6ewAgWqEywOq7CiaowFA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
-      source: System
-    parameterMaps:
-    - name: value
-      value: Worked
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: i7BI19K050yq6nlZUs6-Kg
-    enabled: true
-    invertResult: false
-    order: 40
-    repeat: 1
-    type: Action
-    elementId: 6S9QWPUL4USKgLAxphNfXw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
-      source: System
-    parameterMaps:
-    - name: value
-      value: Approve When Date Passed
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: qLqEDv2sCUixDrOMQnMM-w
-    enabled: true
-    invertResult: false
-    order: 41
-    repeat: 1
-    type: Action
-    elementId: nmsjRh_s9ECJUOJH-YjOoQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: guR4nssDlUqtmPAOYyV1MA
-    enabled: true
-    invertResult: false
-    order: 42
-    repeat: 1
-    type: Action
-    elementId: tYAu8ygVPUukZSxaU0WE-g
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: IWEfO7oUaEKE1k6IjaI4kw
-    enabled: true
-    invertResult: false
-    order: 43
-    repeat: 1
-    type: Action
-    elementId: eGkoq-C-N0i6Lj41jW4F1Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: c6lvxwdLSUus0UeZGwlxJQ
-    enabled: true
-    invertResult: false
-    order: 44
-    repeat: 1
-    type: Action
-    elementId: RGeOPf4jMUeW1E_JEfeKVw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
-      source: System
-    parameterMaps:
-    - name: value
-      value: 64622
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: ZUAExOrNkUGEgPXU_AXJvw
-    enabled: true
-    invertResult: false
-    order: 45
-    repeat: 1
-    type: Action
-    elementId: mwEazQ-HG0egZ3OArg0hPw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
-      source: System
-    parameterMaps:
-    - name: value
-      value: 3724
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: wMaKL4IoiEmHLw-QGewqBw
-    enabled: true
-    invertResult: false
-    order: 46
-    repeat: 1
-    type: Action
-    elementId: q12TTFPOOE2CfaU169o8sA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: URF2bJO4_0GqxsWmcv7ZcQ
-    enabled: true
-    invertResult: false
-    order: 47
-    repeat: 1
-    type: Action
-    elementId: 74_8E2IPq0C8sAziIhT9zg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 9W8j4kQxUk2ik67KmybanA
-    enabled: true
-    invertResult: false
-    order: 48
-    repeat: 1
-    type: Action
-    elementId: 74_8E2IPq0C8sAziIhT9zg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
-      source: System
-    parameterMaps:
-    - name: keys
-      value: '{{test_uid}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: sQkO6qYHLECirIipx1-a3Q
-    enabled: true
-    invertResult: false
-    order: 49
-    repeat: 1
-    type: Action
-    elementId: 7A_p9uUNVk-JDketdyOaiA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Lo9NvQWIjUKicJRcVOgD2g
-    enabled: true
-    invertResult: false
-    order: 50
-    repeat: 1
-    type: Action
-    elementId: 9_YskuEIw0qxEYwRH1JfuA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: uPZHhlfhlUe3kKu-x1HS6g
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 51
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 56a4ad1b-b563-4322-ba29-d165090302b2
-      source: System
-    parameterMaps:
-    - name: url
-      value: '[[losshift]]'
       direction: Output
     conditions: []
     validations: []
@@ -1895,41 +1306,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/div[7]/div/button
     priority: 2
-- id: eGkoq-C-N0i6Lj41jW4F1Q
-  name: Access
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Access']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div[1]/h4/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/form/div[1]/div[2]/div[1]/h4/a
-    priority: 2
-- id: RGeOPf4jMUeW1E_JEfeKVw
-  name: query_group_id_view_access
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#query_group_id_view_access'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='query_group_id_view_access']"
-    priority: 1
-  - name: XPATH
-    value: //div[2]/div[2]/div/div[3]/div[1]/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/form/div[1]/div[2]/div[2]/div/div[3]/div[1]/select
-    priority: 3
 - id: ckIuKXe_7E6UxAEKeo5ajg
   name: enable_admin_emails
   type:
@@ -1968,25 +1344,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/div[6]/div[2]/div/div/div[1]/div[1]/input
     priority: 3
-- id: mwEazQ-HG0egZ3OArg0hPw
-  name: access_term_id
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#access_term_id'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='access_term_id']"
-    priority: 1
-  - name: XPATH
-    value: //div[2]/div[2]/div/div[5]//select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/form/div[1]/div[2]/div[2]/div/div[5]/div/select
-    priority: 3
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
@@ -1996,10 +1353,6 @@ projectParameters:
   name: onetimeshift
   description: ''
   value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12948&jid=1450
-- id: 7zdEO4Y5yEeeWgbEF_8_ng
-  name: losshift
-  description: ''
-  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12949&jid=1455
 addons:
 - id: isPuWQzkBU-t6MMgxY5QrA
   source: Store
