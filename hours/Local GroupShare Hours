@@ -1,7 +1,7 @@
-id: vSkY4CzXJ0Ohh3IFSfMDKA
+id: 45XwrCFPAU6GlHYuEbN2WA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T04:13:00.6107973Z
+created: 2022-06-26T00:48:57.7584042Z
 protocol: 1
 tests:
 - id: 0WjoG6o-qEi7U-gh50kC6A
@@ -15,7 +15,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T00:45:29.0000000
-  modificationDate: 2022-06-07T23:53:02.0000000
+  modificationDate: 2022-06-26T00:48:47.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -77,7 +77,7 @@ tests:
       value: '[[global_pw]]'
       direction: Input
     - name: username
-      value: multihierarchy
+      value: gsleader
       direction: Input
     - name: email_sso
       value: ''
@@ -1277,6 +1277,277 @@ auxTests:
   - master
   - login
 elements:
+- id: s_SSqUYfcUOr53CkySQUuw
+  name: hours
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#hours'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='hours']"
+    priority: 1
+  - name: XPATH
+    value: //form/div/div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/section[2]/div[1]/article[2]/div/div[1]/div/div/div[2]/form/div/div[2]/input
+    priority: 3
+- id: l2zDopF76EST13aofB7pTA
+  name: activity_name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#activity_name'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='activity_name']"
+    priority: 1
+  - name: XPATH
+    value: //div[5]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/section[2]/div[1]/article[2]/div/div[1]/div/div/div[2]/form/div/div[5]/input
+    priority: 3
+- id: WFzuqwKANU666myhRJy6Ng
+  name: activity_type
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#activity_type'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='activity_type']"
+    priority: 1
+  - name: XPATH
+    value: //div[6]/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/section[2]/div[1]/article[2]/div/div[1]/div/div/div[2]/form/div/div[6]/select
+    priority: 3
+- id: ZMqsbaYtvkmFoXazdolIEQ
+  name: email2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
+    priority: 1
+- id: zRXNK1Bx2UK6aCUwLg530Q
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
+    priority: 1
+- id: AQsJjVKyU0m3Nsuxix6SHw
+  name: SIGN IN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
+    priority: 2
+- id: G-hqguRvBkWTWa5xE2SgVQ
+  name: comments
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#comments'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='comments']"
+    priority: 1
+  - name: XPATH
+    value: //textarea
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/section[2]/div[1]/article[2]/div/div[1]/div/div/div[2]/form/div/div[8]/textarea
+    priority: 3
+- id: AOl8GMGPfk65sWocUnD9QQ
+  name: account_name
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#account_name'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='account_name']"
+    priority: 1
+  - name: XPATH
+    value: //form/div[1]/div/div[1]/input[1]
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/form/div[1]/div/div[1]/input[1]
+    priority: 3
+- id: sHnmFJEKy0yX6Rm3fGDZPA
+  name: Search
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'Search']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[1]/div[1]/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/form/div[1]/div/div[1]/div/div/div/div[2]/div[2]/div[1]/div[1]/div/input
+    priority: 2
+- id: PP6-1DzT00OanpJBBR_7xg
+  name: btn_save3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#btn_save'
+    priority: 0
+  - name: XPATH
+    value: //form/div/input[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/form/div[2]/input[1]
+    priority: 2
+- id: 85uRM_XyCEm8Tt90itQv9g
+  name: status_lookup
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#status_lookup'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='status_lookup']"
+    priority: 1
+  - name: XPATH
+    value: //div[7]/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/form/div[1]/div/div[7]/select
+    priority: 3
+- id: ZclA6j7xZUu8LmNloDi0iw
+  name: Edit1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Edit']
+    priority: 0
+  - name: XPATH
+    value: //td/a[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/table/tbody/tr/td[9]/a[2]
+    priority: 2
+- id: iICAL55kcEuGOSAEqtRUhQ
+  name: View2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'View']
+    priority: 0
+  - name: XPATH
+    value: //td[9]/a[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/table/tbody/tr/td[9]/a[1]
+    priority: 2
+- id: irzcKQnOWUi5bnk7uS5ExA
+  name: user
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='user']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Username']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
+    priority: 3
+- id: WbTY1D4yNUiPO3wZzLIWOg
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
+    priority: 3
+- id: O-GtKTW_20iR0C7LjVf2fA
+  name: login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
+    priority: 1
 - id: 5R5eB6tgJUGMRB5dHyk9DQ
   name: MY GROUPS
   type:
@@ -1322,25 +1593,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[3]/div[1]/div/div[4]/div/i
     priority: 1
-- id: AOl8GMGPfk65sWocUnD9QQ
-  name: account_name
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#account_name'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='account_name']"
-    priority: 1
-  - name: XPATH
-    value: //form/div[1]/div/div[1]/input[1]
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/div[1]/div/div[1]/input[1]
-    priority: 3
 - id: _iiCfFlR2EKEdGFJiOfweQ
   name: Add2
   type:
@@ -1356,22 +1608,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[3]/div[3]/a[1]
-    priority: 2
-- id: sHnmFJEKy0yX6Rm3fGDZPA
-  name: Search
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //input[@placeholder = 'Search']
-    priority: 0
-  - name: XPATH
-    value: //div[2]/div[1]/div[1]/div/input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/form/div[1]/div/div[1]/div/div/div/div[2]/div[2]/div[1]/div[1]/div/input
     priority: 2
 - id: AlfWjsWoJ0mL45hwglOhgA
   name: matthewTEST VIPCMember
@@ -1389,133 +1625,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[3]/form/div[1]/div/div[1]/div/div/div/div[2]/div[2]/div[1]/div[2]/div[2]/table/tbody/tr/td[1]/a
     priority: 2
-- id: l2zDopF76EST13aofB7pTA
-  name: activity_name
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#activity_name'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='activity_name']"
-    priority: 1
-  - name: XPATH
-    value: //div[5]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/section[2]/div[1]/article[2]/div/div[1]/div/div/div[2]/form/div/div[5]/input
-    priority: 3
-- id: WFzuqwKANU666myhRJy6Ng
-  name: activity_type
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#activity_type'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='activity_type']"
-    priority: 1
-  - name: XPATH
-    value: //div[6]/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/section[2]/div[1]/article[2]/div/div[1]/div/div/div[2]/form/div/div[6]/select
-    priority: 3
-- id: s_SSqUYfcUOr53CkySQUuw
-  name: hours
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#hours'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='hours']"
-    priority: 1
-  - name: XPATH
-    value: //form/div/div[2]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/section[2]/div[1]/article[2]/div/div[1]/div/div/div[2]/form/div/div[2]/input
-    priority: 3
-- id: G-hqguRvBkWTWa5xE2SgVQ
-  name: comments
-  type:
-    id: jUwODgyNjAyNzk2NTk2OTA
-    name: textarea
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#comments'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='comments']"
-    priority: 1
-  - name: XPATH
-    value: //textarea
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/section[2]/div[1]/article[2]/div/div[1]/div/div/div[2]/form/div/div[8]/textarea
-    priority: 3
-- id: 85uRM_XyCEm8Tt90itQv9g
-  name: status_lookup
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#status_lookup'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='status_lookup']"
-    priority: 1
-  - name: XPATH
-    value: //div[7]/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/div[1]/div/div[7]/select
-    priority: 3
-- id: PP6-1DzT00OanpJBBR_7xg
-  name: btn_save3
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#btn_save'
-    priority: 0
-  - name: XPATH
-    value: //form/div/input[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/form/div[2]/input[1]
-    priority: 2
-- id: ZclA6j7xZUu8LmNloDi0iw
-  name: Edit1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Edit']
-    priority: 0
-  - name: XPATH
-    value: //td/a[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/table/tbody/tr/td[9]/a[2]
-    priority: 2
 - id: 7UTwyxXy4kyxXMg63Kb0-w
   name: hr_comment
   description: ''
@@ -1530,22 +1639,6 @@ elements:
   - name: CSSSELECTOR
     value: '#comments'
     priority: 1
-- id: iICAL55kcEuGOSAEqtRUhQ
-  name: View2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'View']
-    priority: 0
-  - name: XPATH
-    value: //td[9]/a[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/table/tbody/tr/td[9]/a[1]
-    priority: 2
 - id: pM2_GGGQIkyQJAuYkqNCFA
   name: hr comment view
   description: ''
@@ -1620,100 +1713,11 @@ elements:
   - name: CSSSELECTOR
     value: '#nd_vms_gs_hours_manager > div.site-container > div.page-wrap > div.site-main > div > div.gs-v5-main > table > tbody > tr > td'
     priority: 1
-- id: irzcKQnOWUi5bnk7uS5ExA
-  name: user
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='user']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Username']
-    priority: 1
-  - name: XPATH
-    value: //div[1]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
-    priority: 3
-- id: WbTY1D4yNUiPO3wZzLIWOg
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='password']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Password']
-    priority: 1
-  - name: XPATH
-    value: //div[2]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
-    priority: 3
-- id: O-GtKTW_20iR0C7LjVf2fA
-  name: login
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[4]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
-    priority: 1
-- id: ZMqsbaYtvkmFoXazdolIEQ
-  name: email2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[4]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
-    priority: 1
-- id: zRXNK1Bx2UK6aCUwLg530Q
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[5]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
-    priority: 1
-- id: AQsJjVKyU0m3Nsuxix6SHw
-  name: SIGN IN
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Sign In']
-    priority: 0
-  - name: XPATH
-    value: //div[6]/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
-    priority: 2
-projectParameters: []
+projectParameters:
+- id: _YguaED0bUq8R4hDs2fgmA
+  name: global_pw
+  description: ''
+  value: p@ssword1
 addons:
 - id: isPuWQzkBU-t6MMgxY5QrA
   source: Store
@@ -1736,10 +1740,6 @@ addons:
     name: Accept alert
     description: Accept alert
     className: io.testproject.addons.web.alert.AcceptAlert
-  - id: SFW6Rf9DW0G4jpBW38V4xw
-    name: Execute JavaScript
-    description: Execute JavaScript {{code}} with arguments {{args}}
-    className: io.testproject.addons.web.actions.ExecuteJavascript
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
