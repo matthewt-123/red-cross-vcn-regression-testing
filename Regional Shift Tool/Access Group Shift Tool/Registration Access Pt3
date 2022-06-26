@@ -1,7 +1,7 @@
-id: T7NdFQtMukqCSPTYHzJl_Q
+id: dbms7XnttUmAE9BP-ybYmw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T03:47:55.8446717Z
+created: 2022-06-26T04:05:09.5018130Z
 protocol: 1
 tests:
 - id: zyMK8m89C0KzbKsucdrPwg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-16T23:56:07.0000000
-  modificationDate: 2022-06-26T03:47:28.0000000
+  modificationDate: 2022-06-26T04:05:08.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -105,11 +105,34 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 0WXepth14UqW6_Eg9eloFw
+  - id: MlEB460O-EOiugaNwc0xOg
     comments: ''
     enabled: true
     invertResult: false
     order: 4
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5ac5d621-7a53-45a6-94e5-a3348be3969e
+      source: System
+    parameterMaps:
+    - name: milliseconds
+      value: 5000
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 0WXepth14UqW6_Eg9eloFw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
     repeat: 1
     type: Addon
     settings:
@@ -142,7 +165,7 @@ tests:
   - id: ZtHcteWTYUOy2dv-vREZzg
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Addon
     settings:
@@ -172,7 +195,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     settings:
@@ -194,7 +217,7 @@ tests:
   - id: DH8PdSg0tUqbIRG52VZCvQ
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: 7QcESCICwkeH4oiqJ5Vp4A
@@ -215,7 +238,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     settings:
@@ -730,7 +753,7 @@ projectParameters:
 - id: j1beoVn84E-QqRM0eMC3Jw
   name: access_shift_url
   description: ''
-  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12934&jid=1220
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12936&jid=1256
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
