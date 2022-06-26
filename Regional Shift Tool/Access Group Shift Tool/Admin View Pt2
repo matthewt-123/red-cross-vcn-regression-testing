@@ -1,7 +1,7 @@
-id: IDGPavFjeEyHdsXZCdtAQA
+id: S6qvczxF80CH8woa5dfwaQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T04:13:14.3539593Z
+created: 2022-06-26T02:18:13.0639283Z
 protocol: 1
 tests:
 - id: mX3fJCDOZk6e-qdA_RgrRA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-16T23:49:09.0000000
-  modificationDate: 2022-03-13T19:32:20.0000000
+  modificationDate: 2022-06-26T02:18:11.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -100,7 +100,7 @@ tests:
       source: System
     parameterMaps:
     - name: url
-      value: '[[ARCTP]]/?nd=vms_registration_view&registration_type_id={{shifttool_id}}'
+      value: '[[access_shift_url]]'
       direction: Input
     conditions: []
     validations: []
@@ -656,46 +656,48 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[1]/div/div/button
     priority: 2
-- id: 4Us5R4j0y0ujGXNm8qWLkw
-  name: List1
+- id: ZMqsbaYtvkmFoXazdolIEQ
+  name: email2
   type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
     source: System
   locators:
   - name: XPATH
-    value: //a[. = 'List']
+    value: //div[4]/input
     priority: 0
   - name: XPATH
-    value: //div/ul/li[1]/a
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
+    priority: 1
+- id: zRXNK1Bx2UK6aCUwLg530Q
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
+    priority: 1
+- id: AQsJjVKyU0m3Nsuxix6SHw
+  name: SIGN IN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/button
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div/div/ul/li[1]/a
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
     priority: 2
-- id: q5ODQ9Ou902vgW5ce6bP3A
-  name: I11
-  type:
-    id: jUwODgyNjAyNzk2NTk2MjQ
-    name: i
-    source: System
-  locators:
-  - name: XPATH
-    value: //tr[1]//i
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[4]/table/tbody/tr[1]/td[4]/a/i
-    priority: 1
-- id: NZ8TjuSalECLJij2eqXbqA
-  name: all page
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDM
-    name: Generic Web Element
-    source: System
-  locators:
-  - name: XPATH
-    value: /html
-    priority: 0
 - id: irzcKQnOWUi5bnk7uS5ExA
   name: user
   type:
@@ -747,49 +749,55 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
-- id: ZMqsbaYtvkmFoXazdolIEQ
-  name: email2
+- id: 4Us5R4j0y0ujGXNm8qWLkw
+  name: List1
   type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
     source: System
   locators:
   - name: XPATH
-    value: //div[4]/input
+    value: //a[. = 'List']
     priority: 0
   - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
-    priority: 1
-- id: zRXNK1Bx2UK6aCUwLg530Q
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[5]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
-    priority: 1
-- id: AQsJjVKyU0m3Nsuxix6SHw
-  name: SIGN IN
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Sign In']
-    priority: 0
-  - name: XPATH
-    value: //div[6]/button
+    value: //div/ul/li[1]/a
     priority: 1
   - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/div/ul/li[1]/a
     priority: 2
-projectParameters: []
+- id: q5ODQ9Ou902vgW5ce6bP3A
+  name: I11
+  type:
+    id: jUwODgyNjAyNzk2NTk2MjQ
+    name: i
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]//i
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[4]/table/tbody/tr[1]/td[4]/a/i
+    priority: 1
+- id: NZ8TjuSalECLJij2eqXbqA
+  name: all page
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: /html
+    priority: 0
+projectParameters:
+- id: _YguaED0bUq8R4hDs2fgmA
+  name: global_pw
+  description: ''
+  value: p@ssword1
+- id: j1beoVn84E-QqRM0eMC3Jw
+  name: access_shift_url
+  description: ''
+  value: ''
 addons:
 - id: Ow3LGSkBqUyGjzyAibUJig
   source: Store
@@ -808,14 +816,6 @@ addons:
   source: Store
   version: 1.1.9
   actions:
-  - id: 22Nw5UqP7EGqvQhuHT2kqg
-    name: Accept alert
-    description: Accept alert
-    className: io.testproject.addons.web.alert.AcceptAlert
-  - id: SFW6Rf9DW0G4jpBW38V4xw
-    name: Execute JavaScript
-    description: Execute JavaScript {{code}} with arguments {{args}}
-    className: io.testproject.addons.web.actions.ExecuteJavascript
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
