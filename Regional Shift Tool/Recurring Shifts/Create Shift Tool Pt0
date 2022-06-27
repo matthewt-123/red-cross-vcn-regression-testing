@@ -1,7 +1,7 @@
-id: OpTe6hLMC0aO6t4PgQsupg
+id: o0oIz-o_P0qZRmh9NNQgtQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-27T05:16:11.9228974Z
+created: 2022-06-27T05:18:14.1747396Z
 protocol: 1
 tests:
 - id: nAjThzZSEEufJPDj96pdsw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-27T05:15:16.0000000
-  modificationDate: 2022-06-27T05:16:09.0000000
+  modificationDate: 2022-06-27T05:18:09.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -456,6 +456,92 @@ tests:
     - name: url
       value: '[[recurringshift]]'
       direction: Output
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Czxq2zfMtUKSDAIvM5oBtA
+    enabled: true
+    invertResult: false
+    order: 20
+    repeat: 1
+    type: Action
+    elementId: apH7L4m8FEiBVpPYu8ZhEA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EBekS1GUhUeWdZHTFAj66Q
+    enabled: true
+    invertResult: false
+    order: 21
+    repeat: 1
+    type: Action
+    elementId: vjE0B4pW5UazbwzzgQzdlQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
+      source: System
+    parameterMaps:
+    - name: value
+      value: Enabled
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xgZpLRRmXU6J01HPMvc6Rg
+    enabled: true
+    invertResult: false
+    order: 22
+    repeat: 1
+    type: Action
+    elementId: q12TTFPOOE2CfaU169o8sA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rnC06vSYnEKu4xcn1jFd3w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 23
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5ac5d621-7a53-45a6-94e5-a3348be3969e
+      source: System
+    parameterMaps:
+    - name: milliseconds
+      value: 5000
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -971,6 +1057,41 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[2]/a[3]/div/span
     priority: 2
+- id: vjE0B4pW5UazbwzzgQzdlQ
+  name: one_click
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#one_click'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='one_click']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div[2]/div/div[3]/div[4]/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[2]/div/form/div[1]/div[1]/div[2]/div/div[3]/div[4]/select
+    priority: 3
+- id: q12TTFPOOE2CfaU169o8sA
+  name: submit_button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#submit_button'
+    priority: 0
+  - name: XPATH
+    value: //form/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/form/div[2]/input
+    priority: 2
 - id: ARzKKQjd-Ey2DvnyP_g02g
   name: View7
   type:
@@ -1174,6 +1295,25 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/div[6]/div[2]/div/div/div[1]/div[1]/input
     priority: 3
+- id: apH7L4m8FEiBVpPYu8ZhEA
+  name: Setup2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: >-
+      //a[. = '
+                                       Setup
+                                  ']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div//a[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div/a[3]
+    priority: 2
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
