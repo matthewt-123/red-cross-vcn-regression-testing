@@ -1,7 +1,7 @@
-id: cXEfXRCb1UW3sak2PnEIOg
+id: Yz8fYHvzKEuRKF1TCmxWSw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-27T05:32:12.8021004Z
+created: 2022-06-27T06:09:59.0536434Z
 protocol: 1
 tests:
 - id: H4nHYD2oM0eZqFn0Q_25vw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-27T05:32:12.0000000
-  modificationDate: 2022-06-27T05:32:12.0000000
+  modificationDate: 2022-06-27T06:09:59.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -1322,7 +1322,7 @@ projectParameters:
 - id: OvcmhNoobkCcJqQxz6UH2A
   name: recurringshift
   description: ''
-  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12959
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12965
 addons:
 - id: isPuWQzkBU-t6MMgxY5QrA
   source: Store
