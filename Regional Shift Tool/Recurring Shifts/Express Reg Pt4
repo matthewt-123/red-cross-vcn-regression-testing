@@ -1,7 +1,7 @@
-id: jMPzdJ6DQ0CHo2ULVuTYXQ
+id: I32K5Fe6FUKbxDWef1bbOQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-27T05:24:59.2375951Z
+created: 2022-06-27T05:50:43.5736475Z
 protocol: 1
 tests:
 - id: 0-KVZjVcW0mfgklxLr-IgQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-22T05:45:09.0000000
-  modificationDate: 2022-06-27T05:24:43.0000000
+  modificationDate: 2022-06-27T05:50:23.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -104,30 +104,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: URyNZUffbU6Ef1d4vTBNqA
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: p_0T9w7DakGhCBVLCKRymw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: 5uyYhaBw5kGuzxV7zesgrA
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Action
     elementId: zvUedIkFvE2-TVfkyBYjUQ
@@ -148,7 +128,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 6
+    order: 5
     repeat: 1
     type: Action
     settings:
@@ -170,7 +150,7 @@ tests:
   - id: tY2MsocMxEGiOwHmBda6og
     enabled: true
     invertResult: false
-    order: 7
+    order: 6
     repeat: 1
     type: Action
     elementId: KQ5dD-CxbEW3BY-Oyavo7w
@@ -190,7 +170,7 @@ tests:
   - id: d3bBzWLglkuIqvecGZgzTg
     enabled: true
     invertResult: false
-    order: 8
+    order: 7
     repeat: 1
     type: Action
     elementId: D8BfmpVBtEukn7vtEfzMwQ
@@ -210,7 +190,7 @@ tests:
   - id: 16c7nbvDT0imwQPoWzBG-A
     enabled: true
     invertResult: false
-    order: 9
+    order: 8
     repeat: 1
     type: Action
     elementId: ugeCgT0QEkCvpde0qwl6PA
@@ -230,7 +210,7 @@ tests:
   - id: 9wbmd0BSw0eIOFrofNVa7A
     enabled: true
     invertResult: false
-    order: 10
+    order: 9
     repeat: 1
     type: Action
     elementId: ErqlcTZyjE2cfblGLiYQcg
@@ -253,7 +233,7 @@ tests:
   - id: 7jrfdPeEgkmBoqcp3BNKEA
     enabled: true
     invertResult: false
-    order: 11
+    order: 10
     repeat: 1
     type: Action
     elementId: IRPNCIERP0aTCHgxMAM2jw
@@ -276,7 +256,7 @@ tests:
   - id: mPpa_WOAQEqVLpMg10pzNg
     enabled: true
     invertResult: false
-    order: 12
+    order: 11
     repeat: 1
     type: Action
     elementId: cKYoAvBQP0aIThArH4WClg
@@ -296,7 +276,7 @@ tests:
   - id: Y63sbIXvXUazAWyrpHlPSg
     enabled: true
     invertResult: false
-    order: 13
+    order: 12
     repeat: 1
     type: Action
     elementId: cKYoAvBQP0aIThArH4WClg
@@ -320,7 +300,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 14
+    order: 13
     repeat: 1
     type: Addon
     settings:
@@ -365,7 +345,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 15
+    order: 14
     repeat: 1
     type: Addon
     settings:
@@ -394,7 +374,7 @@ tests:
   - id: BvN633GTwU65GE5AoiL48A
     enabled: true
     invertResult: false
-    order: 16
+    order: 15
     repeat: 1
     type: Action
     elementId: qVg_d8wHtkSD-5gGH81I1A
@@ -414,7 +394,7 @@ tests:
   - id: mQqcSsIVvEiSdhkTxHnNaw
     enabled: true
     invertResult: false
-    order: 17
+    order: 16
     repeat: 1
     type: Action
     elementId: wGEyhX6gmECB2HpBdeygtA
@@ -435,7 +415,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 18
+    order: 17
     repeat: 1
     type: Action
     settings:
@@ -458,7 +438,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 19
+    order: 18
     repeat: 1
     type: Action
     elementId: uWo-lHgLlUmr710An_pY-A
@@ -481,7 +461,7 @@ tests:
   - id: 6wXD4_qwxU62h5jdulnoHw
     enabled: true
     invertResult: false
-    order: 20
+    order: 19
     repeat: 1
     type: Action
     elementId: CqSEH49bzUCD7eF5tPgT8g
@@ -501,7 +481,7 @@ tests:
   - id: kBGribWIl0KfiAsQDKGAfA
     enabled: true
     invertResult: false
-    order: 21
+    order: 20
     repeat: 1
     type: Action
     elementId: IUHJv1DozEurxqKx3Cri_g
@@ -521,7 +501,7 @@ tests:
   - id: h-uKRZSmOk66Z3LQJsp5EQ
     enabled: true
     invertResult: false
-    order: 22
+    order: 21
     repeat: 1
     type: Action
     elementId: YLIAcygJm02pFVIvVDwPQA
@@ -541,7 +521,7 @@ tests:
   - id: vjpiZ-q58EeJCcMZfH1TmA
     enabled: true
     invertResult: false
-    order: 23
+    order: 22
     repeat: 1
     type: Action
     elementId: tSJ2IWC6Hk22HXG4taesZQ
@@ -561,7 +541,7 @@ tests:
   - id: QOCqWoM7tUaDck460MKktQ
     enabled: true
     invertResult: false
-    order: 24
+    order: 23
     repeat: 1
     type: Action
     elementId: hHrZqGoTXUqXLxOt2AQTOA
@@ -581,7 +561,7 @@ tests:
   - id: GjIYd1Fq3UmlLk-WNX_Cow
     enabled: true
     invertResult: false
-    order: 25
+    order: 24
     repeat: 1
     type: Action
     elementId: hHrZqGoTXUqXLxOt2AQTOA
@@ -604,7 +584,7 @@ tests:
   - id: wi-fRV--5kKbQWP1-TWL8g
     enabled: true
     invertResult: false
-    order: 26
+    order: 25
     repeat: 1
     type: Action
     elementId: EWsgsgN3SUmyTJi2vCxa7g
@@ -628,7 +608,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 27
+    order: 26
     repeat: 1
     type: Addon
     settings:
@@ -660,7 +640,7 @@ tests:
   - id: KnZ01b1wc025DBsmwMv2HA
     enabled: true
     invertResult: false
-    order: 28
+    order: 27
     repeat: 1
     type: Action
     elementId: sLlT53JuUUyGJjeQkCTlsg
@@ -677,33 +657,12 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: LddNYwZrP0OAgSohB7LPdQ
-    enabled: true
-    invertResult: false
-    order: 29
-    repeat: 1
-    type: Action
-    elementId: J9sClmtAbkOFLNbiSRZYsg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: JJzAgS8a6UeceU7-B1Fs3g
     enabled: true
     invertResult: false
-    order: 30
+    order: 28
     repeat: 1
     type: Action
-    elementId: M9j9JxJHWkSdjVgZ3i_oGg
     settings:
       sleepTime: -1
       timeout: -1
@@ -711,39 +670,22 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
       source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: url
+      value: '[[recurringshift]]'
+      direction: Input
     conditions: []
     validations: []
     contexts: []
   - id: x6hnZKlX90iV7iAu2Zvv5w
     enabled: true
     invertResult: false
-    order: 31
+    order: 29
     repeat: 1
     type: Action
     elementId: zvUedIkFvE2-TVfkyBYjUQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: xdU9qsH90kmWqNi5633Euw
-    enabled: true
-    invertResult: false
-    order: 32
-    repeat: 1
-    type: Action
-    elementId: p_0T9w7DakGhCBVLCKRymw
     settings:
       sleepTime: -1
       timeout: -1
@@ -761,7 +703,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 33
+    order: 30
     repeat: 1
     type: Action
     settings:
@@ -783,7 +725,7 @@ tests:
   - id: tk0nBZfAM02V3WG6MOti0A
     enabled: true
     invertResult: false
-    order: 34
+    order: 31
     repeat: 1
     type: Action
     elementId: KQ5dD-CxbEW3BY-Oyavo7w
@@ -804,7 +746,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 35
+    order: 32
     repeat: 1
     type: Action
     settings:
@@ -827,7 +769,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 36
+    order: 33
     repeat: 1
     type: Addon
     elementId: pB42ltqCuk-2AHRwzSSQQg
@@ -1462,22 +1404,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[4]/table/tbody/tr/td[4]/a/i
     priority: 1
-- id: p_0T9w7DakGhCBVLCKRymw
-  name: one_click_edit
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDk
-    name: Checkbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#one_click_edit'
-    priority: 0
-  - name: XPATH
-    value: //div[2]/input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[2]/input
-    priority: 2
 - id: uWo-lHgLlUmr710An_pY-A
   name: regadmin
   type:
@@ -1593,38 +1519,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/form/div[10]/button[2]
     priority: 2
-- id: J9sClmtAbkOFLNbiSRZYsg
-  name: MY SHIFTS1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'My Shifts']
-    priority: 0
-  - name: XPATH
-    value: //nav/ul/li[6]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/header/div[2]/nav/ul/li[6]/a
-    priority: 2
-- id: M9j9JxJHWkSdjVgZ3i_oGg
-  name: Matthew Recurring1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Matthew Recurring ']
-    priority: 0
-  - name: XPATH
-    value: //li[6]/ul/li[9]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div/header/div[2]/nav/ul/li[6]/ul/li[9]/a
-    priority: 2
 - id: pB42ltqCuk-2AHRwzSSQQg
   name: status_select
   description: ''
@@ -1677,7 +1571,7 @@ projectParameters:
 - id: OvcmhNoobkCcJqQxz6UH2A
   name: recurringshift
   description: ''
-  value: ''
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12960
 addons:
 - id: 02zAWIC7IUym1Rp8eFfaCg
   source: Store
