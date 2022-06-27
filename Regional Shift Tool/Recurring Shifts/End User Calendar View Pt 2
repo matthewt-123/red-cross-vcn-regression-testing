@@ -1,7 +1,7 @@
-id: g_AkNpIu_UWWFlxFnE8WKQ
+id: wOfET7pvG0-jzxAkAZoE8g
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-27T05:39:58.9936926Z
+created: 2022-06-27T05:42:36.1408197Z
 protocol: 1
 tests:
 - id: bvDMu4_4NUWjHRAdXPQprw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-27T22:24:27.0000000
-  modificationDate: 2022-06-27T05:39:13.0000000
+  modificationDate: 2022-06-27T05:42:19.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -1068,13 +1068,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: OJIONAhsmEu8uObSPEu-pw
+  - id: xbqZo7N4_U-20dgenCwIJQ
+    comments: pt 1
     enabled: true
     invertResult: false
     order: 37
     repeat: 1
     type: Action
-    elementId: 5evPpPhafESi9MzKj8OFKg
     settings:
       sleepTime: -1
       timeout: -1
@@ -1082,57 +1082,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
       source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: xbqZo7N4_U-20dgenCwIJQ
-    comments: pt 1
-    enabled: true
-    invertResult: false
-    order: 38
-    repeat: 1
-    type: Action
-    elementId: ikGnhCoU3UO1xLtAiFNNYg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: zYwjf18QokSEKcfEJUqFkw
-    enabled: false
-    invertResult: false
-    order: 39
-    repeat: 1
-    type: Action
-    elementId: FOhIazH9Jkm96b9RyDv1SQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: url
+      value: '[[recurringshift]]'
+      direction: Input
     conditions: []
     validations: []
     contexts: []
   - id: lEM57sjlq0y-DiqR7JKZqw
     enabled: true
     invertResult: false
-    order: 40
+    order: 38
     repeat: 1
     type: Action
     elementId: wYvRJZ2Tp0aASctmyivMUw
@@ -1152,7 +1114,7 @@ tests:
   - id: 3ICzmFyX3kG9PyCr0LLBkg
     enabled: true
     invertResult: false
-    order: 41
+    order: 39
     repeat: 1
     type: Action
     elementId: wYvRJZ2Tp0aASctmyivMUw
@@ -1175,7 +1137,7 @@ tests:
   - id: tndbTyQuBECgsCKjrUvLKg
     enabled: true
     invertResult: false
-    order: 42
+    order: 40
     repeat: 1
     type: Action
     elementId: m-N-o-5750m76LwkFh_Nug
@@ -1195,7 +1157,7 @@ tests:
   - id: OohXM3GLjkGrlaCRoa1GAA
     enabled: true
     invertResult: false
-    order: 43
+    order: 41
     repeat: 1
     type: Action
     elementId: KMirzG7XCkeac8A198FKnw
@@ -1216,7 +1178,7 @@ tests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 44
+    order: 42
     repeat: 1
     type: Addon
     elementId: -4k5yNVEpEe56ukW3JLY5Q
@@ -1248,7 +1210,7 @@ tests:
     comments: check body shift color
     enabled: false
     invertResult: false
-    order: 45
+    order: 43
     repeat: 1
     type: Addon
     elementId: EBfHowsLsEifKHvl93OMIg
@@ -1279,7 +1241,7 @@ tests:
   - id: V54T1uMqa0u9_AQtPI6fBA
     enabled: true
     invertResult: false
-    order: 46
+    order: 44
     repeat: 1
     type: Action
     elementId: KMirzG7XCkeac8A198FKnw
@@ -1299,7 +1261,7 @@ tests:
   - id: WTMdgzG-sUC7R15OYoI3ZA
     enabled: true
     invertResult: false
-    order: 47
+    order: 45
     repeat: 1
     type: Action
     elementId: KMirzG7XCkeac8A198FKnw
@@ -1320,7 +1282,7 @@ tests:
     comments: check to see if shifts exist more than 60 days in advance of 40 days later shift. Should fail, result inverted
     enabled: true
     invertResult: true
-    order: 48
+    order: 46
     repeat: 1
     type: Addon
     settings:
@@ -1974,22 +1936,6 @@ elements:
   - name: CSSSELECTOR
     value: '#registration_shift_request_form > div.page-actions > span'
     priority: 1
-- id: FOhIazH9Jkm96b9RyDv1SQ
-  name: Go Back
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Go Back']
-    priority: 0
-  - name: XPATH
-    value: //div[6]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/section/div[3]/form/div[6]/a
-    priority: 2
 - id: RqaKrI12n0qlg8v4DK4jDQ
   name: INPUT11
   type:
@@ -2200,22 +2146,6 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[3]/div[1]/table/tr/td[1]/span[2]/span
-    priority: 2
-- id: ikGnhCoU3UO1xLtAiFNNYg
-  name: Matthew Recurring
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Matthew Recurring ']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[6]/ul/li[9]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[6]/ul/li[9]/a
     priority: 2
 - id: EBfHowsLsEifKHvl93OMIg
   name: purple again
