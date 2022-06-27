@@ -1,7 +1,7 @@
-id: nYM8uGjZikCuiGUNutZoGA
+id: TcFuoIiqEU6dYbNMpU46bQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T04:13:05.5392377Z
+created: 2022-06-27T06:12:16.0464315Z
 protocol: 1
 tests:
 - id: WvHQdnIg8UC9_OCmScizbw
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-12-04T21:47:18.0000000
-  modificationDate: 2022-03-13T02:31:00.0000000
+  modificationDate: 2022-06-27T06:11:51.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -82,13 +82,12 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: d1vlcjvtlUy7hGjfgnVmmA
+  - id: w7C_5rzD4EKdRfAWHyYEDA
     enabled: true
     invertResult: false
     order: 3
     repeat: 1
     type: Action
-    elementId: epcR_i7DEUakKZuPJYRjKw
     settings:
       sleepTime: -1
       timeout: -1
@@ -96,117 +95,12 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: QGuPhY5VJUq-cR2RduDHqQ
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: U1bdDH3QPEieXK8EkE_WEQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 9cmcFhCz00ebuAIK71apDg
-    enabled: true
-    invertResult: false
-    order: 5
-    repeat: 1
-    type: Action
-    elementId: OK8am1MlOkW4fA6szeYUHA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: F3ea_LI1Tk21kWRxyoFH3g
-    enabled: true
-    invertResult: false
-    order: 6
-    repeat: 1
-    type: Action
-    elementId: 74_8E2IPq0C8sAziIhT9zg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
       source: System
     parameterMaps:
-    - name: keys
-      value: Matthew Test
+    - name: url
+      value: '[[virtualshift]]'
       direction: Input
-    conditions:
-    - parameter: '{{username}}'
-      type: Equals
-      invert: false
-      value: regadmin
-    validations: []
-    contexts: []
-  - id: 6ubBOedri0ayUDGujovgWQ
-    comments: CHANGE TO INPUT10 FOR DCS LOS TEST
-    enabled: true
-    invertResult: false
-    order: 7
-    repeat: 1
-    type: Action
-    elementId: 7A_p9uUNVk-JDketdyOaiA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: w7C_5rzD4EKdRfAWHyYEDA
-    enabled: true
-    invertResult: false
-    order: 8
-    repeat: 1
-    type: Action
-    elementId: 9_YskuEIw0qxEYwRH1JfuA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
     conditions: []
     validations: []
     contexts: []
@@ -214,7 +108,7 @@ tests:
     comments: break- tomorrow!, add event from calendar
     enabled: true
     invertResult: false
-    order: 9
+    order: 4
     repeat: 1
     type: Action
     elementId: D8BfmpVBtEukn7vtEfzMwQ
@@ -234,7 +128,7 @@ tests:
   - id: CJipCtoME027x72Z16WDHg
     enabled: true
     invertResult: false
-    order: 10
+    order: 5
     repeat: 1
     type: Action
     elementId: xa8CYXBMdkGhv4gfNFMimg
@@ -254,7 +148,7 @@ tests:
   - id: xU2M3ygreEmRA97GWBGaEA
     enabled: true
     invertResult: false
-    order: 11
+    order: 6
     repeat: 1
     type: Action
     elementId: -WhXHZ_6N0KuI8wIGfdPOg
@@ -274,7 +168,7 @@ tests:
   - id: 8xXxWST5KEao0OKBk447WQ
     enabled: true
     invertResult: false
-    order: 12
+    order: 7
     repeat: 1
     type: Action
     elementId: -WhXHZ_6N0KuI8wIGfdPOg
@@ -298,7 +192,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 13
+    order: 8
     repeat: 1
     type: Addon
     settings:
@@ -327,7 +221,7 @@ tests:
   - id: G5IYPS0_GUeVCCayG8uhdg
     enabled: true
     invertResult: false
-    order: 14
+    order: 9
     repeat: 1
     type: Action
     elementId: At22f_0pv0u4Vs483d2BAA
@@ -347,7 +241,7 @@ tests:
   - id: pM45P1rnNkOVuzBEHmFufw
     enabled: true
     invertResult: false
-    order: 15
+    order: 10
     repeat: 1
     type: Action
     elementId: At22f_0pv0u4Vs483d2BAA
@@ -370,7 +264,7 @@ tests:
   - id: r00NpMrRTk2RZdonpaBWXA
     enabled: true
     invertResult: false
-    order: 16
+    order: 11
     repeat: 1
     type: Action
     elementId: cGCpoL-01Eqv3yiIIP099A
@@ -390,7 +284,7 @@ tests:
   - id: 2ZaCwWJcg06bUZW5teP7VQ
     enabled: true
     invertResult: false
-    order: 17
+    order: 12
     repeat: 1
     type: Action
     elementId: cGCpoL-01Eqv3yiIIP099A
@@ -414,7 +308,7 @@ tests:
     comments: goodbye calendar, allows my script to add js values instead(easier to automate)
     enabled: true
     invertResult: false
-    order: 18
+    order: 13
     repeat: 1
     type: Addon
     settings:
@@ -444,7 +338,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 19
+    order: 14
     repeat: 1
     type: Addon
     settings:
@@ -489,7 +383,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 20
+    order: 15
     repeat: 1
     type: Addon
     settings:
@@ -519,7 +413,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 21
+    order: 16
     repeat: 1
     type: Addon
     settings:
@@ -564,7 +458,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 22
+    order: 17
     repeat: 1
     type: Addon
     settings:
@@ -593,7 +487,7 @@ tests:
   - id: OvbAROSdvkG7V8g0BzhOTQ
     enabled: true
     invertResult: false
-    order: 23
+    order: 18
     repeat: 1
     type: Action
     elementId: xQ1tHIwil0Oy6n_9R3mN2Q
@@ -613,7 +507,7 @@ tests:
   - id: rBeIYrpRfU2-pLpd90-kgw
     enabled: true
     invertResult: false
-    order: 24
+    order: 19
     repeat: 1
     type: Action
     elementId: xQ1tHIwil0Oy6n_9R3mN2Q
@@ -636,7 +530,7 @@ tests:
   - id: k25ubHycOUu2meaw8jaJNQ
     enabled: true
     invertResult: false
-    order: 25
+    order: 20
     repeat: 1
     type: Action
     elementId: xQ1tHIwil0Oy6n_9R3mN2Q
@@ -656,7 +550,7 @@ tests:
   - id: FyBhJFcjHUGCGyInk4aVbA
     enabled: true
     invertResult: false
-    order: 26
+    order: 21
     repeat: 1
     type: Action
     elementId: XZZ8eiqUZUCRf7ARN8VfVg
@@ -676,7 +570,7 @@ tests:
   - id: xW6l-BPTTEytirWMdmkVhQ
     enabled: true
     invertResult: false
-    order: 27
+    order: 22
     repeat: 1
     type: Action
     elementId: XZZ8eiqUZUCRf7ARN8VfVg
@@ -699,7 +593,7 @@ tests:
   - id: 6vAJexCUk0W604fJb5pZEQ
     enabled: true
     invertResult: false
-    order: 28
+    order: 23
     repeat: 1
     type: Action
     elementId: XZZ8eiqUZUCRf7ARN8VfVg
@@ -719,7 +613,7 @@ tests:
   - id: hD1Of7lyaEWKLSm7LVeXWA
     enabled: true
     invertResult: false
-    order: 29
+    order: 24
     repeat: 1
     type: Action
     elementId: lKYsx-CB306uT8b8AUh90Q
@@ -739,7 +633,7 @@ tests:
   - id: H3dpMX5Ie0ar8exuP1lg4w
     enabled: true
     invertResult: false
-    order: 30
+    order: 25
     repeat: 1
     type: Action
     elementId: lKYsx-CB306uT8b8AUh90Q
@@ -762,7 +656,7 @@ tests:
   - id: mmUsONRUJ0WSc0N94y6Ubg
     enabled: true
     invertResult: false
-    order: 31
+    order: 26
     repeat: 1
     type: Action
     elementId: iEzIWd2Rwk2vLFLxwYJpQQ
@@ -782,7 +676,7 @@ tests:
   - id: uamKRmqktEGm9pp8wFjpdQ
     enabled: true
     invertResult: false
-    order: 32
+    order: 27
     repeat: 1
     type: Action
     elementId: iEzIWd2Rwk2vLFLxwYJpQQ
@@ -805,7 +699,7 @@ tests:
   - id: Nk3VRUbk70qlCJpgkCjZAA
     enabled: true
     invertResult: false
-    order: 33
+    order: 28
     repeat: 1
     type: Action
     elementId: 0S9dsPliqkmwKDF0yw4V9Q
@@ -825,7 +719,7 @@ tests:
   - id: 6NU9e2p9N0asw8m-yN1Ksw
     enabled: true
     invertResult: false
-    order: 34
+    order: 29
     repeat: 1
     type: Action
     elementId: 0S9dsPliqkmwKDF0yw4V9Q
@@ -848,7 +742,7 @@ tests:
   - id: u0kLSM0PXEK75WboXNdHWw
     enabled: true
     invertResult: false
-    order: 35
+    order: 30
     repeat: 1
     type: Action
     elementId: 8t2jziAKIkavtUN2HALJMw
@@ -868,7 +762,7 @@ tests:
   - id: EE-zSFUNgEKWpD3VLhVdkQ
     enabled: true
     invertResult: false
-    order: 36
+    order: 31
     repeat: 1
     type: Action
     elementId: 8t2jziAKIkavtUN2HALJMw
@@ -891,7 +785,7 @@ tests:
   - id: WlLR2JSqE0GI8H2wffHEtA
     enabled: true
     invertResult: false
-    order: 37
+    order: 32
     repeat: 1
     type: Action
     elementId: 6yadayesmUKUsirxr8wfLQ
@@ -912,7 +806,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 38
+    order: 33
     repeat: 1
     type: Action
     settings:
@@ -934,7 +828,7 @@ tests:
   - id: yqI0HlVx_kOW5iluN9TTGQ
     enabled: true
     invertResult: false
-    order: 39
+    order: 34
     repeat: 1
     type: Action
     elementId: k_ZBGCMn2Uul9SS4Bk5JgQ
@@ -954,7 +848,7 @@ tests:
   - id: 7aZxMaaBVkemKAggn3bwyQ
     enabled: true
     invertResult: false
-    order: 40
+    order: 35
     repeat: 1
     type: Action
     elementId: k_ZBGCMn2Uul9SS4Bk5JgQ
@@ -977,7 +871,7 @@ tests:
   - id: H1F_X1SRW02I4he8GaiA2A
     enabled: true
     invertResult: false
-    order: 41
+    order: 36
     repeat: 1
     type: Action
     elementId: ZjT5PQjN3EKMMqrNqEfl6w
@@ -997,7 +891,7 @@ tests:
   - id: n3RowEiOFES64nEXhjt-xA
     enabled: true
     invertResult: false
-    order: 42
+    order: 37
     repeat: 1
     type: Action
     elementId: PGJotx_Bg0CIK3ge7pv8Cw
@@ -1017,7 +911,7 @@ tests:
   - id: VzhEaFafXEqP0OG_v1kt0Q
     enabled: true
     invertResult: false
-    order: 43
+    order: 38
     repeat: 1
     type: Action
     elementId: PGJotx_Bg0CIK3ge7pv8Cw
@@ -1040,7 +934,7 @@ tests:
   - id: cnjbJKm3ZUS6BsWbN3h4hg
     enabled: true
     invertResult: false
-    order: 44
+    order: 39
     repeat: 1
     type: Action
     elementId: 6B6zTNouBEKypg5ksN39qg
@@ -1060,7 +954,7 @@ tests:
   - id: a7XVe8LWtEmt3tpsvF3Mqg
     enabled: true
     invertResult: false
-    order: 45
+    order: 40
     repeat: 1
     type: Action
     elementId: 6B6zTNouBEKypg5ksN39qg
@@ -1083,7 +977,7 @@ tests:
   - id: syR5zYMPuUCCwCo6fpqLSg
     enabled: true
     invertResult: false
-    order: 46
+    order: 41
     repeat: 1
     type: Action
     elementId: 6B6zTNouBEKypg5ksN39qg
@@ -1103,7 +997,7 @@ tests:
   - id: _bMqDJL_KUyi70s9b89jdg
     enabled: true
     invertResult: false
-    order: 47
+    order: 42
     repeat: 1
     type: Action
     elementId: hJAr9bSh7EOPMS9e6Rbsxw
@@ -1124,7 +1018,7 @@ tests:
     comments: break- event not open
     enabled: true
     invertResult: false
-    order: 48
+    order: 43
     repeat: 1
     type: Action
     elementId: D8BfmpVBtEukn7vtEfzMwQ
@@ -1144,7 +1038,7 @@ tests:
   - id: bEKc55bu90SJoQKonqPBzA
     enabled: true
     invertResult: false
-    order: 49
+    order: 44
     repeat: 1
     type: Action
     elementId: xa8CYXBMdkGhv4gfNFMimg
@@ -1164,7 +1058,7 @@ tests:
   - id: g5cAszPgrkuZnj2FQYYQwg
     enabled: true
     invertResult: false
-    order: 50
+    order: 45
     repeat: 1
     type: Action
     elementId: -WhXHZ_6N0KuI8wIGfdPOg
@@ -1184,7 +1078,7 @@ tests:
   - id: zKF9jNbGoUiILdmzVqp71A
     enabled: true
     invertResult: false
-    order: 51
+    order: 46
     repeat: 1
     type: Action
     elementId: -WhXHZ_6N0KuI8wIGfdPOg
@@ -1208,7 +1102,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 52
+    order: 47
     repeat: 1
     type: Addon
     settings:
@@ -1237,7 +1131,7 @@ tests:
   - id: xwvE1M22CUqwMTKS8I0zkg
     enabled: true
     invertResult: false
-    order: 53
+    order: 48
     repeat: 1
     type: Action
     elementId: At22f_0pv0u4Vs483d2BAA
@@ -1257,7 +1151,7 @@ tests:
   - id: PlV46xyMaU2Rgoy25JvdWQ
     enabled: true
     invertResult: false
-    order: 54
+    order: 49
     repeat: 1
     type: Action
     elementId: At22f_0pv0u4Vs483d2BAA
@@ -1280,7 +1174,7 @@ tests:
   - id: TAlE1vGUkUiQcKD4sKu6ag
     enabled: true
     invertResult: false
-    order: 55
+    order: 50
     repeat: 1
     type: Action
     elementId: cGCpoL-01Eqv3yiIIP099A
@@ -1300,7 +1194,7 @@ tests:
   - id: nWQr3QZJ0kmQ6Qx2z1OUHw
     enabled: true
     invertResult: false
-    order: 56
+    order: 51
     repeat: 1
     type: Action
     elementId: cGCpoL-01Eqv3yiIIP099A
@@ -1324,7 +1218,7 @@ tests:
     comments: goodbye calendar, allows my script to add js values instead(easier to automate)
     enabled: true
     invertResult: false
-    order: 57
+    order: 52
     repeat: 1
     type: Addon
     settings:
@@ -1354,7 +1248,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 58
+    order: 53
     repeat: 1
     type: Addon
     settings:
@@ -1399,7 +1293,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 59
+    order: 54
     repeat: 1
     type: Addon
     settings:
@@ -1429,7 +1323,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 60
+    order: 55
     repeat: 1
     type: Addon
     settings:
@@ -1474,7 +1368,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 61
+    order: 56
     repeat: 1
     type: Addon
     settings:
@@ -1503,7 +1397,7 @@ tests:
   - id: ErgQuztcJ0SwzJ4MVBwtgg
     enabled: true
     invertResult: false
-    order: 62
+    order: 57
     repeat: 1
     type: Action
     elementId: xQ1tHIwil0Oy6n_9R3mN2Q
@@ -1523,7 +1417,7 @@ tests:
   - id: BAWVZpgs-km3tbolxcA-kQ
     enabled: true
     invertResult: false
-    order: 63
+    order: 58
     repeat: 1
     type: Action
     elementId: xQ1tHIwil0Oy6n_9R3mN2Q
@@ -1546,7 +1440,7 @@ tests:
   - id: uQ-P61aN80yXijy-YGQNYg
     enabled: true
     invertResult: false
-    order: 64
+    order: 59
     repeat: 1
     type: Action
     elementId: xQ1tHIwil0Oy6n_9R3mN2Q
@@ -1566,7 +1460,7 @@ tests:
   - id: KQ4eLWOOrkSo2QWolcenNw
     enabled: true
     invertResult: false
-    order: 65
+    order: 60
     repeat: 1
     type: Action
     elementId: XZZ8eiqUZUCRf7ARN8VfVg
@@ -1586,7 +1480,7 @@ tests:
   - id: o5fuOSUxvEGEAmOoL7COxA
     enabled: true
     invertResult: false
-    order: 66
+    order: 61
     repeat: 1
     type: Action
     elementId: XZZ8eiqUZUCRf7ARN8VfVg
@@ -1609,7 +1503,7 @@ tests:
   - id: K9HicBNyDUuGK014y9n-jw
     enabled: true
     invertResult: false
-    order: 67
+    order: 62
     repeat: 1
     type: Action
     elementId: XZZ8eiqUZUCRf7ARN8VfVg
@@ -1629,7 +1523,7 @@ tests:
   - id: dJozGw_vuUG7ssIW2Bgg-g
     enabled: true
     invertResult: false
-    order: 68
+    order: 63
     repeat: 1
     type: Action
     elementId: lKYsx-CB306uT8b8AUh90Q
@@ -1649,7 +1543,7 @@ tests:
   - id: o14zZtiNnk6OoXhafKU88A
     enabled: true
     invertResult: false
-    order: 69
+    order: 64
     repeat: 1
     type: Action
     elementId: lKYsx-CB306uT8b8AUh90Q
@@ -1672,7 +1566,7 @@ tests:
   - id: mAUJrc6tOEqruaxh1Sofgg
     enabled: true
     invertResult: false
-    order: 70
+    order: 65
     repeat: 1
     type: Action
     elementId: iEzIWd2Rwk2vLFLxwYJpQQ
@@ -1692,7 +1586,7 @@ tests:
   - id: DB13-Rmxx0uZziR2WYwzng
     enabled: true
     invertResult: false
-    order: 71
+    order: 66
     repeat: 1
     type: Action
     elementId: iEzIWd2Rwk2vLFLxwYJpQQ
@@ -1715,7 +1609,7 @@ tests:
   - id: akLSq8GP3U2_211uEC9Nfw
     enabled: true
     invertResult: false
-    order: 72
+    order: 67
     repeat: 1
     type: Action
     elementId: 0S9dsPliqkmwKDF0yw4V9Q
@@ -1735,7 +1629,7 @@ tests:
   - id: lc7RtzPHLEybQ-zKjct9Sg
     enabled: true
     invertResult: false
-    order: 73
+    order: 68
     repeat: 1
     type: Action
     elementId: 0S9dsPliqkmwKDF0yw4V9Q
@@ -1758,7 +1652,7 @@ tests:
   - id: aTe6jmWqbEuPMlZUVWUi_w
     enabled: true
     invertResult: false
-    order: 74
+    order: 69
     repeat: 1
     type: Action
     elementId: 8t2jziAKIkavtUN2HALJMw
@@ -1778,7 +1672,7 @@ tests:
   - id: eiC3AEzRHkOXNwWmswIVog
     enabled: true
     invertResult: false
-    order: 75
+    order: 70
     repeat: 1
     type: Action
     elementId: 8t2jziAKIkavtUN2HALJMw
@@ -1801,7 +1695,7 @@ tests:
   - id: qI-122fsgkm6GulLtDCFDg
     enabled: true
     invertResult: false
-    order: 76
+    order: 71
     repeat: 1
     type: Action
     elementId: 6yadayesmUKUsirxr8wfLQ
@@ -1821,7 +1715,7 @@ tests:
   - id: twVO6o_iD0W_a97iHHtwpQ
     enabled: true
     invertResult: false
-    order: 77
+    order: 72
     repeat: 1
     type: Action
     elementId: k_ZBGCMn2Uul9SS4Bk5JgQ
@@ -1841,7 +1735,7 @@ tests:
   - id: O1PTouPCzUe4ArP9tcF3Cw
     enabled: true
     invertResult: false
-    order: 78
+    order: 73
     repeat: 1
     type: Action
     elementId: k_ZBGCMn2Uul9SS4Bk5JgQ
@@ -1864,7 +1758,7 @@ tests:
   - id: i4tQogH0SEy-vF2qMMh6zA
     enabled: true
     invertResult: false
-    order: 79
+    order: 74
     repeat: 1
     type: Action
     elementId: ZjT5PQjN3EKMMqrNqEfl6w
@@ -1884,7 +1778,7 @@ tests:
   - id: s-nluz6HhkSDJ4I-zERPUA
     enabled: true
     invertResult: false
-    order: 80
+    order: 75
     repeat: 1
     type: Action
     elementId: PGJotx_Bg0CIK3ge7pv8Cw
@@ -1904,7 +1798,7 @@ tests:
   - id: 4Z-AstihrE-V2yY-yqCchw
     enabled: true
     invertResult: false
-    order: 81
+    order: 76
     repeat: 1
     type: Action
     elementId: PGJotx_Bg0CIK3ge7pv8Cw
@@ -1927,7 +1821,7 @@ tests:
   - id: mTyKIjI60kOt9HU3TCEVcA
     enabled: true
     invertResult: false
-    order: 82
+    order: 77
     repeat: 1
     type: Action
     elementId: 6B6zTNouBEKypg5ksN39qg
@@ -1947,7 +1841,7 @@ tests:
   - id: k2D-NvLx3ESGdQuIG_WrtQ
     enabled: true
     invertResult: false
-    order: 83
+    order: 78
     repeat: 1
     type: Action
     elementId: 6B6zTNouBEKypg5ksN39qg
@@ -1970,7 +1864,7 @@ tests:
   - id: jmgLRWfyRUW-OMxGIPvblA
     enabled: true
     invertResult: false
-    order: 84
+    order: 79
     repeat: 1
     type: Action
     elementId: 6B6zTNouBEKypg5ksN39qg
@@ -1990,7 +1884,7 @@ tests:
   - id: 0o2RflCAak-oFcvlJtgtSQ
     enabled: true
     invertResult: false
-    order: 85
+    order: 80
     repeat: 1
     type: Action
     elementId: hJAr9bSh7EOPMS9e6Rbsxw
@@ -2011,7 +1905,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 86
+    order: 81
     repeat: 1
     type: Action
     settings:
@@ -2441,102 +2335,6 @@ auxTests:
   - master
   - login
 elements:
-- id: epcR_i7DEUakKZuPJYRjKw
-  name: ADMINISTRATION
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Administration']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[8]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/a
-    priority: 2
-- id: U1bdDH3QPEieXK8EkE_WEQ
-  name: Unit Configuration
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Unit Configuration']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[8]/ul/li[1]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/ul/li[1]/a
-    priority: 2
-- id: OK8am1MlOkW4fA6szeYUHA
-  name: DIV7
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjM
-    name: Div
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[3]/div
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/a[3]/div
-    priority: 1
-- id: 74_8E2IPq0C8sAziIhT9zg
-  name: filter_tool_name
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#filter_tool_name'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='filter_tool_name']"
-    priority: 1
-  - name: XPATH
-    value: "//input[@placeholder = 'ex: !Judy Test ']"
-    priority: 2
-  - name: XPATH
-    value: //form/div/div/input
-    priority: 3
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/div/div[1]/input
-    priority: 4
-- id: 7A_p9uUNVk-JDketdyOaiA
-  name: INPUT9
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[6]//input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/div/div[6]/div/input
-    priority: 1
-- id: 9_YskuEIw0qxEYwRH1JfuA
-  name: View5
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'View']
-    priority: 0
-  - name: XPATH
-    value: //td[4]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/table/tbody/tr[2]/td[4]/a
-    priority: 2
 - id: D8BfmpVBtEukn7vtEfzMwQ
   name: Manage
   type:
@@ -2591,25 +2389,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[1]/div[2]/ul/li[1]/div/input
     priority: 3
-- id: At22f_0pv0u4Vs483d2BAA
-  name: registration_description_markdown
-  type:
-    id: jUwODgyNjAyNzk2NTk2OTA
-    name: textarea
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#registration_description_markdown'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='registration_description_markdown']"
-    priority: 1
-  - name: XPATH
-    value: //li[2]//textarea
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[1]/div[2]/ul/li[2]/div/textarea
-    priority: 3
 - id: cGCpoL-01Eqv3yiIIP099A
   name: maximum_reservations
   type:
@@ -2628,6 +2407,25 @@ elements:
     priority: 2
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[1]/div[2]/ul/li[5]/div/input
+    priority: 3
+- id: At22f_0pv0u4Vs483d2BAA
+  name: registration_description_markdown
+  type:
+    id: jUwODgyNjAyNzk2NTk2OTA
+    name: textarea
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#registration_description_markdown'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='registration_description_markdown']"
+    priority: 1
+  - name: XPATH
+    value: //li[2]//textarea
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[1]/div[2]/ul/li[2]/div/textarea
     priority: 3
 - id: xQ1tHIwil0Oy6n_9R3mN2Q
   name: virtual_shift
@@ -2648,63 +2446,115 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[4]/div[2]/ul/li/div/select
     priority: 3
-- id: XZZ8eiqUZUCRf7ARN8VfVg
-  name: virtual_location_select
+- id: hJAr9bSh7EOPMS9e6Rbsxw
+  name: registration_event_edit_submit
   type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#virtual_location_select'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='virtual_location_select']"
+    value: '#registration_event_edit_submit'
     priority: 1
   - name: XPATH
-    value: //fieldset[5]//select
-    priority: 2
+    value: //form/div/input
+    priority: 0
   - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[5]/div[2]/ul/li[1]/div/select
-    priority: 3
-- id: lKYsx-CB306uT8b8AUh90Q
-  name: meeting_url
+    value: /html/body/div[1]/div[2]/div/div[2]/form/div/input
+    priority: 2
+- id: ZMqsbaYtvkmFoXazdolIEQ
+  name: email2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
+    priority: 1
+- id: zRXNK1Bx2UK6aCUwLg530Q
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
+    priority: 1
+- id: AQsJjVKyU0m3Nsuxix6SHw
+  name: SIGN IN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
+    priority: 2
+- id: irzcKQnOWUi5bnk7uS5ExA
+  name: user
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#meeting_url'
+    value: "[name='user']"
     priority: 0
-  - name: CSSSELECTOR
-    value: "[name='meeting_url']"
+  - name: XPATH
+    value: //input[@placeholder = 'Username']
     priority: 1
   - name: XPATH
-    value: //fieldset[5]/div[2]/ul/li[2]//input
+    value: //div[1]/input
     priority: 2
   - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[5]/div[2]/ul/li[2]/div/input
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
     priority: 3
-- id: iEzIWd2Rwk2vLFLxwYJpQQ
-  name: minutes_before_event
+- id: WbTY1D4yNUiPO3wZzLIWOg
+  name: password1
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#minutes_before_event'
+    value: "[name='password']"
     priority: 0
-  - name: CSSSELECTOR
-    value: "[name='minutes_before_event']"
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
     priority: 1
   - name: XPATH
-    value: //fieldset[5]/div[2]/ul/li[3]//input
+    value: //div[2]/input
     priority: 2
   - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[5]/div[2]/ul/li[3]/div/input
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
     priority: 3
+- id: O-GtKTW_20iR0C7LjVf2fA
+  name: login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
+    priority: 1
 - id: 0S9dsPliqkmwKDF0yw4V9Q
   name: signup_start_days_before
   type:
@@ -2832,116 +2682,72 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[9]/div[2]/ul/li[3]/div[1]/select
     priority: 3
-- id: hJAr9bSh7EOPMS9e6Rbsxw
-  name: registration_event_edit_submit
+- id: XZZ8eiqUZUCRf7ARN8VfVg
+  name: virtual_location_select
   type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
     source: System
   locators:
   - name: CSSSELECTOR
-    value: '#registration_event_edit_submit'
-    priority: 1
-  - name: XPATH
-    value: //form/div/input
+    value: '#virtual_location_select'
     priority: 0
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/form/div/input
-    priority: 2
-- id: irzcKQnOWUi5bnk7uS5ExA
-  name: user
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
   - name: CSSSELECTOR
-    value: "[name='user']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Username']
+    value: "[name='virtual_location_select']"
     priority: 1
   - name: XPATH
-    value: //div[1]/input
+    value: //fieldset[5]//select
     priority: 2
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
+    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[5]/div[2]/ul/li[1]/div/select
     priority: 3
-- id: WbTY1D4yNUiPO3wZzLIWOg
-  name: password1
+- id: lKYsx-CB306uT8b8AUh90Q
+  name: meeting_url
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: "[name='password']"
+    value: '#meeting_url'
     priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Password']
+  - name: CSSSELECTOR
+    value: "[name='meeting_url']"
     priority: 1
   - name: XPATH
-    value: //div[2]/input
+    value: //fieldset[5]/div[2]/ul/li[2]//input
     priority: 2
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
+    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[5]/div[2]/ul/li[2]/div/input
     priority: 3
-- id: O-GtKTW_20iR0C7LjVf2fA
-  name: login
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[4]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
-    priority: 1
-- id: ZMqsbaYtvkmFoXazdolIEQ
-  name: email2
+- id: iEzIWd2Rwk2vLFLxwYJpQQ
+  name: minutes_before_event
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
-  - name: XPATH
-    value: //div[4]/input
+  - name: CSSSELECTOR
+    value: '#minutes_before_event'
     priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
-    priority: 1
-- id: zRXNK1Bx2UK6aCUwLg530Q
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[5]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
-    priority: 1
-- id: AQsJjVKyU0m3Nsuxix6SHw
-  name: SIGN IN
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Sign In']
-    priority: 0
-  - name: XPATH
-    value: //div[6]/button
+  - name: CSSSELECTOR
+    value: "[name='minutes_before_event']"
     priority: 1
   - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
+    value: //fieldset[5]/div[2]/ul/li[3]//input
     priority: 2
-projectParameters: []
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[5]/div[2]/ul/li[3]/div/input
+    priority: 3
+projectParameters:
+- id: _YguaED0bUq8R4hDs2fgmA
+  name: global_pw
+  description: ''
+  value: p@ssword1
+- id: sufTvqOqa0OPIgFQ00zvMg
+  name: virtualshift
+  description: ''
+  value: ''
 addons:
 - id: isPuWQzkBU-t6MMgxY5QrA
   source: Store
@@ -2956,27 +2762,6 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: EF5BCAEEB66C5A9B5DE4E7D9C7D20F630A10E95CA1F1691EFD70A92F4D3EAF7C
-- id: Xey4bVsJQEODIUN7ssaJMg
-  source: Store
-  version: 1.1.9
-  actions:
-  - id: SFW6Rf9DW0G4jpBW38V4xw
-    name: Execute JavaScript
-    description: Execute JavaScript {{code}} with arguments {{args}}
-    className: io.testproject.addons.web.actions.ExecuteJavascript
-  - id: 22Nw5UqP7EGqvQhuHT2kqg
-    name: Accept alert
-    description: Accept alert
-    className: io.testproject.addons.web.alert.AcceptAlert
-  - id: 7dUz-B_UEEyf3F5EVJ9dXA
-    name: Set window size
-    description: Set window size to ({{width}},{{height}})
-    className: io.testproject.addons.web.window.SetWindowSize
-  minSdkLevel: 2
-  minSdkVersion: 0.63.1
-  sdkGeneration: 1
-  language: Java
-  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
 - id: 02zAWIC7IUym1Rp8eFfaCg
   source: Store
   version: 0.2
@@ -2990,3 +2775,20 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 677F203FEEE0BE5BB69CCB9CAE1792CC1D5CEF2921AEE088065EB7124F85F125
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: SFW6Rf9DW0G4jpBW38V4xw
+    name: Execute JavaScript
+    description: Execute JavaScript {{code}} with arguments {{args}}
+    className: io.testproject.addons.web.actions.ExecuteJavascript
+  - id: 7dUz-B_UEEyf3F5EVJ9dXA
+    name: Set window size
+    description: Set window size to ({{width}},{{height}})
+    className: io.testproject.addons.web.window.SetWindowSize
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
