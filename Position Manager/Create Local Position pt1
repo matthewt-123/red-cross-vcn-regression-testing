@@ -1,7 +1,7 @@
-id: S9M2FlfTtEibSSVWxz9CVg
+id: -8sHl16lwEuzIF5-9a4fYw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-27T07:20:31.2843729Z
+created: 2022-07-04T06:11:31.4162238Z
 protocol: 1
 tests:
 - id: lBaK2aFUjEmAANdauHlmww
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-02-20T03:07:57.0000000
-  modificationDate: 2022-06-27T07:20:16.0000000
+  modificationDate: 2022-07-04T06:10:49.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
