@@ -1,7 +1,7 @@
-id: dK1dIDO8akeDxi_wsvnYhw
+id: fNI44mJYTUartyQeiIyLAA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-05T02:54:54.0552606Z
+created: 2022-07-05T03:00:29.4731988Z
 protocol: 1
 tests:
 - id: IlAU0O0AkUK8xVcMhzHQnA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-05T01:17:26.0000000
-  modificationDate: 2022-07-05T02:52:36.0000000
+  modificationDate: 2022-07-05T03:00:22.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -1225,10 +1225,34 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: OrdBgQRMXkKh_mxJWnUI-Q
+  - id: I19csQRCkUW0itiJovBdsQ
+    comments: ''
     enabled: true
     invertResult: false
     order: 58
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 22Nw5UqP7EGqvQhuHT2kqg
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: pause
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OrdBgQRMXkKh_mxJWnUI-Q
+    enabled: true
+    invertResult: false
+    order: 59
     repeat: 1
     type: Action
     elementId: _HKmFpTLnkKbfdsqY8bznQ
@@ -1248,7 +1272,7 @@ tests:
   - id: kt6Q4cdmoUaxAGHF3bhfnw
     enabled: true
     invertResult: false
-    order: 59
+    order: 60
     repeat: 1
     type: Action
     elementId: _-_C3GYtVEaLmL6pE_nQlw
@@ -1268,7 +1292,7 @@ tests:
   - id: Wp6TL-EWsUKTiarvaI6xMg
     enabled: true
     invertResult: false
-    order: 60
+    order: 61
     repeat: 1
     type: Action
     elementId: n9nJQdYO8ky8_ko4TfvbAA
@@ -1288,7 +1312,7 @@ tests:
   - id: ZugFaOr_rkyX4iS4Dz7D_g
     enabled: true
     invertResult: false
-    order: 61
+    order: 62
     repeat: 1
     type: Action
     elementId: 5vnP3CiIJ0KJ7PYUHrZuzw
@@ -1309,7 +1333,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 62
+    order: 63
     repeat: 1
     type: Addon
     settings:
@@ -1332,7 +1356,7 @@ tests:
   - id: UyM3ib8WP068RD9IpzILJA
     enabled: true
     invertResult: false
-    order: 63
+    order: 64
     repeat: 1
     type: Action
     elementId: m0TGNxG5wUunhD1YB4FZmQ
@@ -1353,7 +1377,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 64
+    order: 65
     repeat: 1
     type: Action
     elementId: qr4nFObbyUaojXaRrDpP4Q
@@ -1365,46 +1389,6 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 104373b7-868c-44ba-bbd2-e16089ad2e48
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: 5u7KSpVM-UaSlH3SXGwCxA
-    enabled: true
-    invertResult: false
-    order: 65
-    repeat: 1
-    type: Action
-    elementId: UbGhsp0T00SHJ2awVdWyQg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: aA52MQf95Uy4-Qx8_cTyRQ
-    enabled: true
-    invertResult: false
-    order: 66
-    repeat: 1
-    type: Action
-    elementId: _HKmFpTLnkKbfdsqY8bznQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
     conditions: []
