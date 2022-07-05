@@ -1,7 +1,7 @@
-id: QkOh5YC40kaJlVnWInEiRQ
+id: jbe3YxVzk0OPva7xG38Rqg
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-05T06:02:19.8289570Z
+created: 2022-07-05T06:10:42.9751394Z
 protocol: 1
 tests:
 - id: gRsEdgjdikixXp4vOqSrkg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-17T01:49:35.0000000
-  modificationDate: 2022-06-17T05:23:14.0000000
+  modificationDate: 2022-07-05T06:10:36.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -27,11 +27,33 @@ tests:
     url: https://arc-testproject.tcheetah09.com/
     platform: Web
   steps:
+  - id: Z7tMfTi67UO34Ik08YZj9g
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   - id: _21wET9h20aKSdYFAEL7CA
     comments: ''
     enabled: true
     invertResult: false
-    order: 1
+    order: 2
     repeat: 1
     type: Test
     targetTestId: d3X5fIa2kkO3kWMy8kcUXA
@@ -62,10 +84,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Z7tMfTi67UO34Ik08YZj9g
+  - id: B-JKte-WV0yH0OG9WmbSdA
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     elementId: QPiRiCYfSUKouANkPjdcew
@@ -85,7 +107,7 @@ tests:
   - id: x3m-0ilASU2iKHDON5nnTA
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     elementId: QAb1qxPB1kKN8SDUQtrVHA
@@ -106,7 +128,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     elementId: QAb1qxPB1kKN8SDUQtrVHA
@@ -126,7 +148,7 @@ tests:
   - id: DQd4D2eoRUixYaCgbkpFeQ
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     elementId: QAb1qxPB1kKN8SDUQtrVHA
@@ -149,7 +171,7 @@ tests:
   - id: YtcCVSSPmkaRqOOljPk1pw
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: hOzfZDF7FUiG5q4V6wEFjA
@@ -170,7 +192,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: hOzfZDF7FUiG5q4V6wEFjA
@@ -190,7 +212,7 @@ tests:
   - id: 9qkbn6GrOEOExRhXd6xiVQ
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: hOzfZDF7FUiG5q4V6wEFjA
@@ -213,7 +235,7 @@ tests:
   - id: gVSGMuOHMEKxMAC2u2Gs_Q
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Action
     elementId: csSu57QCC0CvOZNHYBshQA
@@ -233,7 +255,7 @@ tests:
   - id: xVFG1rfZNkSYsppKaSrfxQ
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: csSu57QCC0CvOZNHYBshQA
@@ -256,7 +278,7 @@ tests:
   - id: T-jL9q6U90-bwobY9s7VHA
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: tBl6q-McHkGvFvVwBuuJwg
@@ -277,7 +299,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     elementId: tBl6q-McHkGvFvVwBuuJwg
@@ -297,7 +319,7 @@ tests:
   - id: knwkMM6TT0CqUrmvUcpvpA
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
     elementId: tBl6q-McHkGvFvVwBuuJwg
@@ -320,7 +342,7 @@ tests:
   - id: 0k1c9MA8XU6-HS7MjBJvSg
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     elementId: DqHvxz0BCUOmObuueGv1ZQ
@@ -340,7 +362,7 @@ tests:
   - id: ojrR6MdBp0uZ9Ivd-lrulg
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Action
     elementId: bCIgA9GJskCDC2Jtjo24Zw
@@ -360,7 +382,7 @@ tests:
   - id: LFsRIzBU4Ey5ljvW39mMhg
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     elementId: bCIgA9GJskCDC2Jtjo24Zw
@@ -383,7 +405,7 @@ tests:
   - id: McCE2ZmJv0mBcSVgRSlKlA
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     elementId: wsxMCByLek-WkQsVuWWkxA
@@ -403,7 +425,7 @@ tests:
   - id: WTedJy3sqEu7_IwDot2LRw
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     elementId: nt9Z-JlQw0KD_-nyCfwRrQ
@@ -423,7 +445,7 @@ tests:
   - id: UGgSbdboYUKK8ESf2oBUHQ
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Action
     settings:
@@ -448,7 +470,7 @@ tests:
   - id: NG6YUDZcAUiqoVtkNGZaIg
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Action
     elementId: s5nHeWPlNUu1qkYCHSaIFQ
@@ -468,7 +490,7 @@ tests:
   - id: KsJkbylNgk6cwImOGZHucw
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Action
     elementId: s5nHeWPlNUu1qkYCHSaIFQ
@@ -491,7 +513,7 @@ tests:
   - id: ndGonLpVAky2kv0_7dKRPw
     enabled: true
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Action
     elementId: 7u84XEHvCEqRChDOh410EQ
@@ -511,7 +533,7 @@ tests:
   - id: WIPy9oxKLUSVkrM3ckpo9g
     enabled: true
     invertResult: false
-    order: 23
+    order: 24
     repeat: 1
     type: Action
     elementId: 7u84XEHvCEqRChDOh410EQ
@@ -534,7 +556,7 @@ tests:
   - id: V8c9iPRbP0-lIFiyCYsAiA
     enabled: true
     invertResult: false
-    order: 24
+    order: 25
     repeat: 1
     type: Action
     elementId: dfwUGA04GkOwscAIvAJmOw
@@ -554,7 +576,7 @@ tests:
   - id: ldP59PbdCE6l45I2ifQG3A
     enabled: true
     invertResult: false
-    order: 25
+    order: 26
     repeat: 1
     type: Action
     elementId: dfwUGA04GkOwscAIvAJmOw
@@ -577,7 +599,7 @@ tests:
   - id: iREHpMePzUKI8EaG9AVQ-A
     enabled: true
     invertResult: false
-    order: 26
+    order: 27
     repeat: 1
     type: Action
     elementId: BDwQr8G7nUGvYEH5K-DE4g
@@ -597,7 +619,7 @@ tests:
   - id: O50IWCEmnkKrnjBVHVUv7w
     enabled: true
     invertResult: false
-    order: 27
+    order: 28
     repeat: 1
     type: Action
     elementId: BDwQr8G7nUGvYEH5K-DE4g
@@ -620,7 +642,7 @@ tests:
   - id: GxE3fEIj-kysJvoNuH0WMw
     enabled: true
     invertResult: false
-    order: 28
+    order: 29
     repeat: 1
     type: Action
     elementId: olWtXZJWykmzObXgWyP03g
@@ -640,7 +662,7 @@ tests:
   - id: BBMQUkeUNUWQ-IFM2oQtaA
     enabled: true
     invertResult: false
-    order: 29
+    order: 30
     repeat: 1
     type: Action
     elementId: olWtXZJWykmzObXgWyP03g
@@ -663,7 +685,7 @@ tests:
   - id: tf70h0M2u0O_TFUvthQfsw
     enabled: true
     invertResult: false
-    order: 30
+    order: 31
     repeat: 1
     type: Action
     settings:
@@ -688,7 +710,7 @@ tests:
   - id: U2Cnjim5EEeuQO4ZWHLUaQ
     enabled: true
     invertResult: false
-    order: 31
+    order: 32
     repeat: 1
     type: Action
     elementId: s2KNoHz_HkC9sPH7Y6RKIA
@@ -709,7 +731,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 32
+    order: 33
     repeat: 1
     type: Action
     elementId: s2KNoHz_HkC9sPH7Y6RKIA
@@ -730,7 +752,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 33
+    order: 34
     repeat: 1
     type: Action
     elementId: s2KNoHz_HkC9sPH7Y6RKIA
@@ -753,7 +775,7 @@ tests:
   - id: LKzrbddTQUSE00tUfyYtvg
     enabled: true
     invertResult: false
-    order: 34
+    order: 35
     repeat: 1
     type: Action
     elementId: Ca4MbU-LvEaDdV0xBuXObw
@@ -773,7 +795,7 @@ tests:
   - id: fjKoWaLIDEiYMVObATuLbg
     enabled: true
     invertResult: false
-    order: 35
+    order: 36
     repeat: 1
     type: Action
     elementId: Ca4MbU-LvEaDdV0xBuXObw
@@ -796,7 +818,7 @@ tests:
   - id: klqHi3Ue9E6XBVS8cdHtvQ
     enabled: true
     invertResult: false
-    order: 36
+    order: 37
     repeat: 1
     type: Action
     elementId: -9xfs9SxHEKkIa23HncFMA
@@ -816,7 +838,7 @@ tests:
   - id: y7O-8Z5IMUG5L1MAdGKMcQ
     enabled: true
     invertResult: false
-    order: 37
+    order: 38
     repeat: 1
     type: Action
     elementId: -9xfs9SxHEKkIa23HncFMA
@@ -839,7 +861,7 @@ tests:
   - id: DXAyi82S9kWS4d2_hst4qA
     enabled: true
     invertResult: false
-    order: 38
+    order: 39
     repeat: 1
     type: Action
     elementId: FzsRqnqPXEeCCBVPFA7D-g
@@ -859,7 +881,7 @@ tests:
   - id: kttEzvws_0yO9F8NxKcUxA
     enabled: true
     invertResult: false
-    order: 39
+    order: 40
     repeat: 1
     type: Action
     elementId: FzsRqnqPXEeCCBVPFA7D-g
@@ -882,7 +904,7 @@ tests:
   - id: pljeNRSywE6DAg5aOni_Ig
     enabled: true
     invertResult: false
-    order: 40
+    order: 41
     repeat: 1
     type: Action
     elementId: B256nZrbIUukJ7MQnm0Z9Q
@@ -902,7 +924,7 @@ tests:
   - id: _-ZVQc0xW06jOvwSWPdNkQ
     enabled: true
     invertResult: false
-    order: 41
+    order: 42
     repeat: 1
     type: Action
     elementId: B256nZrbIUukJ7MQnm0Z9Q
@@ -925,7 +947,7 @@ tests:
   - id: p3PxTiPsXESjywA_PqdkYw
     enabled: true
     invertResult: false
-    order: 42
+    order: 43
     repeat: 1
     type: Action
     elementId: SjL3PLhdB0mq7Z_KztE9Mw
@@ -945,7 +967,7 @@ tests:
   - id: RmNw5e4oc0qhMaWtwKr-hg
     enabled: true
     invertResult: false
-    order: 43
+    order: 44
     repeat: 1
     type: Action
     settings:
@@ -970,7 +992,7 @@ tests:
   - id: ME4kxQOFjEWLouE-TqM2uw
     enabled: true
     invertResult: false
-    order: 44
+    order: 45
     repeat: 1
     type: Action
     settings:
@@ -995,7 +1017,7 @@ tests:
   - id: X0zkY3Cc-UuFB7ppBHdYUw
     enabled: true
     invertResult: false
-    order: 45
+    order: 46
     repeat: 1
     type: Action
     elementId: SjL3PLhdB0mq7Z_KztE9Mw
@@ -1018,7 +1040,7 @@ tests:
   - id: -87Zlk1_ckK8b2ipNP2hbg
     enabled: true
     invertResult: false
-    order: 46
+    order: 47
     repeat: 1
     type: Action
     elementId: JnuynHqU6EWf0JeWAi-TPQ
@@ -1038,7 +1060,7 @@ tests:
   - id: mOG8v4rzqki6KEtVg_fj8w
     enabled: true
     invertResult: false
-    order: 47
+    order: 48
     repeat: 1
     type: Action
     elementId: ycpbzF4NOUGYNQqTxDuibg
@@ -1058,7 +1080,7 @@ tests:
   - id: B5LQSkyc4ECO_hwRbQyB2Q
     enabled: true
     invertResult: false
-    order: 48
+    order: 49
     repeat: 1
     type: Action
     elementId: ycpbzF4NOUGYNQqTxDuibg
@@ -1081,7 +1103,7 @@ tests:
   - id: iNCRLRsDake5RTEXq1tcng
     enabled: true
     invertResult: false
-    order: 49
+    order: 50
     repeat: 1
     type: Action
     elementId: 9bG7sYqUBkqC2zrVHw-H_Q
@@ -1101,7 +1123,7 @@ tests:
   - id: M4o2OYkwC0OLWti9IDJcVQ
     enabled: true
     invertResult: false
-    order: 50
+    order: 51
     repeat: 1
     type: Action
     elementId: 9bG7sYqUBkqC2zrVHw-H_Q
@@ -1124,7 +1146,7 @@ tests:
   - id: myc8GCu0oUO58QJFzD9DZw
     enabled: true
     invertResult: false
-    order: 51
+    order: 52
     repeat: 1
     type: Action
     elementId: rOYOHTCwxUqALM90GtO9cg
@@ -1144,7 +1166,7 @@ tests:
   - id: qSst_0QqY0mJDhOhQqc-FQ
     enabled: true
     invertResult: false
-    order: 52
+    order: 53
     repeat: 1
     type: Action
     elementId: rOYOHTCwxUqALM90GtO9cg
@@ -1167,7 +1189,7 @@ tests:
   - id: m54jvsL3NkiCcMJqQWtDQA
     enabled: true
     invertResult: false
-    order: 53
+    order: 54
     repeat: 1
     type: Action
     elementId: 97s0BHAZu0y9TIfgRo1NrQ
@@ -1187,7 +1209,7 @@ tests:
   - id: jZkcgsvVS0urEKiGhFxufQ
     enabled: true
     invertResult: false
-    order: 54
+    order: 55
     repeat: 1
     type: Action
     elementId: 97s0BHAZu0y9TIfgRo1NrQ
@@ -1210,7 +1232,7 @@ tests:
   - id: WsakALil2k6rRGqWhej5yg
     enabled: true
     invertResult: false
-    order: 55
+    order: 56
     repeat: 1
     type: Action
     settings:
@@ -1235,7 +1257,7 @@ tests:
   - id: ywTNq9aiAUKK3OmXgwcdEQ
     enabled: true
     invertResult: false
-    order: 56
+    order: 57
     repeat: 1
     type: Action
     settings:
@@ -1260,7 +1282,7 @@ tests:
   - id: oyJbhIRpvESDQYAZNs_IuQ
     enabled: true
     invertResult: false
-    order: 57
+    order: 58
     repeat: 1
     type: Action
     elementId: uraGs8fOG0-Bx3OLqRPYNQ
@@ -1280,7 +1302,7 @@ tests:
   - id: 9Rw0CVkS7k-M0-Z6oGrp6g
     enabled: true
     invertResult: false
-    order: 58
+    order: 59
     repeat: 1
     type: Action
     elementId: uraGs8fOG0-Bx3OLqRPYNQ
@@ -1303,7 +1325,7 @@ tests:
   - id: 7EJjZ3lcjUuaN270bBOmkQ
     enabled: true
     invertResult: false
-    order: 59
+    order: 60
     repeat: 1
     type: Action
     elementId: VgIAd4y36ESG1aoDLrVkpQ
@@ -1323,7 +1345,7 @@ tests:
   - id: ljUafcDV2E-YXfbQcy6I4A
     enabled: true
     invertResult: false
-    order: 60
+    order: 61
     repeat: 1
     type: Action
     elementId: VgIAd4y36ESG1aoDLrVkpQ
@@ -1346,7 +1368,7 @@ tests:
   - id: uG3e2xIwNUWXOiOA68ADvg
     enabled: true
     invertResult: false
-    order: 61
+    order: 62
     repeat: 1
     type: Action
     elementId: 5bEEqXLtxEyGx_w2uj7tWg
@@ -1366,7 +1388,7 @@ tests:
   - id: fkj68R25p02jNCXUKL2b_w
     enabled: true
     invertResult: false
-    order: 62
+    order: 63
     repeat: 1
     type: Action
     elementId: J3UVd5rx3U26xeA-FitO7w
@@ -1386,7 +1408,7 @@ tests:
   - id: wFx3b75PDkyUdi7tWa8aGg
     enabled: true
     invertResult: false
-    order: 63
+    order: 64
     repeat: 1
     type: Action
     settings:
@@ -1411,7 +1433,7 @@ tests:
   - id: GPwe3P7i9Uyz3xZg8aAIKg
     enabled: true
     invertResult: false
-    order: 64
+    order: 65
     repeat: 1
     type: Action
     settings:
@@ -1436,7 +1458,7 @@ tests:
   - id: E8lXZWXzP0aSD8CVCcYjeQ
     enabled: true
     invertResult: false
-    order: 65
+    order: 66
     repeat: 1
     type: Action
     settings:
@@ -1461,7 +1483,7 @@ tests:
   - id: P3Yz44G8EUu3pmMjPnO2pg
     enabled: true
     invertResult: false
-    order: 66
+    order: 67
     repeat: 1
     type: Action
     elementId: j-p60xQD7kWMZ-fwCwMLaA
@@ -1481,7 +1503,7 @@ tests:
   - id: WXU7slRgYUmjc0uMtrBD2A
     enabled: true
     invertResult: false
-    order: 67
+    order: 68
     repeat: 1
     type: Action
     elementId: j-p60xQD7kWMZ-fwCwMLaA
@@ -1504,7 +1526,7 @@ tests:
   - id: uQfRcIMOI0WgK1euBWJz0Q
     enabled: true
     invertResult: false
-    order: 68
+    order: 69
     repeat: 1
     type: Action
     elementId: zHiklNnRlESmQJ-aqBOBNA
@@ -1524,7 +1546,7 @@ tests:
   - id: Jd_uLplAf0KtabOtcTCXIg
     enabled: true
     invertResult: false
-    order: 69
+    order: 70
     repeat: 1
     type: Action
     elementId: zHiklNnRlESmQJ-aqBOBNA
@@ -1547,7 +1569,7 @@ tests:
   - id: _JdQf9KuMUK8_p0d3Ck0Wg
     enabled: true
     invertResult: false
-    order: 70
+    order: 71
     repeat: 1
     type: Action
     elementId: n1XnJvw9L0uE2SYQWDSNUQ
@@ -1567,7 +1589,7 @@ tests:
   - id: oOhgglejyUKs-R-1om6HwA
     enabled: true
     invertResult: false
-    order: 71
+    order: 72
     repeat: 1
     type: Action
     settings:
@@ -1592,7 +1614,7 @@ tests:
   - id: Vw0zTd_Oh0yeHVtI4ERJFg
     enabled: true
     invertResult: false
-    order: 72
+    order: 73
     repeat: 1
     type: Action
     settings:
@@ -1617,7 +1639,7 @@ tests:
   - id: OPHZbNuTfkuuQSZb-P3ckg
     enabled: true
     invertResult: false
-    order: 73
+    order: 74
     repeat: 1
     type: Action
     settings:
@@ -1642,7 +1664,7 @@ tests:
   - id: kpCpUIO9l0iLbEy5YBe3Pg
     enabled: true
     invertResult: false
-    order: 74
+    order: 75
     repeat: 1
     type: Action
     elementId: n1XnJvw9L0uE2SYQWDSNUQ
@@ -1665,7 +1687,7 @@ tests:
   - id: 52hpmznJa0CGoc5LdLue8Q
     enabled: true
     invertResult: false
-    order: 75
+    order: 76
     repeat: 1
     type: Action
     elementId: 2ZJ2GizuE0SBeoRF5LoDnw
@@ -1685,7 +1707,7 @@ tests:
   - id: KdxbP__Oe0yOghYUrAmkuQ
     enabled: true
     invertResult: false
-    order: 76
+    order: 77
     repeat: 1
     type: Action
     elementId: Um2xDdiJSEex5yRfbgHP0w
@@ -1705,7 +1727,7 @@ tests:
   - id: iXP32rgVA0qo19ytLVChww
     enabled: true
     invertResult: false
-    order: 77
+    order: 78
     repeat: 1
     type: Action
     elementId: Um2xDdiJSEex5yRfbgHP0w
@@ -1728,7 +1750,7 @@ tests:
   - id: u6Gqb4D0g0SvbUCCVF-Aig
     enabled: true
     invertResult: false
-    order: 78
+    order: 79
     repeat: 1
     type: Action
     elementId: CKqHfzS0UEyYtoE1hmTC-Q
@@ -1748,7 +1770,7 @@ tests:
   - id: yvfpkjxP0Eu3nopriMeJcQ
     enabled: true
     invertResult: false
-    order: 79
+    order: 80
     repeat: 1
     type: Action
     elementId: CKqHfzS0UEyYtoE1hmTC-Q
@@ -1771,7 +1793,7 @@ tests:
   - id: 0QQ2LxXReEuNyj6X0zHOXg
     enabled: true
     invertResult: false
-    order: 80
+    order: 81
     repeat: 1
     type: Action
     elementId: dG82L_CmPE2JVa-vp-Iwkw
@@ -1791,7 +1813,7 @@ tests:
   - id: odQG0oRBKkS-wqn2pIPR-Q
     enabled: true
     invertResult: false
-    order: 81
+    order: 82
     repeat: 1
     type: Action
     elementId: dG82L_CmPE2JVa-vp-Iwkw
@@ -1814,7 +1836,7 @@ tests:
   - id: 6aS5wmm4FUmGkYPnTsIJPg
     enabled: true
     invertResult: false
-    order: 82
+    order: 83
     repeat: 1
     type: Action
     elementId: Awlf7PuOWke4ikmvvHewGA
@@ -1834,7 +1856,7 @@ tests:
   - id: 5KmDkRLMDEyXIuoof25ecg
     enabled: true
     invertResult: false
-    order: 83
+    order: 84
     repeat: 1
     type: Action
     elementId: Awlf7PuOWke4ikmvvHewGA
@@ -1857,7 +1879,7 @@ tests:
   - id: oUyUdjkzVkOK14Y-zuUeyA
     enabled: true
     invertResult: false
-    order: 84
+    order: 85
     repeat: 1
     type: Action
     elementId: 05CodCmo-keUIjDLAQkRJw
@@ -1877,7 +1899,7 @@ tests:
   - id: kcoGp45ERkWw377jXNWftA
     enabled: true
     invertResult: false
-    order: 85
+    order: 86
     repeat: 1
     type: Action
     settings:
@@ -1902,7 +1924,7 @@ tests:
   - id: 0j8iDMGrLkGaxj3FWec2ZA
     enabled: true
     invertResult: false
-    order: 86
+    order: 87
     repeat: 1
     type: Action
     settings:
@@ -1927,7 +1949,7 @@ tests:
   - id: i5Ito5qyu0Wk2w2Fnm_piw
     enabled: true
     invertResult: false
-    order: 87
+    order: 88
     repeat: 1
     type: Action
     elementId: 05CodCmo-keUIjDLAQkRJw
@@ -1950,7 +1972,7 @@ tests:
   - id: OX017nJYv0mZq37InYy-hQ
     enabled: true
     invertResult: false
-    order: 88
+    order: 89
     repeat: 1
     type: Action
     elementId: EXsdrqZ84EebJImRwOKtOA
@@ -1970,7 +1992,7 @@ tests:
   - id: 8oFyXGxQwUmCVdx5_5hdqA
     enabled: true
     invertResult: false
-    order: 89
+    order: 90
     repeat: 1
     type: Action
     elementId: EXsdrqZ84EebJImRwOKtOA
@@ -1993,7 +2015,7 @@ tests:
   - id: dy1e7LMNakyo9l7O0Nfffg
     enabled: true
     invertResult: false
-    order: 90
+    order: 91
     repeat: 1
     type: Action
     elementId: FjwMLC_7UUeb3gIw0cO88g
@@ -2013,7 +2035,7 @@ tests:
   - id: a4sTasRFQkiXLwxNPNiOsw
     enabled: true
     invertResult: false
-    order: 91
+    order: 92
     repeat: 1
     type: Action
     elementId: FjwMLC_7UUeb3gIw0cO88g
@@ -2036,7 +2058,7 @@ tests:
   - id: OsKqYR_I3Eqpc4gio4kYVg
     enabled: true
     invertResult: false
-    order: 92
+    order: 93
     repeat: 1
     type: Action
     elementId: 1CHx_yQSnkWPjFtz7zPdPg
@@ -2056,7 +2078,7 @@ tests:
   - id: WxYKqet0M0qiQrvyJmizeg
     enabled: true
     invertResult: false
-    order: 93
+    order: 94
     repeat: 1
     type: Action
     elementId: 1CHx_yQSnkWPjFtz7zPdPg
@@ -2079,7 +2101,7 @@ tests:
   - id: vyA4yPzW-E69z8lU1WmJ6w
     enabled: true
     invertResult: false
-    order: 94
+    order: 95
     repeat: 1
     type: Action
     elementId: jgG3lPVsqkKb8anOPnmQkA
@@ -2099,7 +2121,7 @@ tests:
   - id: anOxCX4ZCUOc79v5cfLcvg
     enabled: true
     invertResult: false
-    order: 95
+    order: 96
     repeat: 1
     type: Action
     elementId: jgG3lPVsqkKb8anOPnmQkA
@@ -2122,7 +2144,7 @@ tests:
   - id: TnBlsDtRgka3fLvWoH8mow
     enabled: true
     invertResult: false
-    order: 96
+    order: 97
     repeat: 1
     type: Action
     elementId: _2z17bZz9EyWA5A7spCZQw
@@ -2142,7 +2164,7 @@ tests:
   - id: nJmdCcIujEeyTSNf8eT_Cw
     enabled: true
     invertResult: false
-    order: 97
+    order: 98
     repeat: 1
     type: Action
     elementId: _2z17bZz9EyWA5A7spCZQw
@@ -2165,7 +2187,7 @@ tests:
   - id: xODs9pGM2E6u3lR3Xnvddw
     enabled: true
     invertResult: false
-    order: 98
+    order: 99
     repeat: 1
     type: Action
     settings:
@@ -2190,7 +2212,7 @@ tests:
   - id: M51kfd61402NZZmdzQellw
     enabled: true
     invertResult: false
-    order: 99
+    order: 100
     repeat: 1
     type: Action
     settings:
@@ -2215,7 +2237,7 @@ tests:
   - id: DJEuwx893kKaaJ-L5k9qPw
     enabled: true
     invertResult: false
-    order: 100
+    order: 101
     repeat: 1
     type: Action
     elementId: qxKninN9w0izFV5XU0vT9A
@@ -2235,7 +2257,7 @@ tests:
   - id: JYwWTt4Wo0GThG6fRntUmQ
     enabled: true
     invertResult: false
-    order: 101
+    order: 102
     repeat: 1
     type: Action
     elementId: qxKninN9w0izFV5XU0vT9A
@@ -2258,7 +2280,7 @@ tests:
   - id: Mr296HbGg0eQmhNuaaH9JQ
     enabled: true
     invertResult: false
-    order: 102
+    order: 103
     repeat: 1
     type: Action
     elementId: 0DXwFAEj7k2S1wnDWlBv0A
@@ -2278,7 +2300,7 @@ tests:
   - id: 8AYjoH9hNU6S5qvmAUipKw
     enabled: true
     invertResult: false
-    order: 103
+    order: 104
     repeat: 1
     type: Action
     elementId: 0DXwFAEj7k2S1wnDWlBv0A
@@ -2301,7 +2323,7 @@ tests:
   - id: U4E4W1HVuUGZQEwm9VZTyw
     enabled: true
     invertResult: false
-    order: 104
+    order: 105
     repeat: 1
     type: Action
     elementId: pXM2f04cLkO6is0t9Rn0Mg
@@ -2321,7 +2343,7 @@ tests:
   - id: 7rNfgHS3O0-r4IhNMLYByw
     enabled: true
     invertResult: false
-    order: 105
+    order: 106
     repeat: 1
     type: Action
     elementId: pXM2f04cLkO6is0t9Rn0Mg
@@ -2344,7 +2366,7 @@ tests:
   - id: oVUAhcVmeUSF4l-ce3RIAg
     enabled: true
     invertResult: false
-    order: 106
+    order: 107
     repeat: 1
     type: Action
     elementId: lSt-TWiJ9UimYu9NvyZItg
@@ -2364,7 +2386,7 @@ tests:
   - id: -xlhWzdAMkC0dCuTKcc9pA
     enabled: true
     invertResult: false
-    order: 107
+    order: 108
     repeat: 1
     type: Action
     elementId: R5fNSJ5ep0inXBFBp3G0qA
@@ -2384,7 +2406,7 @@ tests:
   - id: YH8BnEE_yU2PU3FEZ-IKpA
     enabled: true
     invertResult: false
-    order: 108
+    order: 109
     repeat: 1
     type: Action
     settings:
@@ -2409,7 +2431,7 @@ tests:
   - id: A3HkrvaYYEenz3eB2p7FTg
     enabled: true
     invertResult: false
-    order: 109
+    order: 110
     repeat: 1
     type: Action
     elementId: R5fNSJ5ep0inXBFBp3G0qA
@@ -2432,7 +2454,7 @@ tests:
   - id: 5O7THLruvE2sE7zN1zbFJg
     enabled: true
     invertResult: false
-    order: 110
+    order: 111
     repeat: 1
     type: Action
     elementId: 1xamOaNTZ0uEl_BzfcMqJA
@@ -2452,7 +2474,7 @@ tests:
   - id: Hajtp-isK0S2eXjwDfXIrw
     enabled: true
     invertResult: false
-    order: 111
+    order: 112
     repeat: 1
     type: Action
     elementId: 1xamOaNTZ0uEl_BzfcMqJA
@@ -2475,7 +2497,7 @@ tests:
   - id: aWGE4Fa4b0u9HLif0eH2rA
     enabled: true
     invertResult: false
-    order: 112
+    order: 113
     repeat: 1
     type: Action
     elementId: -c5CZLKBIUeKPcdJxFfp4Q
@@ -2495,7 +2517,7 @@ tests:
   - id: Rdgm2ZaiE0SGKXiwjhc5Qw
     enabled: true
     invertResult: false
-    order: 113
+    order: 114
     repeat: 1
     type: Action
     elementId: -c5CZLKBIUeKPcdJxFfp4Q
@@ -2518,7 +2540,7 @@ tests:
   - id: skPC0ZrZWU6T1-f4DLs7wg
     enabled: true
     invertResult: false
-    order: 114
+    order: 115
     repeat: 1
     type: Action
     elementId: 9DnD-505YE6NjquULhOUmA
@@ -2538,7 +2560,7 @@ tests:
   - id: izeCSbwojEmhwUcuptsfcQ
     enabled: true
     invertResult: false
-    order: 115
+    order: 116
     repeat: 1
     type: Action
     elementId: 9DnD-505YE6NjquULhOUmA
@@ -2561,7 +2583,7 @@ tests:
   - id: i8Np6u012k65yMaAOKUyZA
     enabled: true
     invertResult: false
-    order: 116
+    order: 117
     repeat: 1
     type: Action
     elementId: 7hxUbZRqmUeVuwvmd9EGMg
@@ -2581,7 +2603,7 @@ tests:
   - id: RMnmxEt9-kiD4fuSVvRdVA
     enabled: true
     invertResult: false
-    order: 117
+    order: 118
     repeat: 1
     type: Action
     elementId: 7hxUbZRqmUeVuwvmd9EGMg
@@ -2604,7 +2626,7 @@ tests:
   - id: ZMPVC1Phy0uzymIrO0znwA
     enabled: true
     invertResult: false
-    order: 118
+    order: 119
     repeat: 1
     type: Action
     elementId: 46Je4_nhAEOcKl4-eXrxFg
@@ -2624,7 +2646,7 @@ tests:
   - id: H4Jn---GmU-NUR0WFIIktw
     enabled: true
     invertResult: false
-    order: 119
+    order: 120
     repeat: 1
     type: Action
     elementId: 46Je4_nhAEOcKl4-eXrxFg
@@ -2647,7 +2669,7 @@ tests:
   - id: E0Bzn7WsEEOE5KTwoltLHQ
     enabled: true
     invertResult: false
-    order: 120
+    order: 121
     repeat: 1
     type: Action
     elementId: tns-hdoEVEaRy0Wxoul8oQ
@@ -2667,7 +2689,7 @@ tests:
   - id: KgQDoeDM3kW9Q8fxBBT3bQ
     enabled: true
     invertResult: false
-    order: 121
+    order: 122
     repeat: 1
     type: Action
     elementId: tns-hdoEVEaRy0Wxoul8oQ
@@ -2690,7 +2712,7 @@ tests:
   - id: J7vLNgJ6DU2H53GHVguo-Q
     enabled: true
     invertResult: false
-    order: 122
+    order: 123
     repeat: 1
     type: Action
     elementId: u3HXHz_0Kk6sQOhWiZJ7sw
@@ -2710,7 +2732,7 @@ tests:
   - id: ZO84yXmqAkyEjr5fLoaaNQ
     enabled: true
     invertResult: false
-    order: 123
+    order: 124
     repeat: 1
     type: Action
     elementId: u3HXHz_0Kk6sQOhWiZJ7sw
@@ -2733,7 +2755,7 @@ tests:
   - id: ByL7SK0Cak2-d787Qow61g
     enabled: true
     invertResult: false
-    order: 124
+    order: 125
     repeat: 1
     type: Action
     elementId: uCEM0PLHd0GJqQiqdl1Ojg
@@ -2753,7 +2775,7 @@ tests:
   - id: 3dkm5uCLhEm09fmZQrR1kg
     enabled: true
     invertResult: false
-    order: 125
+    order: 126
     repeat: 1
     type: Action
     settings:
@@ -2778,7 +2800,7 @@ tests:
   - id: x_2pqJcSvUy-MkZ04m39FQ
     enabled: true
     invertResult: false
-    order: 126
+    order: 127
     repeat: 1
     type: Action
     settings:
@@ -2803,7 +2825,7 @@ tests:
   - id: RA1fJ4uxokSSO9buulytow
     enabled: true
     invertResult: false
-    order: 127
+    order: 128
     repeat: 1
     type: Action
     settings:
@@ -2828,7 +2850,7 @@ tests:
   - id: Gkd7_BvfQkqegy3xvmZnDw
     enabled: true
     invertResult: false
-    order: 128
+    order: 129
     repeat: 1
     type: Action
     elementId: uCEM0PLHd0GJqQiqdl1Ojg
@@ -2851,7 +2873,7 @@ tests:
   - id: Gt1AQ71NiUWs5RkOlj4cqA
     enabled: true
     invertResult: false
-    order: 129
+    order: 130
     repeat: 1
     type: Action
     elementId: WHo3ycSTYUOYswLJYKOU9A
@@ -2871,7 +2893,7 @@ tests:
   - id: 1bUZyDJ3Y0GQlun9lPno0g
     enabled: true
     invertResult: false
-    order: 130
+    order: 131
     repeat: 1
     type: Action
     elementId: WHo3ycSTYUOYswLJYKOU9A
@@ -2894,7 +2916,7 @@ tests:
   - id: 4RcO45riqEGJAQ4Lu54YQg
     enabled: true
     invertResult: false
-    order: 131
+    order: 132
     repeat: 1
     type: Action
     settings:
@@ -2919,7 +2941,7 @@ tests:
   - id: 2bFpIjIz6EuOd7BUWPxzqw
     enabled: true
     invertResult: false
-    order: 132
+    order: 133
     repeat: 1
     type: Action
     elementId: 4BSaYP9WjEGna5N-CZmBPA
@@ -2939,7 +2961,7 @@ tests:
   - id: Ct1nG8WFekik0tdPJsX19g
     enabled: true
     invertResult: false
-    order: 133
+    order: 134
     repeat: 1
     type: Action
     elementId: 4BSaYP9WjEGna5N-CZmBPA
@@ -2962,7 +2984,7 @@ tests:
   - id: RLmvNCQkfESizzBtV-YlHg
     enabled: true
     invertResult: false
-    order: 134
+    order: 135
     repeat: 1
     type: Action
     settings:
@@ -2987,7 +3009,7 @@ tests:
   - id: 9x-jy_8FDEurQCzYmYyNGw
     enabled: true
     invertResult: false
-    order: 135
+    order: 136
     repeat: 1
     type: Action
     elementId: zQIifykj9kq6pJcdsAqaCg
@@ -3007,7 +3029,7 @@ tests:
   - id: nmqNMAh8t0ufMK7bLcHk1A
     enabled: true
     invertResult: false
-    order: 136
+    order: 137
     repeat: 1
     type: Action
     elementId: zQIifykj9kq6pJcdsAqaCg
@@ -3030,7 +3052,7 @@ tests:
   - id: UNnjbGCVY0CPXLMZZo0UQQ
     enabled: true
     invertResult: false
-    order: 137
+    order: 138
     repeat: 1
     type: Action
     elementId: U6pSShIGc0ughodeCP1onA
@@ -3050,7 +3072,7 @@ tests:
   - id: k2ztcOsCUEOrnoZFx2bSpw
     enabled: true
     invertResult: false
-    order: 138
+    order: 139
     repeat: 1
     type: Action
     elementId: U6pSShIGc0ughodeCP1onA
@@ -3073,7 +3095,7 @@ tests:
   - id: A80KfMeiIkKVWcwxNe7fEg
     enabled: true
     invertResult: false
-    order: 139
+    order: 140
     repeat: 1
     type: Action
     elementId: DnzC6G0X90a20RKqdxDeNw
@@ -3093,7 +3115,7 @@ tests:
   - id: t048ljHle0Grrn_xn6fMlQ
     enabled: true
     invertResult: false
-    order: 140
+    order: 141
     repeat: 1
     type: Action
     elementId: DnzC6G0X90a20RKqdxDeNw
@@ -3116,7 +3138,7 @@ tests:
   - id: Izc5Ij-u5UuNfr9aMpfW2A
     enabled: true
     invertResult: false
-    order: 141
+    order: 142
     repeat: 1
     type: Action
     settings:
@@ -3141,7 +3163,7 @@ tests:
   - id: RC3qYia1EEqRc4cXvdQkFw
     enabled: true
     invertResult: false
-    order: 142
+    order: 143
     repeat: 1
     type: Action
     elementId: hbPrKmM-fEO9XAbt7MzEhA
@@ -3161,7 +3183,7 @@ tests:
   - id: i4RxQPG1y0afV5CupGcLnQ
     enabled: true
     invertResult: false
-    order: 143
+    order: 144
     repeat: 1
     type: Action
     elementId: HsJ0wVsLwEyuwD_w2K-Wnw
@@ -3181,7 +3203,7 @@ tests:
   - id: tX2iEU_ZEUyuFCEedaTniQ
     enabled: true
     invertResult: false
-    order: 144
+    order: 145
     repeat: 1
     type: Action
     settings:
@@ -3206,7 +3228,7 @@ tests:
   - id: 8X1Aq4Lv70WQv2OmQS7ejQ
     enabled: true
     invertResult: false
-    order: 145
+    order: 146
     repeat: 1
     type: Action
     settings:
@@ -3231,7 +3253,7 @@ tests:
   - id: A7hpmro_bEq9OZWYqu0P-w
     enabled: true
     invertResult: false
-    order: 146
+    order: 147
     repeat: 1
     type: Action
     elementId: ptxwLZi-b06voWG0l9ZDgA
@@ -3251,7 +3273,7 @@ tests:
   - id: Kb_s9Ht6-Umt8W7zDGV93Q
     enabled: true
     invertResult: false
-    order: 147
+    order: 148
     repeat: 1
     type: Action
     elementId: ptxwLZi-b06voWG0l9ZDgA
@@ -3274,7 +3296,7 @@ tests:
   - id: 8p-CFWQOt06pimg7rtjpnA
     enabled: true
     invertResult: false
-    order: 148
+    order: 149
     repeat: 1
     type: Action
     elementId: CH8UKeR5qkKQ4aElKpdhhA
@@ -3294,7 +3316,7 @@ tests:
   - id: scXLErN_hUKMACROsSspgw
     enabled: true
     invertResult: false
-    order: 149
+    order: 150
     repeat: 1
     type: Action
     elementId: CH8UKeR5qkKQ4aElKpdhhA
@@ -3317,7 +3339,7 @@ tests:
   - id: dmkxHQDiqU2M_wrkB-RI8Q
     enabled: true
     invertResult: false
-    order: 150
+    order: 151
     repeat: 1
     type: Action
     elementId: eekyjXQRJEeKllV9ieJlBw
@@ -3337,7 +3359,7 @@ tests:
   - id: 6Np3Di8OakqLpBWUkwGBJw
     enabled: true
     invertResult: false
-    order: 151
+    order: 152
     repeat: 1
     type: Action
     elementId: eekyjXQRJEeKllV9ieJlBw
@@ -3360,7 +3382,7 @@ tests:
   - id: GRBkbEGadkWRte_wrdcjwA
     enabled: true
     invertResult: false
-    order: 152
+    order: 153
     repeat: 1
     type: Action
     elementId: uVjLcichfEygxW40dtSykQ
@@ -3380,7 +3402,7 @@ tests:
   - id: r0sNByZLJEqImS1wN_0Fvg
     enabled: true
     invertResult: false
-    order: 153
+    order: 154
     repeat: 1
     type: Action
     elementId: uVjLcichfEygxW40dtSykQ
@@ -3403,7 +3425,7 @@ tests:
   - id: c_EE5qtny0O4NR8YmudS8Q
     enabled: true
     invertResult: false
-    order: 154
+    order: 155
     repeat: 1
     type: Action
     settings:
@@ -3428,7 +3450,7 @@ tests:
   - id: SDoa-_ejrEu3nj9wdtmAfQ
     enabled: true
     invertResult: false
-    order: 155
+    order: 156
     repeat: 1
     type: Action
     elementId: 3oNdBwHTo0ePRL2LBCPvuQ
@@ -3451,7 +3473,7 @@ tests:
   - id: -yviTl735E-rHn_gOT2xOQ
     enabled: true
     invertResult: false
-    order: 156
+    order: 157
     repeat: 1
     type: Action
     elementId: CvmFrDDYbkOwOcupiDY8ag
@@ -4430,34 +4452,130 @@ auxTests:
   - master
   - login
 elements:
-- id: QPiRiCYfSUKouANkPjdcew
-  name: Edit profile7
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //section[1]/div[1]//a[. = 'Edit profile']
-    priority: 0
-  - name: XPATH
-    value: //section[1]/div[1]/p/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/div[2]/div/section[1]/div[1]/p/a
-    priority: 2
-- id: QAb1qxPB1kKN8SDUQtrVHA
-  name: address3
+- id: ZMqsbaYtvkmFoXazdolIEQ
+  name: email2
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
   - name: XPATH
-    value: //div[3]/div/div/div[1]/input
+    value: //div[4]/input
     priority: 0
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[3]/div/div/div[1]/input
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
+    priority: 1
+- id: zRXNK1Bx2UK6aCUwLg530Q
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
+    priority: 1
+- id: AQsJjVKyU0m3Nsuxix6SHw
+  name: SIGN IN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
+    priority: 2
+- id: epcR_i7DEUakKZuPJYRjKw
+  name: ADMINISTRATION
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div//a[. = 'Administration']
+    priority: 0
+  - name: XPATH
+    value: //div/nav/ul/li[8]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/a
+    priority: 2
+- id: U1bdDH3QPEieXK8EkE_WEQ
+  name: Unit Configuration
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div//a[. = 'Unit Configuration']
+    priority: 0
+  - name: XPATH
+    value: //div/nav/ul/li[8]/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/ul/li[1]/a
+    priority: 2
+- id: irzcKQnOWUi5bnk7uS5ExA
+  name: user
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='user']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Username']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
+    priority: 3
+- id: WbTY1D4yNUiPO3wZzLIWOg
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
+    priority: 3
+- id: O-GtKTW_20iR0C7LjVf2fA
+  name: login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
 - id: hOzfZDF7FUiG5q4V6wEFjA
   name: city
@@ -4538,19 +4656,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[6]/select
     priority: 4
-- id: bCIgA9GJskCDC2Jtjo24Zw
-  name: address21
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[3]/div/div/div[2]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[3]/div/div/div[2]/input
-    priority: 1
 - id: wsxMCByLek-WkQsVuWWkxA
   name: country
   type:
@@ -4608,44 +4713,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[1]/div/select
     priority: 3
-- id: 7u84XEHvCEqRChDOh410EQ
-  name: attribute_type_home_phone
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#attribute_type_home_phone'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='attribute_type_home_phone']"
-    priority: 1
-  - name: XPATH
-    value: //div[2]/div/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[2]/div/select
-    priority: 3
-- id: dfwUGA04GkOwscAIvAJmOw
-  name: attribute_type_work_phone
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#attribute_type_work_phone'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='attribute_type_work_phone']"
-    priority: 1
-  - name: XPATH
-    value: //div[3]//select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[3]/div/select
-    priority: 3
 - id: BDwQr8G7nUGvYEH5K-DE4g
   name: attribute_type_cell_phone
   type:
@@ -4665,6 +4732,25 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[4]/div/select
     priority: 3
+- id: 7u84XEHvCEqRChDOh410EQ
+  name: attribute_type_home_phone
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#attribute_type_home_phone'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='attribute_type_home_phone']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[2]/div/select
+    priority: 3
 - id: olWtXZJWykmzObXgWyP03g
   name: attribute_type_address
   type:
@@ -4683,6 +4769,25 @@ elements:
     priority: 2
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[5]/div/select
+    priority: 3
+- id: dfwUGA04GkOwscAIvAJmOw
+  name: attribute_type_work_phone
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#attribute_type_work_phone'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='attribute_type_work_phone']"
+    priority: 1
+  - name: XPATH
+    value: //div[3]//select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[3]/div/select
     priority: 3
 - id: s2KNoHz_HkC9sPH7Y6RKIA
   name: email3
@@ -4721,25 +4826,6 @@ elements:
     priority: 2
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div[1]/div[2]/input
-    priority: 3
-- id: -9xfs9SxHEKkIa23HncFMA
-  name: send_to_email_lookup
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#send_to_email_lookup'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='send_to_email_lookup']"
-    priority: 1
-  - name: XPATH
-    value: //div[5]/div/div[1]/div/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[5]/div/div[1]/div[3]/select
     priority: 3
 - id: FzsRqnqPXEeCCBVPFA7D-g
   name: home_phone
@@ -4797,41 +4883,6 @@ elements:
     priority: 2
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div[2]/div[3]/input
-    priority: 3
-- id: JnuynHqU6EWf0JeWAi-TPQ
-  name: alternate_phone_checkbox_input
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDk
-    name: Checkbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#alternate_phone_checkbox_input'
-    priority: 0
-  - name: XPATH
-    value: //div[3]/div/div/input
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[5]/div/div[3]/div/div/input
-    priority: 2
-- id: ycpbzF4NOUGYNQqTxDuibg
-  name: alternate_phone
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#alternate_phone'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='alternate_phone']"
-    priority: 1
-  - name: XPATH
-    value: //div[4]/div/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[5]/div/div[4]/div/input
     priority: 3
 - id: 9bG7sYqUBkqC2zrVHw-H_Q
   name: phone_preference_1
@@ -4947,22 +4998,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[4]/input
     priority: 3
-- id: J3UVd5rx3U26xeA-FitO7w
-  name: 301
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTY
-    name: TableCell
-    source: System
-  locators:
-  - name: XPATH
-    value: //td[5][. = '30']
-    priority: 0
-  - name: XPATH
-    value: //tr[5]/td[5]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[2]/div[1]/table/tbody/tr[5]/td[5]
-    priority: 2
 - id: j-p60xQD7kWMZ-fwCwMLaA
   name: emergency_contact_first_name
   type:
@@ -5286,25 +5321,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div[2]/div[4]/input
     priority: 3
-- id: lSt-TWiJ9UimYu9NvyZItg
-  name: emergency_contact_country_2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#emergency_contact_country_2'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='emergency_contact_country_2']"
-    priority: 1
-  - name: XPATH
-    value: //div[2]/div[5]/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div[2]/div[5]/select
-    priority: 3
 - id: R5fNSJ5ep0inXBFBp3G0qA
   name: emergency_contact_address1_2
   type:
@@ -5323,6 +5339,25 @@ elements:
     priority: 2
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div[2]/div[6]/input
+    priority: 3
+- id: lSt-TWiJ9UimYu9NvyZItg
+  name: emergency_contact_country_2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#emergency_contact_country_2'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='emergency_contact_country_2']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/div[5]/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div[2]/div[5]/select
     priority: 3
 - id: 1xamOaNTZ0uEl_BzfcMqJA
   name: emergency_contact_address2_2
@@ -5571,32 +5606,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[4]/select
     priority: 3
-- id: hbPrKmM-fEO9XAbt7MzEhA
-  name: attribute__11
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDg
-    name: Radio
-    source: System
-  locators:
-  - name: XPATH
-    value: //div/div/div[1]/div/div[1]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[9]/div/div/div[1]/div/div[1]/input
-    priority: 1
-- id: HsJ0wVsLwEyuwD_w2K-Wnw
-  name: attribute__21
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDg
-    name: Radio
-    source: System
-  locators:
-  - name: XPATH
-    value: //div/div[2]/div/div[1]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[9]/div/div/div[2]/div/div[1]/input
-    priority: 1
 - id: ptxwLZi-b06voWG0l9ZDgA
   name: passport_type
   type:
@@ -5692,57 +5701,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div/select
     priority: 3
-- id: CvmFrDDYbkOwOcupiDY8ag
-  name: Save Profile
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#save_all'
-    priority: 0
-  - name: XPATH
-    value: //button[. = 'Save Profile']
-    priority: 1
-  - name: XPATH
-    value: //div[2]/div/button
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/div[1]/button
-    priority: 3
-- id: epcR_i7DEUakKZuPJYRjKw
-  name: ADMINISTRATION
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Administration']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[8]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/a
-    priority: 2
-- id: U1bdDH3QPEieXK8EkE_WEQ
-  name: Unit Configuration
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Unit Configuration']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[8]/ul/li[1]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/ul/li[1]/a
-    priority: 2
 - id: W6cxn7LGa0-T5axJ3eUQvw
   name: Create New Account
   type:
@@ -5816,25 +5774,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div[2]/form/div[1]/div[2]/div/div[4]/input
     priority: 3
-- id: nt9Z-JlQw0KD_-nyCfwRrQ
-  name: address_type_lookup
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#address_type_lookup'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='address_type_lookup']"
-    priority: 1
-  - name: XPATH
-    value: //div[8]/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div/div[8]/select
-    priority: 3
 - id: nqp_egT1fUiPJEqaLWpDPg
   name: address_1_standard
   type:
@@ -5853,82 +5792,6 @@ elements:
     priority: 2
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div[2]/form/div[2]/div[2]/div[2]/div[1]/input
-    priority: 3
-- id: hOzfZDF7FUiG5q4V6wEFjA
-  name: city
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#city'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='city']"
-    priority: 1
-  - name: XPATH
-    value: //div[9]/div[1]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/div/div/div[9]/div[1]/input
-    priority: 3
-- id: csSu57QCC0CvOZNHYBshQA
-  name: state
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#state'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='state']"
-    priority: 1
-  - name: XPATH
-    value: //div[2]/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/div/div/div[9]/div[2]/select
-    priority: 3
-- id: tBl6q-McHkGvFvVwBuuJwg
-  name: postal_code
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#postal_code'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='postal_code']"
-    priority: 1
-  - name: XPATH
-    value: //div[3]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/div/div/div[9]/div[3]/input
-    priority: 3
-- id: s2KNoHz_HkC9sPH7Y6RKIA
-  name: email3
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#email'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='email']"
-    priority: 1
-  - name: XPATH
-    value: //form/div/div/div[1]/div[1]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[2]/div/div/div[2]/form/div/div/div[1]/div[1]/input
     priority: 3
 - id: kvw1VTj6zkGsWofoPFQubA
   name: status_id
@@ -5968,22 +5831,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div[2]/form/div[7]/div[2]/div/div/select
     priority: 3
-- id: dWTegVFkmEq9uafRZh7-Yg
-  name: creationtype
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#creationtype'
-    priority: 0
-  - name: XPATH
-    value: //div[8]//select
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/div[2]/form/div[8]/div[2]/div[1]/div/select
-    priority: 2
 - id: HvPummGnwUW5EISIkaGhnA
   name: username
   type:
@@ -6054,6 +5901,22 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div[2]/form/div[10]/input[1]
     priority: 1
+- id: dWTegVFkmEq9uafRZh7-Yg
+  name: creationtype
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#creationtype'
+    priority: 0
+  - name: XPATH
+    value: //div[8]//select
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/div[2]/div[2]/form/div[8]/div[2]/div[1]/div/select
+    priority: 2
 - id: 7zvvbmd-k0-YL2sKWc1P2A
   name: Account_Link
   description: ''
@@ -6065,100 +5928,168 @@ elements:
   - name: XPATH
     value: //div[1]/div/ul/li[1]/a
     priority: 0
-- id: irzcKQnOWUi5bnk7uS5ExA
-  name: user
+- id: QPiRiCYfSUKouANkPjdcew
+  name: Edit profile7
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //section[1]/div[1]//a[. = 'Edit profile']
+    priority: 0
+  - name: XPATH
+    value: //section[1]/div[1]/p/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[2]/div[2]/div/section[1]/div[1]/p/a
+    priority: 2
+- id: QAb1qxPB1kKN8SDUQtrVHA
+  name: address3
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div/div[1]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[3]/div/div/div[1]/input
+    priority: 1
+- id: bCIgA9GJskCDC2Jtjo24Zw
+  name: address21
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/div/div/div[2]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[3]/div/div/div[2]/input
+    priority: 1
+- id: -9xfs9SxHEKkIa23HncFMA
+  name: send_to_email_lookup
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#send_to_email_lookup'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='send_to_email_lookup']"
+    priority: 1
+  - name: XPATH
+    value: //div[5]/div/div[1]/div/select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[5]/div/div[1]/div[3]/select
+    priority: 3
+- id: JnuynHqU6EWf0JeWAi-TPQ
+  name: alternate_phone_checkbox_input
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDk
+    name: Checkbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#alternate_phone_checkbox_input'
+    priority: 0
+  - name: XPATH
+    value: //div[3]/div/div/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[5]/div/div[3]/div/div/input
+    priority: 2
+- id: ycpbzF4NOUGYNQqTxDuibg
+  name: alternate_phone
   type:
     id: jUwODgyNjAyNzk2NTk1NDY
     name: Textbox
     source: System
   locators:
   - name: CSSSELECTOR
-    value: "[name='user']"
+    value: '#alternate_phone'
     priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Username']
+  - name: CSSSELECTOR
+    value: "[name='alternate_phone']"
     priority: 1
   - name: XPATH
-    value: //div[1]/input
+    value: //div[4]/div/input
     priority: 2
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[5]/div/div[4]/div/input
     priority: 3
-- id: WbTY1D4yNUiPO3wZzLIWOg
-  name: password1
+- id: J3UVd5rx3U26xeA-FitO7w
+  name: 301
   type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
+    id: jUwODgyNjAyNzk2NTk1NTY
+    name: TableCell
+    source: System
+  locators:
+  - name: XPATH
+    value: //td[5][. = '30']
+    priority: 0
+  - name: XPATH
+    value: //tr[5]/td[5]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div[1]/table/tbody/tr[5]/td[5]
+    priority: 2
+- id: hbPrKmM-fEO9XAbt7MzEhA
+  name: attribute__11
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDg
+    name: Radio
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/div/div[1]/div/div[1]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[9]/div/div/div[1]/div/div[1]/input
+    priority: 1
+- id: HsJ0wVsLwEyuwD_w2K-Wnw
+  name: attribute__21
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDg
+    name: Radio
+    source: System
+  locators:
+  - name: XPATH
+    value: //div/div[2]/div/div[1]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/form/section[1]/div[9]/div/div/div[2]/div/div[1]/input
+    priority: 1
+- id: CvmFrDDYbkOwOcupiDY8ag
+  name: Save Profile
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
     source: System
   locators:
   - name: CSSSELECTOR
-    value: "[name='password']"
+    value: '#save_all'
     priority: 0
   - name: XPATH
-    value: //input[@placeholder = 'Password']
+    value: //button[. = 'Save Profile']
     priority: 1
   - name: XPATH
-    value: //div[2]/input
+    value: //div[2]/div/button
     priority: 2
   - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/div[1]/button
     priority: 3
-- id: O-GtKTW_20iR0C7LjVf2fA
-  name: login
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[4]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
-    priority: 1
-- id: ZMqsbaYtvkmFoXazdolIEQ
-  name: email2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[4]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
-    priority: 1
-- id: zRXNK1Bx2UK6aCUwLg530Q
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[5]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
-    priority: 1
-- id: AQsJjVKyU0m3Nsuxix6SHw
-  name: SIGN IN
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Sign In']
-    priority: 0
-  - name: XPATH
-    value: //div[6]/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
-    priority: 2
-projectParameters: []
+projectParameters:
+- id: _YguaED0bUq8R4hDs2fgmA
+  name: global_pw
+  description: ''
+  value: p@ssword1
 addons:
 - id: isPuWQzkBU-t6MMgxY5QrA
   source: Store
@@ -6177,14 +6108,6 @@ addons:
   source: Store
   version: 1.1.9
   actions:
-  - id: 22Nw5UqP7EGqvQhuHT2kqg
-    name: Accept alert
-    description: Accept alert
-    className: io.testproject.addons.web.alert.AcceptAlert
-  - id: SFW6Rf9DW0G4jpBW38V4xw
-    name: Execute JavaScript
-    description: Execute JavaScript {{code}} with arguments {{args}}
-    className: io.testproject.addons.web.actions.ExecuteJavascript
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
