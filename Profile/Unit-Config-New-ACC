@@ -1,7 +1,7 @@
-id: vM_ezEiI_0qGGtfiHFg-cw
+id: w4UVqbNDAEu9Kltk6p6xRA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-04T02:59:42.8095503Z
+created: 2022-07-05T06:02:19.8283962Z
 protocol: 1
 tests:
 - id: d3X5fIa2kkO3kWMy8kcUXA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-17T00:48:43.0000000
-  modificationDate: 2022-07-04T02:59:38.0000000
+  modificationDate: 2022-07-05T06:02:16.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -528,30 +528,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: O4D0DHpfKUK8qYPnPQCiCg
-    enabled: true
-    invertResult: false
-    order: 22
-    repeat: 1
-    type: Action
-    elementId: Tv0Wmvc2PUekOJVC9uEOAA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: A1tH1Z5CjUy4km4obmmaCA
     enabled: true
     invertResult: false
-    order: 23
+    order: 22
     repeat: 1
     type: Action
     elementId: _Nrfgar2LUKIyI8nK8WJEw
@@ -572,7 +552,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 24
+    order: 23
     repeat: 1
     type: Action
     elementId: 7zvvbmd-k0-YL2sKWc1P2A
@@ -1299,25 +1279,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div[2]/form/div[8]/div[2]/div[2]/div[3]/input
     priority: 3
-- id: Tv0Wmvc2PUekOJVC9uEOAA
-  name: Send Email to User with New Account I...
-  type:
-    id: jUwODgyNjAyNzk2NTk2MzU
-    name: label
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //label[. = '
-      							 Send Email to User with New Account Information
-      						']
-    priority: 0
-  - name: XPATH
-    value: //div[9]//label
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/div[2]/form/div[9]/div/div/label
-    priority: 2
 - id: _Nrfgar2LUKIyI8nK8WJEw
   name: INPUT23
   type:
@@ -1458,6 +1419,10 @@ addons:
     name: Accept alert
     description: Accept alert
     className: io.testproject.addons.web.alert.AcceptAlert
+  - id: SFW6Rf9DW0G4jpBW38V4xw
+    name: Execute JavaScript
+    description: Execute JavaScript {{code}} with arguments {{args}}
+    className: io.testproject.addons.web.actions.ExecuteJavascript
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
