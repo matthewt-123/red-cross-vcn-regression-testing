@@ -1,7 +1,7 @@
-id: NIRbkag6WkO78Q-VxaloIw
+id: OyRAAUPpOkaWopR2swzP1A
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-05T01:28:20.9413184Z
+created: 2022-07-05T01:39:58.6332360Z
 protocol: 1
 tests:
 - id: R2m4yPgVT0yHQP1wM09sQA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-05T00:58:44.0000000
-  modificationDate: 2022-07-05T01:27:53.0000000
+  modificationDate: 2022-07-05T01:38:36.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -165,13 +165,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 4RfFLX2H4UGdTTYKK8ONUQ
+  - id: kCJ50dbO2EiITNmmoTS0-A
     enabled: true
     invertResult: false
     order: 7
     repeat: 1
     type: Action
-    elementId: 7lpor4bo5EiQLu-UoyXbsQ
+    elementId: 5vnP3CiIJ0KJ7PYUHrZuzw
     settings:
       sleepTime: -1
       timeout: -1
@@ -185,10 +185,34 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: q_fhZmWHKEeXhPfe6zwLJw
+  - id: eNM8SxeuRUCvXaVqfslUEQ
+    comments: ''
     enabled: true
     invertResult: false
     order: 8
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 22Nw5UqP7EGqvQhuHT2kqg
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: pause
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6x6SzjaG0UurRwqu-0rXwQ
+    enabled: true
+    invertResult: false
+    order: 9
     repeat: 1
     type: Action
     elementId: m0TGNxG5wUunhD1YB4FZmQ
@@ -200,27 +224,6 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: QKcs3GjhCkeO6mAr6hDe1w
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 9
-    repeat: 1
-    type: Action
-    elementId: qr4nFObbyUaojXaRrDpP4Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 104373b7-868c-44ba-bbd2-e16089ad2e48
       source: System
     parameterMaps: []
     conditions: []
@@ -1690,6 +1693,22 @@ elements:
   - name: XPATH
     value: //div[1]/div/ul/li[1]/a
     priority: 0
+- id: 5vnP3CiIJ0KJ7PYUHrZuzw
+  name: Log In (Test Site Only)
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Log In (Test Site Only)']
+    priority: 0
+  - name: XPATH
+    value: //div[5]/a[3]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[2]/div[2]/div/section[1]/div[5]/a[3]
+    priority: 2
 - id: Sq1KQ_Igmkux8BBH8igf1Q
   name: Disaster Cycle Services
   type:
@@ -1760,38 +1779,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/form/div/a[2]
     priority: 3
-- id: 7lpor4bo5EiQLu-UoyXbsQ
-  name: Login as this user
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Login as this user']
-    priority: 0
-  - name: XPATH
-    value: //div[5]/a[2]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/div[2]/div/section[1]/div[5]/a[2]
-    priority: 2
-- id: qr4nFObbyUaojXaRrDpP4Q
-  name: Disaster Cycle Services1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Disaster Cycle Services']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/a[7]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[3]/div/div[1]/div[1]/div/nav/a[7]
-    priority: 2
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
@@ -1815,6 +1802,10 @@ addons:
   source: Store
   version: 1.1.9
   actions:
+  - id: 22Nw5UqP7EGqvQhuHT2kqg
+    name: Accept alert
+    description: Accept alert
+    className: io.testproject.addons.web.alert.AcceptAlert
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
