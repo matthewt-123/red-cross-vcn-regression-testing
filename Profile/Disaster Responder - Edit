@@ -1,7 +1,7 @@
-id: _blZ3TwpN0W2RYXaM83H8Q
+id: oPE_LrBjskGFAWzo_w--fA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-05T02:32:29.7978664Z
+created: 2022-07-05T02:35:10.0532216Z
 protocol: 1
 tests:
 - id: IlAU0O0AkUK8xVcMhzHQnA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-05T01:17:26.0000000
-  modificationDate: 2022-07-05T02:31:57.0000000
+  modificationDate: 2022-07-05T02:34:59.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -1304,6 +1304,27 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Rkjm-1CuzkKUEhqFvq5XNw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 62
+    repeat: 1
+    type: Action
+    elementId: qr4nFObbyUaojXaRrDpP4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 104373b7-868c-44ba-bbd2-e16089ad2e48
       source: System
     parameterMaps: []
     conditions: []
