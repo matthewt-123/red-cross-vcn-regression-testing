@@ -1,7 +1,7 @@
-id: _jQfTFBDqk-Qd6Luihl3GA
+id: 5Ph8TvhlJkiMu98_F4cWaA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-05T03:47:11.1171189Z
+created: 2022-07-05T03:47:23.2836483Z
 protocol: 1
 tests:
 - id: IlAU0O0AkUK8xVcMhzHQnA
@@ -12,13 +12,13 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-05T01:17:26.0000000
-  modificationDate: 2022-07-05T03:46:05.0000000
+  modificationDate: 2022-07-05T03:47:23.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
-    stepSleepTime: 500
+    stepSleepTime: 0
     stepTimeout: 15000
-    stepSleepTiming: Before
+    stepSleepTiming: None
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
   application:
