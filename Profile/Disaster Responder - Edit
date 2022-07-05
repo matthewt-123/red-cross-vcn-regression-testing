@@ -1,7 +1,7 @@
-id: 2ifPRlibCkeOTJdyCaW0Zg
+id: dK1dIDO8akeDxi_wsvnYhw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-05T02:44:37.7842901Z
+created: 2022-07-05T02:54:54.0552606Z
 protocol: 1
 tests:
 - id: IlAU0O0AkUK8xVcMhzHQnA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-05T01:17:26.0000000
-  modificationDate: 2022-07-05T02:42:22.0000000
+  modificationDate: 2022-07-05T02:52:36.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -1253,9 +1253,9 @@ tests:
     type: Action
     elementId: _-_C3GYtVEaLmL6pE_nQlw
     settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
+      sleepTime: 1000
+      timeout: 25000
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -1273,9 +1273,9 @@ tests:
     type: Action
     elementId: n9nJQdYO8ky8_ko4TfvbAA
     settings:
-      sleepTime: -1
+      sleepTime: 1000
       timeout: -1
-      sleepTiming: Inherit
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -1293,9 +1293,9 @@ tests:
     type: Action
     elementId: 5vnP3CiIJ0KJ7PYUHrZuzw
     settings:
-      sleepTime: -1
+      sleepTime: 1000
       timeout: -1
-      sleepTiming: Inherit
+      sleepTiming: Before
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
@@ -1365,6 +1365,46 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 104373b7-868c-44ba-bbd2-e16089ad2e48
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5u7KSpVM-UaSlH3SXGwCxA
+    enabled: true
+    invertResult: false
+    order: 65
+    repeat: 1
+    type: Action
+    elementId: UbGhsp0T00SHJ2awVdWyQg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aA52MQf95Uy4-Qx8_cTyRQ
+    enabled: true
+    invertResult: false
+    order: 66
+    repeat: 1
+    type: Action
+    elementId: _HKmFpTLnkKbfdsqY8bznQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
     conditions: []
