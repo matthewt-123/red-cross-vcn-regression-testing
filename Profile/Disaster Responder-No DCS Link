@@ -1,7 +1,7 @@
-id: OyRAAUPpOkaWopR2swzP1A
+id: dmbnDZ65vEaoMWS9JO2sUg
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-05T01:39:58.6332360Z
+created: 2022-07-05T01:42:13.2648590Z
 protocol: 1
 tests:
 - id: R2m4yPgVT0yHQP1wM09sQA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-05T00:58:44.0000000
-  modificationDate: 2022-07-05T01:38:36.0000000
+  modificationDate: 2022-07-05T01:41:51.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -224,6 +224,27 @@ tests:
       takeScreenshotConditionType: Inherit
     action:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kHXukNHwTUGj5uqD3QefyQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: qr4nFObbyUaojXaRrDpP4Q
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 104373b7-868c-44ba-bbd2-e16089ad2e48
       source: System
     parameterMaps: []
     conditions: []
@@ -1779,6 +1800,22 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/form/div/a[2]
     priority: 3
+- id: qr4nFObbyUaojXaRrDpP4Q
+  name: Disaster Cycle Services1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Disaster Cycle Services']
+    priority: 0
+  - name: XPATH
+    value: //div/nav/a[7]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div[3]/div/div[1]/div[1]/div/nav/a[7]
+    priority: 2
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
