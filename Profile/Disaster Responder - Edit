@@ -1,7 +1,7 @@
-id: ajzuKLsaE06MlZidtFucuw
+id: KEz-YnlFhUq-1Hs9RepIHw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-05T02:07:47.6938179Z
+created: 2022-07-05T02:17:46.5605884Z
 protocol: 1
 tests:
 - id: IlAU0O0AkUK8xVcMhzHQnA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-05T01:17:26.0000000
-  modificationDate: 2022-07-05T02:07:12.0000000
+  modificationDate: 2022-07-05T02:12:27.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -208,10 +208,34 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 6JuZTVd2cU2IkkcEHah3FQ
+  - id: 8at_n-Q_VUCRRWJGCajG6w
+    comments: ''
     enabled: true
     invertResult: false
     order: 9
+    repeat: 1
+    type: Addon
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 22Nw5UqP7EGqvQhuHT2kqg
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: pause
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 6JuZTVd2cU2IkkcEHah3FQ
+    enabled: true
+    invertResult: false
+    order: 10
     repeat: 1
     type: Action
     elementId: m0TGNxG5wUunhD1YB4FZmQ
@@ -232,7 +256,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: qr4nFObbyUaojXaRrDpP4Q
@@ -252,7 +276,7 @@ tests:
   - id: 7VLbyeOEgkuEpkeHExHLrA
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: qr4nFObbyUaojXaRrDpP4Q
@@ -272,7 +296,7 @@ tests:
   - id: 1t2tbk0EhkuNcfWMgylyUw
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     elementId: _46-Gz3cw023KMmwvEV_aQ
@@ -292,7 +316,7 @@ tests:
   - id: Fd1w2A3G0kShHLBlhTspOw
     enabled: true
     invertResult: false
-    order: 13
+    order: 14
     repeat: 1
     type: Action
     elementId: kn7odzXOsEKwOxtpYFHT8w
@@ -312,7 +336,7 @@ tests:
   - id: DcpE_NxKb0Gskr7olLBVJA
     enabled: true
     invertResult: false
-    order: 14
+    order: 15
     repeat: 1
     type: Action
     elementId: kn7odzXOsEKwOxtpYFHT8w
@@ -335,7 +359,7 @@ tests:
   - id: L8MEiX4p4UiGSLFCDg5f2A
     enabled: true
     invertResult: false
-    order: 15
+    order: 16
     repeat: 1
     type: Action
     elementId: G-hqguRvBkWTWa5xE2SgVQ
@@ -355,7 +379,7 @@ tests:
   - id: CcKlWjLibEKHHh6pJW7dMg
     enabled: true
     invertResult: false
-    order: 16
+    order: 17
     repeat: 1
     type: Action
     elementId: G-hqguRvBkWTWa5xE2SgVQ
@@ -378,7 +402,7 @@ tests:
   - id: 7jZYHuZJtEGzsoSAOUL3gQ
     enabled: true
     invertResult: false
-    order: 17
+    order: 18
     repeat: 1
     type: Action
     elementId: 9ucEQIaNS0CgZq1WdFw5cA
@@ -399,7 +423,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 18
+    order: 19
     repeat: 1
     type: Action
     elementId: O9PWJFueKEqTCHpjBzYPOQ
@@ -422,7 +446,7 @@ tests:
   - id: j6v3508VEUiiOSrWgexpog
     enabled: true
     invertResult: false
-    order: 19
+    order: 20
     repeat: 1
     type: Action
     elementId: 7TJz-u6rA06Io2dSBckS5w
@@ -442,7 +466,7 @@ tests:
   - id: n5X3P6fHtE63mxKwUPInTQ
     enabled: true
     invertResult: false
-    order: 20
+    order: 21
     repeat: 1
     type: Action
     elementId: zFP80GGAn0SLfssyGFi3PA
@@ -462,7 +486,7 @@ tests:
   - id: 82RJ-UB_lkCggdC1swenHg
     enabled: true
     invertResult: false
-    order: 21
+    order: 22
     repeat: 1
     type: Action
     elementId: mkU1Kulef020qOIoGmPXyw
@@ -482,7 +506,7 @@ tests:
   - id: 9BGYCBgiyUqGog7YKf_vmw
     enabled: true
     invertResult: false
-    order: 22
+    order: 23
     repeat: 1
     type: Action
     elementId: lHjXCc7NDEiboob23S6Y3w
@@ -502,7 +526,7 @@ tests:
   - id: Sp9N3TqZ-EiioVkpDHnkPQ
     enabled: true
     invertResult: false
-    order: 23
+    order: 24
     repeat: 1
     type: Action
     elementId: ck04thEP10-dWbB6eHu3xg
@@ -522,7 +546,7 @@ tests:
   - id: X84Y8yHVSUmq--XJ-ki4sA
     enabled: true
     invertResult: false
-    order: 24
+    order: 25
     repeat: 1
     type: Action
     elementId: xHOF3bhpdUaGTlWpOmzXCg
@@ -542,7 +566,7 @@ tests:
   - id: 2KnlBxR66Ums49uzdrHMzA
     enabled: true
     invertResult: false
-    order: 25
+    order: 26
     repeat: 1
     type: Action
     elementId: NIXo_032wkaYG9Y-Z7hObQ
@@ -562,7 +586,7 @@ tests:
   - id: 3tG9DfkyaEuARDvHcA2eEQ
     enabled: true
     invertResult: false
-    order: 26
+    order: 27
     repeat: 1
     type: Action
     elementId: BAgwX9IkhkO8BkcptKvAAA
@@ -582,7 +606,7 @@ tests:
   - id: Tcrr1xA82UG1HQ7drY3A0w
     enabled: true
     invertResult: false
-    order: 27
+    order: 28
     repeat: 1
     type: Action
     elementId: 35E0OpE1aEWXh8qbILF2rg
@@ -602,7 +626,7 @@ tests:
   - id: SFbNmejJek-J8RmldKPhFQ
     enabled: true
     invertResult: false
-    order: 28
+    order: 29
     repeat: 1
     type: Action
     elementId: DS2pUHWB6UmStg_DIB0E3w
@@ -622,7 +646,7 @@ tests:
   - id: d6PXBhWPF0GXy8bW_wNnMg
     enabled: true
     invertResult: false
-    order: 29
+    order: 30
     repeat: 1
     type: Action
     elementId: TcHyx2QpaEKhAEU1ySZk-A
@@ -642,7 +666,7 @@ tests:
   - id: qOqwkpi0b0KLdNvBSKwdtg
     enabled: true
     invertResult: false
-    order: 30
+    order: 31
     repeat: 1
     type: Action
     elementId: Z5j_xa31oUKMJMbqcs86hg
@@ -662,7 +686,7 @@ tests:
   - id: 13nHXU3H5E2_fldW2hWKWA
     enabled: true
     invertResult: false
-    order: 31
+    order: 32
     repeat: 1
     type: Action
     elementId: XlQpB_l4VUe4Uagtj264vw
@@ -682,7 +706,7 @@ tests:
   - id: nSd2KB1DcEK9VBkSqaYYZQ
     enabled: true
     invertResult: false
-    order: 32
+    order: 33
     repeat: 1
     type: Action
     elementId: u6biGWkmc0OX5Hn0jTpeog
@@ -702,7 +726,7 @@ tests:
   - id: dx6EZreZikirhGIt0c72wQ
     enabled: true
     invertResult: false
-    order: 33
+    order: 34
     repeat: 1
     type: Action
     elementId: 5KuD5AZlEU6-sGCa1lsntA
@@ -722,7 +746,7 @@ tests:
   - id: FvPtU3Fx2UKQEbhFgEJ1Cw
     enabled: true
     invertResult: false
-    order: 34
+    order: 35
     repeat: 1
     type: Action
     elementId: Fb9Z94oso0OP4qK-rCijog
@@ -742,7 +766,7 @@ tests:
   - id: dTQwELNbsky0FXpOnOFhaQ
     enabled: true
     invertResult: false
-    order: 35
+    order: 36
     repeat: 1
     type: Action
     elementId: Q46ZeeZ8tEmGbZOPqEVvDg
@@ -762,7 +786,7 @@ tests:
   - id: nsBv79D_sEOhxmJJg5j54Q
     enabled: true
     invertResult: false
-    order: 36
+    order: 37
     repeat: 1
     type: Action
     elementId: 9ucEQIaNS0CgZq1WdFw5cA
@@ -776,6 +800,78 @@ tests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 621jj0QV-EGrXTVwTzx5QQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 38
+    repeat: 1
+    type: Action
+    elementId: hYZnRbxnJUWVgh5LNabZvA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: z4a6olu57kmTaspcr9QwOQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 39
+    repeat: 1
+    type: Action
+    elementId: TrkhYpHxIEOqKlcz6sB_MQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: aDZjd0Sf-Eyu0LgeyUyLUA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 40
+    repeat: 1
+    type: Action
+    elementId: W-SGdNNRwU2xKNKxQnVimA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: ''
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -2715,6 +2811,45 @@ elements:
   - name: XPATH
     value: /html/body/div[3]/div[1]/table/tbody/tr[3]/td[6]
     priority: 2
+- id: hYZnRbxnJUWVgh5LNabZvA
+  name: DIV48
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //section[7]/div[2]/div/div/div[1]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/div/section[7]/div[2]/div/div[2]/div[1]
+    priority: 1
+- id: TrkhYpHxIEOqKlcz6sB_MQ
+  name: DIV49
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //section[7]/div[2]/div/div/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/div/section[7]/div[2]/div/div[2]/div[2]
+    priority: 1
+- id: W-SGdNNRwU2xKNKxQnVimA
+  name: DIV50
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //section[7]/div[2]/div/div/div[3]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/div/section[7]/div[2]/div/div[2]/div[3]
+    priority: 1
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
@@ -2738,6 +2873,10 @@ addons:
   source: Store
   version: 1.1.9
   actions:
+  - id: 22Nw5UqP7EGqvQhuHT2kqg
+    name: Accept alert
+    description: Accept alert
+    className: io.testproject.addons.web.alert.AcceptAlert
   - id: 7dUz-B_UEEyf3F5EVJ9dXA
     name: Set window size
     description: Set window size to ({{width}},{{height}})
