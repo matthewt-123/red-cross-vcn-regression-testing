@@ -1,7 +1,7 @@
-id: xb6v_mJsdU2kYWOMpIhvKw
+id: eH7X02unHUSbpZg4OETkGA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-10T19:20:47.8678908Z
+created: 2022-07-10T19:49:34.9374872Z
 protocol: 1
 tests:
 - id: HSCAcIC8VUCRKbf-rtrKIQ
@@ -135,7 +135,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-02-20T03:07:57.0000000
-  modificationDate: 2022-07-10T06:36:43.0000000
+  modificationDate: 2022-07-10T19:49:24.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -3527,7 +3527,7 @@ auxTests:
       source: System
     parameterMaps:
     - name: text
-      value: pos group nvikcikqytlyubsbwgxs
+      value: '{{position_uid}}'
       direction: Input
     conditions: []
     validations: []
@@ -6089,14 +6089,11 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //td[. = 'test in-person position nvikcikqytlyubsbwgxs']
+    value: //td[1]
     priority: 0
   - name: XPATH
-    value: //td[1]
-    priority: 1
-  - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div/div/table/tbody/tr[2]/td[1]
-    priority: 2
+    priority: 1
 - id: 0aP-ig75R0OfUF1WcczgaQ
   name: pos group nvikcikqytlyubsbwgxs1
   type:
