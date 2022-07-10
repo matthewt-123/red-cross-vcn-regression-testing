@@ -1,18 +1,18 @@
-id: FGy7TQbsOUmZjJfBTe4QmQ
+id: cMZ0A6IgGkKQTpU9m9hguA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-10T17:04:11.4960395Z
+created: 2022-07-10T17:04:25.2499174Z
 protocol: 1
 tests:
 - id: w9OIouxPgUeNQi78z8Jcyw
-  name: Position Template+Biomed Position pt1 - copy
+  name: Position Template+Biomed Position pt2
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-10T17:03:02.0000000
-  modificationDate: 2022-07-10T17:04:09.0000000
+  modificationDate: 2022-07-10T17:04:25.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
