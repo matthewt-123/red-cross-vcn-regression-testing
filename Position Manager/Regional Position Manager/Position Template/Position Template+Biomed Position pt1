@@ -1,7 +1,7 @@
-id: 5n7Sh6y5TkeUfvVYmJ8PPw
+id: 2Vfgb4Dzl06FeALc5YZdFA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-10T06:36:18.1060472Z
+created: 2022-07-10T17:07:47.8790705Z
 protocol: 1
 tests:
 - id: b-il0HichEubd3gQDhKSOA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-10T05:50:34.0000000
-  modificationDate: 2022-07-10T06:36:18.0000000
+  modificationDate: 2022-07-10T17:07:22.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -234,7 +234,7 @@ tests:
       value: 20
       direction: Input
     - name: output
-      value: '{{placement_id}}'
+      value: '[[biomed_placementID]]'
       direction: Output
     conditions: []
     validations: []
@@ -257,7 +257,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: bda {{placement_id}}
+      value: bda [[biomed_placementID]]
       direction: Input
     conditions: []
     validations: []
@@ -474,7 +474,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: biomed {{placement_id}}
+      value: biomed [[biomed_placementID]]
       direction: Input
     conditions: []
     validations: []
@@ -612,7 +612,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: '{{placement_id}}@redcross.org'
+      value: '[[biomed_placementID]]@redcross.org'
       direction: Input
     conditions: []
     validations: []
@@ -660,7 +660,7 @@ tests:
     parameterMaps:
     - name: code
       value: >
-        l = document.getElementById('placement_id').children; for(i=0;i<l.length;i++){if(l[i].innerHTML=='bda'){return l[i].value}}
+        l = document.getElementById('placement_id').children; for(i=0;i<l.length;i++){if(l[i].innerHTML=='bda [[biomed_placementID]]'){return l[i].value}}
       direction: Input
     - name: args
       value: ''
@@ -1252,27 +1252,6 @@ tests:
       field: amount
       value: 1
     contexts: []
-  - id: XMWPtMsjlkKcDYpqyQVAHA
-    comments: REFRESH ACCESS GROUP
-    enabled: true
-    invertResult: false
-    order: 53
-    repeat: 1
-    type: Action
-    elementId: 5evPpPhafESi9MzKj8OFKg
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -1839,22 +1818,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
-- id: 5evPpPhafESi9MzKj8OFKg
-  name: MY SHIFTS
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'My Shifts']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[6]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[6]/a
-    priority: 2
 - id: ARpi3kBoKkKIPvCXwqFxVA
   name: placement_name
   type:
@@ -2415,6 +2378,10 @@ projectParameters:
   name: global_pw
   description: ''
   value: p@ssword1
+- id: YpLt0YzPhEKjL3bhEXOyOg
+  name: biomed_placementID
+  description: ''
+  value: ''
 addons:
 - id: isPuWQzkBU-t6MMgxY5QrA
   source: Store
