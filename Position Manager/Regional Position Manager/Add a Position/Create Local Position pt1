@@ -1,132 +1,9 @@
-id: YcbhbMF0rkWV3sV2NFqAZw
+id: kD3p1WpWbEqTDjd_u9N53w
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-10T06:36:43.8366066Z
+created: 2022-07-10T06:36:43.8351672Z
 protocol: 1
 tests:
-- id: HSCAcIC8VUCRKbf-rtrKIQ
-  name: Local Active Positions
-  description: ''
-  platform: Web
-  type: Web
-  driverType: Chrome
-  version: 0.1
-  creationDate: 2022-02-22T05:36:18.0000000
-  modificationDate: 2022-02-22T05:37:08.0000000
-  settings:
-    automationAssistant: true
-    appId: ySlnJ6rOCUaGlfrlfNXE2Q
-    stepSleepTime: 500
-    stepTimeout: 15000
-    stepSleepTiming: Before
-    stepFailureBehaviorType: Abort
-    stepTakeScreenshotConditionType: Failure
-  application:
-    id: ySlnJ6rOCUaGlfrlfNXE2Q
-    name: VCN dev site(testproject)
-    url: https://arc-testproject.tcheetah09.com/
-    platform: Web
-  steps:
-  - id: plvzuADcbECfTOoWuLnGfA
-    comments: Navigates the specified URL (Auto-generated)
-    enabled: true
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
-      source: System
-    parameterMaps:
-    - name: url
-      value: '{{ApplicationURL}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: dUh05QDF8kKPdiK9rQC9DQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 2
-    repeat: 1
-    type: Test
-    targetTestId: lBaK2aFUjEmAANdauHlmww
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      source: None
-    parameterMaps:
-    - name: ApplicationURL
-      value: '{{ApplicationURL}}'
-      direction: Input
-    - name: pw
-      value: '{{pw}}'
-      direction: Input
-    - name: username
-      value: '{{username}}'
-      direction: Input
-    - name: position_uid
-      value: '{{position_uid}}'
-      direction: Output
-    - name: position_id
-      value: '{{position_id}}'
-      direction: Output
-    - name: email
-      value: '{{email}}'
-      direction: Input
-    - name: dt_referred
-      value: '{{dt_referred}}'
-      direction: Output
-    - name: root_website
-      value: '{{root_website}}'
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  parameters:
-  - name: ApplicationURL
-    description: Auto generated application URL parameter
-    value: https://arc-testproject.tcheetah09.com/
-    type: Input
-  - name: pw
-    description: ''
-    type: Input
-  - name: username
-    description: ''
-    value: localpositionadmin
-    type: Input
-  - name: position_uid
-    description: ''
-    value: ''
-    type: Private
-  - name: position_id
-    description: ''
-    value: ''
-    type: Private
-  - name: email
-    description: ''
-    value: matthew.tsai+positionadmin@redcross.org
-    type: Input
-  - name: dt_referred
-    description: ''
-    value: ''
-    type: Private
-  - name: root_website
-    description: ''
-    value: https://arcssotest33.tcheetah09.com/
-    type: Input
-auxTests:
 - id: lBaK2aFUjEmAANdauHlmww
   name: Create Local Position pt1
   description: ''
@@ -144,6 +21,11 @@ auxTests:
     stepSleepTiming: Before
     stepFailureBehaviorType: Abort
     stepTakeScreenshotConditionType: Failure
+  application:
+    id: ySlnJ6rOCUaGlfrlfNXE2Q
+    name: VCN dev site(testproject)
+    url: https://arc-testproject.tcheetah09.com/
+    platform: Web
   steps:
   - id: DomkeXnC60GsxxiW4DrljQ
     comments: arctp only
@@ -3932,6 +3814,7 @@ auxTests:
     description: ''
     value: ''
     type: Output
+auxTests:
 - id: FNcXZsJiwkKZxOCKCrk5hA
   name: master login test
   description: ''
