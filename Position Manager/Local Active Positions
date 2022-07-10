@@ -1,7 +1,7 @@
-id: YcbhbMF0rkWV3sV2NFqAZw
+id: xb6v_mJsdU2kYWOMpIhvKw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-10T06:36:43.8366066Z
+created: 2022-07-10T19:20:47.8678908Z
 protocol: 1
 tests:
 - id: HSCAcIC8VUCRKbf-rtrKIQ
@@ -5904,14 +5904,11 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //td[. = 'pos group nvikcikqytlyubsbwgxs']
+    value: //td[1]
     priority: 0
   - name: XPATH
-    value: //td[1]
-    priority: 1
-  - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[1]
-    priority: 2
+    priority: 1
 - id: 3Mh1VKD85UaFRCZPzaXL_g
   name: disable_groupshare
   type:
@@ -6108,14 +6105,11 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //td[. = 'pos group nvikcikqytlyubsbwgxs']
+    value: //td[2]
     priority: 0
   - name: XPATH
-    value: //td[2]
-    priority: 1
-  - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div/div/table/tbody/tr[2]/td[2]
-    priority: 2
+    priority: 1
 - id: Y-hx0FABY06dyh4yivFydg
   name: Yes
   type:
