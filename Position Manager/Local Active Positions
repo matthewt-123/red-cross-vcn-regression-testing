@@ -1,7 +1,7 @@
-id: 2I3L2DUyvUO-N--JofACow
+id: X7KDiLEnLkCN-AVNaxFGDg
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-12T05:30:03.3440657Z
+created: 2022-07-12T05:36:04.4871333Z
 protocol: 1
 tests:
 - id: HSCAcIC8VUCRKbf-rtrKIQ
@@ -135,7 +135,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-02-20T03:07:57.0000000
-  modificationDate: 2022-07-12T05:23:20.0000000
+  modificationDate: 2022-07-12T05:35:27.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -2532,30 +2532,10 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: SKGqtXvGT0mESCXje0iXDQ
-    enabled: true
-    invertResult: false
-    order: 103
-    repeat: 1
-    type: Action
-    elementId: cuihBY3_LkK-ffzKdprG9A
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: ntGS7bJy1kmkpiYsj2RyhA
     enabled: true
     invertResult: false
-    order: 104
+    order: 103
     repeat: 1
     type: Action
     elementId: cuihBY3_LkK-ffzKdprG9A
@@ -2575,30 +2555,10 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: auQlqaZrikKXgEpoEshA4A
-    enabled: true
-    invertResult: false
-    order: 105
-    repeat: 1
-    type: Action
-    elementId: cuihBY3_LkK-ffzKdprG9A
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: PBzmE8VLZk-z_1q4iQ9Nmw
     enabled: true
     invertResult: false
-    order: 106
+    order: 104
     repeat: 1
     type: Action
     elementId: oueUq_U8EUyujg_zkI2UgA
@@ -2618,7 +2578,7 @@ auxTests:
   - id: KyeVX_pO2EmMAXbY7FKK5w
     enabled: true
     invertResult: false
-    order: 107
+    order: 105
     repeat: 1
     type: Action
     elementId: rv8b1N2FP0mWSt2Zf6l0KA
@@ -2639,7 +2599,7 @@ auxTests:
     comments: only volunteers with Matthews Test Position appear in this dropdown
     enabled: true
     invertResult: false
-    order: 108
+    order: 106
     repeat: 1
     type: Addon
     settings:
@@ -2676,7 +2636,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 109
+    order: 107
     repeat: 1
     type: Action
     elementId: dSUTf6nDlEa8ea4TBrJPLw
@@ -2696,7 +2656,7 @@ auxTests:
   - id: SygsW7djsUmIz8PuVmGa1Q
     enabled: true
     invertResult: false
-    order: 110
+    order: 108
     repeat: 1
     type: Action
     elementId: BJJkbmAbZ0CkqjL4k5LjIQ
@@ -2716,7 +2676,7 @@ auxTests:
   - id: 8vgLd8JQekOPDRCPGahMyw
     enabled: true
     invertResult: false
-    order: 111
+    order: 109
     repeat: 1
     type: Action
     elementId: a-ycIomm3EyrFp5dhol8eQ
@@ -2736,7 +2696,7 @@ auxTests:
   - id: 5bTUAEALL0ubYcgo7yD40Q
     enabled: true
     invertResult: false
-    order: 112
+    order: 110
     repeat: 1
     type: Action
     elementId: rv8b1N2FP0mWSt2Zf6l0KA
@@ -2757,7 +2717,7 @@ auxTests:
     comments: disabled due to system bug
     enabled: true
     invertResult: false
-    order: 113
+    order: 111
     repeat: 1
     type: Action
     elementId: je8WtHdBaUWtAjTj69U7aQ
@@ -2781,7 +2741,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 114
+    order: 112
     repeat: 1
     type: Action
     settings:
@@ -2804,7 +2764,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 115
+    order: 113
     repeat: 1
     type: Action
     elementId: dSUTf6nDlEa8ea4TBrJPLw
@@ -2821,55 +2781,12 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: M9CfjpWnKkKKxPjgLXRIKA
-    enabled: true
-    invertResult: false
-    order: 116
-    repeat: 1
-    type: Action
-    settings:
-      sleepTime: 1000
-      timeout: -1
-      sleepTiming: Before
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 5ac5d621-7a53-45a6-94e5-a3348be3969e
-      source: System
-    parameterMaps:
-    - name: milliseconds
-      value: 5000
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: ZvNYK-BgSEGEW_MgXilIFA
     enabled: true
     invertResult: false
-    order: 117
+    order: 114
     repeat: 1
     type: Action
-    elementId: Q-jrgC3hFU6K7Mn6LDuJjQ
-    settings:
-      sleepTime: 1000
-      timeout: -1
-      sleepTiming: Before
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: UAcVBiEXkkmZVmqT8uVp-w
-    enabled: true
-    invertResult: false
-    order: 118
-    repeat: 1
-    type: Action
-    elementId: iyugmOz8UUiIKhUjNHljYw
     settings:
       sleepTime: -1
       timeout: -1
@@ -2877,9 +2794,12 @@ auxTests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
       source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: url
+      value: '[[ARCTP]]/?nd=vms_profile&account_id=1864032'
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -2887,7 +2807,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 119
+    order: 115
     repeat: 1
     type: Action
     elementId: bmmhQ9RXFUW5R1KkqjPu5g
@@ -2911,7 +2831,7 @@ auxTests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 120
+    order: 116
     repeat: 1
     type: Action
     elementId: bmmhQ9RXFUW5R1KkqjPu5g
@@ -2931,30 +2851,10 @@ auxTests:
     conditions: []
     validations: []
     contexts: []
-  - id: Ec328g47aUaUs9g9vtva-w
-    enabled: true
-    invertResult: false
-    order: 121
-    repeat: 1
-    type: Action
-    elementId: epcR_i7DEUakKZuPJYRjKw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: GlJTgqacLEa7eQGvt6xRmA
     enabled: true
     invertResult: false
-    order: 122
+    order: 117
     repeat: 1
     type: Action
     elementId: U1bdDH3QPEieXK8EkE_WEQ
@@ -2974,7 +2874,7 @@ auxTests:
   - id: 5u8XIPmqG0--Q0XPiavpaQ
     enabled: true
     invertResult: false
-    order: 123
+    order: 118
     repeat: 1
     type: Action
     elementId: abROqv_XfEipvLYOQfMEGw
@@ -2994,7 +2894,7 @@ auxTests:
   - id: a0kLsH_m6UW7mk5GVfIRQg
     enabled: true
     invertResult: false
-    order: 124
+    order: 119
     repeat: 1
     type: Action
     elementId: COC7Stq3XUO2gDXXU6gUNg
@@ -3017,7 +2917,7 @@ auxTests:
   - id: l-tEY2O_-EiUptsUofBQxw
     enabled: true
     invertResult: false
-    order: 125
+    order: 120
     repeat: 1
     type: Action
     elementId: y5Dbd5ZnqEGNxd2GqKF8Ng
@@ -3038,7 +2938,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 126
+    order: 121
     repeat: 1
     type: Action
     elementId: Dp6gqNUa2EmK8YAQ1dcukQ
@@ -3062,7 +2962,7 @@ auxTests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 127
+    order: 122
     repeat: 1
     type: Action
     settings:
@@ -3084,7 +2984,7 @@ auxTests:
   - id: m9vhK52olk2my1WeGrYgAg
     enabled: false
     invertResult: false
-    order: 128
+    order: 123
     repeat: 1
     type: Action
     elementId: Fmj5Y5Y_Ck-KTpfN_pEZdw
@@ -3104,7 +3004,7 @@ auxTests:
   - id: 9A0ku2xaR0OGrWV8oFK3BQ
     enabled: false
     invertResult: false
-    order: 129
+    order: 124
     repeat: 1
     type: Action
     elementId: Fmj5Y5Y_Ck-KTpfN_pEZdw
@@ -3127,7 +3027,7 @@ auxTests:
   - id: 8QPiINWdk0y8L6uq6m_f2g
     enabled: false
     invertResult: false
-    order: 130
+    order: 125
     repeat: 1
     type: Action
     elementId: WjR9LxAA4USVtEmXXTaSmQ
@@ -3147,7 +3047,7 @@ auxTests:
   - id: EUzalybLtEy5ohczQuBmUA
     enabled: false
     invertResult: false
-    order: 131
+    order: 126
     repeat: 1
     type: Action
     elementId: e48zEGfEj0ys9Q9LNHqGkQ
@@ -3170,7 +3070,7 @@ auxTests:
   - id: NAIAM8cztk-6KVHN85sSsg
     enabled: false
     invertResult: false
-    order: 132
+    order: 127
     repeat: 1
     type: Action
     elementId: JU_fQvHB8EiCPdw113uE0w
@@ -3190,7 +3090,7 @@ auxTests:
   - id: kmUYlenaxUSHDiNVQAlcEw
     enabled: false
     invertResult: false
-    order: 133
+    order: 128
     repeat: 1
     type: Action
     elementId: nZR8L2xIlU6L41bRniSViw
@@ -3211,7 +3111,7 @@ auxTests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 134
+    order: 129
     repeat: 1
     type: Action
     elementId: U9sf-or3tEiLiTroCtaAGQ
@@ -3235,7 +3135,7 @@ auxTests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 135
+    order: 130
     repeat: 1
     type: Action
     elementId: AQY18X6caEmKw0LvV8ceSQ
@@ -3259,7 +3159,7 @@ auxTests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 136
+    order: 131
     repeat: 1
     type: Action
     elementId: BDoxadmGpk60pyDpjueqrQ
@@ -3283,7 +3183,7 @@ auxTests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 137
+    order: 132
     repeat: 1
     type: Addon
     settings:
@@ -3317,7 +3217,7 @@ auxTests:
     comments: ''
     enabled: false
     invertResult: false
-    order: 138
+    order: 133
     repeat: 1
     type: Action
     settings:
@@ -3340,7 +3240,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 139
+    order: 134
     repeat: 1
     type: Action
     settings:
@@ -3362,7 +3262,7 @@ auxTests:
   - id: C-kDjSgbP0CpMvKe2TmEsg
     enabled: true
     invertResult: false
-    order: 140
+    order: 135
     repeat: 1
     type: Action
     elementId: SziXg9bzs0GrZVv_PgouUA
@@ -3382,7 +3282,7 @@ auxTests:
   - id: cyjeOl6D7EeHf0QgHTEFbg
     enabled: true
     invertResult: false
-    order: 141
+    order: 136
     repeat: 1
     type: Action
     elementId: 8fsHKJoTMU6GwCZpBRQi7w
@@ -3402,7 +3302,7 @@ auxTests:
   - id: zv_7e-PKn0mhpbaqm_W2iQ
     enabled: true
     invertResult: false
-    order: 142
+    order: 137
     repeat: 1
     type: Action
     elementId: jWqb-TM9rUK51Aqsk95CNg
@@ -3425,7 +3325,7 @@ auxTests:
   - id: ylYqNOgUVEqvmsQIexJCog
     enabled: true
     invertResult: false
-    order: 143
+    order: 138
     repeat: 1
     type: Action
     elementId: gBTLXzPeo0yfWtppCbNGRw
@@ -3448,7 +3348,7 @@ auxTests:
   - id: 7XUwOZ3QPUy6KFNSJ-SZiw
     enabled: true
     invertResult: false
-    order: 144
+    order: 139
     repeat: 1
     type: Action
     elementId: Q2BjAPs6YEaQd3-vRZM70A
@@ -3471,7 +3371,7 @@ auxTests:
   - id: TcfTiAO9-0G5iuOiE1HtNg
     enabled: true
     invertResult: false
-    order: 145
+    order: 140
     repeat: 1
     type: Action
     elementId: 2waDhUlTT0G1WXBGjLlQTw
@@ -3491,7 +3391,7 @@ auxTests:
   - id: sBhZ1YOOfEa-8pDI70ICRw
     enabled: true
     invertResult: false
-    order: 146
+    order: 141
     repeat: 1
     type: Action
     elementId: rDwCrJyERU2kCx7VabOmkQ
@@ -3514,7 +3414,7 @@ auxTests:
   - id: luuhHlFhbUqR72pwN8y_Bw
     enabled: true
     invertResult: false
-    order: 147
+    order: 142
     repeat: 1
     type: Action
     elementId: FrqrdbF-hEy8JuKlgHeY9w
@@ -3535,7 +3435,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 148
+    order: 143
     repeat: 1
     type: Action
     elementId: ULBBgJdr6kutozuUCpy6fQ
@@ -3559,7 +3459,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 149
+    order: 144
     repeat: 1
     type: Addon
     settings:
@@ -3593,7 +3493,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 150
+    order: 145
     repeat: 1
     type: Addon
     settings:
@@ -3626,7 +3526,7 @@ auxTests:
   - id: 9eWOZB7ccU-8Yvt5TsU2TQ
     enabled: true
     invertResult: false
-    order: 151
+    order: 146
     repeat: 1
     type: Addon
     settings:
@@ -3655,7 +3555,7 @@ auxTests:
   - id: JmQ-DVL2hEWdrBQe5F4bVA
     enabled: true
     invertResult: false
-    order: 152
+    order: 147
     repeat: 1
     type: Action
     elementId: Kky2iyiExU-HWCl3CUIxqA
@@ -3675,7 +3575,7 @@ auxTests:
   - id: x88uHV3txE-Um5tUDgLMLw
     enabled: true
     invertResult: false
-    order: 153
+    order: 148
     repeat: 1
     type: Action
     elementId: IaoXykQoqUiCP36Am4dSVA
@@ -3696,7 +3596,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 154
+    order: 149
     repeat: 1
     type: Action
     elementId: KA66oslHk0-9vDtw_WOGww
@@ -3720,7 +3620,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 155
+    order: 150
     repeat: 1
     type: Action
     elementId: WZ7j-UG_akmEVKfZf3zjAQ
@@ -3743,7 +3643,7 @@ auxTests:
   - id: NW__2baFB0ywGAKzuh8XUA
     enabled: true
     invertResult: false
-    order: 156
+    order: 151
     repeat: 1
     type: Action
     elementId: EF7zHNRVP0aCKPH5mpXMIw
@@ -3766,7 +3666,7 @@ auxTests:
   - id: sragzdDcAkqfDvsipwqKmA
     enabled: true
     invertResult: false
-    order: 157
+    order: 152
     repeat: 1
     type: Action
     elementId: M45mQXxmJ0GC57YPxFdi2Q
@@ -3789,7 +3689,7 @@ auxTests:
   - id: 2V9bvrXYVEqqrMxWCB6xYw
     enabled: true
     invertResult: false
-    order: 158
+    order: 153
     repeat: 1
     type: Action
     elementId: 2waDhUlTT0G1WXBGjLlQTw
@@ -3809,7 +3709,7 @@ auxTests:
   - id: RM1gtJVXg02f2bpw3TMEpg
     enabled: true
     invertResult: false
-    order: 159
+    order: 154
     repeat: 1
     type: Action
     elementId: Y543k0qnEU-Y2ruhbDdLpA
@@ -3832,7 +3732,7 @@ auxTests:
   - id: WFPKD7oMAEe7T0waVLoXVA
     enabled: true
     invertResult: false
-    order: 160
+    order: 155
     repeat: 1
     type: Action
     elementId: XQLghK6MSUib6frhLB0Fog
@@ -3853,7 +3753,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 161
+    order: 156
     repeat: 1
     type: Action
     elementId: ShDsKvdx-kCWdNi37cGGZQ
@@ -3877,7 +3777,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 162
+    order: 157
     repeat: 1
     type: Action
     elementId: 0aP-ig75R0OfUF1WcczgaQ
@@ -3901,7 +3801,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 163
+    order: 158
     repeat: 1
     type: Action
     elementId: Y-hx0FABY06dyh4yivFydg
@@ -3925,7 +3825,7 @@ auxTests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 164
+    order: 159
     repeat: 1
     type: Action
     elementId: SgbMO1spWEul4dNA1oGjGg
@@ -5649,39 +5549,6 @@ elements:
   - name: XPATH
     value: /html/body/span/span/span[1]/input
     priority: 1
-- id: Q-jrgC3hFU6K7Mn6LDuJjQ
-  name: localpositionadmin, matthewTEST1
-  description: ''
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'localpositionadmin, matthewTEST']
-    priority: 0
-  - name: XPATH
-    value: //tr[1]//a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/form/div[1]/div[2]/table/tbody/tr[1]/td[2]/a
-    priority: 2
-- id: iyugmOz8UUiIKhUjNHljYw
-  name: Positions
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //a[. = 'Positions']
-    priority: 0
-  - name: XPATH
-    value: //div/ul/li[25]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/div[1]/ul/li[25]/a
-    priority: 2
 - id: bmmhQ9RXFUW5R1KkqjPu5g
   name: positions table
   description: ''
