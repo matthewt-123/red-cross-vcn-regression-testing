@@ -1,7 +1,7 @@
-id: mUFaOpY9ME23mBWOWYfRkA
+id: wJNWh51Hc0K-J0SARSyA6Q
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-12T05:15:45.4587557Z
+created: 2022-07-12T05:23:30.3367949Z
 protocol: 1
 tests:
 - id: HSCAcIC8VUCRKbf-rtrKIQ
@@ -135,7 +135,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-02-20T03:07:57.0000000
-  modificationDate: 2022-07-12T04:55:55.0000000
+  modificationDate: 2022-07-12T05:23:20.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -3561,8 +3561,7 @@ auxTests:
     invertResult: false
     order: 149
     repeat: 1
-    type: Action
-    elementId: 3Mh1VKD85UaFRCZPzaXL_g
+    type: Addon
     settings:
       sleepTime: -1
       timeout: -1
@@ -3570,20 +3569,33 @@ auxTests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 2c399e26-8d02-41a7-a8d4-acfeda14fb5b
-      source: System
-    parameterMaps: []
+      id: SFW6Rf9DW0G4jpBW38V4xw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: code
+      value: return document.getElementsByName('disable_groupshare')[0].value
+      direction: Input
+    - name: args
+      value: ''
+      direction: Input
+    - name: output
+      value: ''
+      direction: Output
     conditions: []
-    validations: []
+    validations:
+    - type: Contains
+      invert: false
+      field: output
+      value: No
     contexts: []
-  - id: rhZwJtfZokuF5rgb4FlnwA
+  - id: QsVTa_R0D0icDaTi_MmptA
     comments: ''
     enabled: true
     invertResult: false
     order: 150
     repeat: 1
-    type: Action
-    elementId: s9KKAJ_0c0eKjPwsUHzNjg
+    type: Addon
     settings:
       sleepTime: -1
       timeout: -1
@@ -3591,11 +3603,25 @@ auxTests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 2c399e26-8d02-41a7-a8d4-acfeda14fb5b
-      source: System
-    parameterMaps: []
+      id: SFW6Rf9DW0G4jpBW38V4xw
+      source: Store
+      addonId: Xey4bVsJQEODIUN7ssaJMg
+    parameterMaps:
+    - name: code
+      value: return document.getElementsByName('is_access_group')[0].value
+      direction: Input
+    - name: args
+      value: ''
+      direction: Input
+    - name: output
+      value: ''
+      direction: Output
     conditions: []
-    validations: []
+    validations:
+    - type: Contains
+      invert: false
+      field: output
+      value: Yes
     contexts: []
   - id: 9eWOZB7ccU-8Yvt5TsU2TQ
     enabled: true
@@ -3866,7 +3892,7 @@ auxTests:
       source: System
     parameterMaps:
     - name: text
-      value: pos group {{position_uid}}
+      value: '{{position_uid}}'
       direction: Input
     conditions: []
     validations: []
@@ -5932,38 +5958,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[1]
     priority: 1
-- id: 3Mh1VKD85UaFRCZPzaXL_g
-  name: disable_groupshare
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='disable_groupshare']"
-    priority: 0
-  - name: XPATH
-    value: //td[6]/select
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[6]/select
-    priority: 2
-- id: s9KKAJ_0c0eKjPwsUHzNjg
-  name: is_access_group
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='is_access_group']"
-    priority: 0
-  - name: XPATH
-    value: //td[7]/select
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/div/div[1]/table/tbody/tr/td[7]/select
-    priority: 2
 - id: Kky2iyiExU-HWCl3CUIxqA
   name: 01
   type:
