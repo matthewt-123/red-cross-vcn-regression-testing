@@ -1,7 +1,7 @@
-id: 45XwrCFPAU6GlHYuEbN2WA
+id: vgffpINoz0mAYcpmKLbAIw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T00:48:57.7584042Z
+created: 2022-07-12T05:28:21.8834947Z
 protocol: 1
 tests:
 - id: 0WjoG6o-qEi7U-gh50kC6A
@@ -15,7 +15,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2021-11-22T00:45:29.0000000
-  modificationDate: 2022-06-26T00:48:47.0000000
+  modificationDate: 2022-07-12T05:28:13.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -91,7 +91,6 @@ tests:
     order: 3
     repeat: 1
     type: Action
-    elementId: 5R5eB6tgJUGMRB5dHyk9DQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -99,36 +98,19 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
       source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: Pv1A5IsgTEW2fUPWKdaz1Q
-    enabled: true
-    invertResult: false
-    order: 4
-    repeat: 1
-    type: Action
-    elementId: 8cAX-X_YhEGY10e7tD-EWw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: url
+      value: '[[ARCTP]]/?nd=gs_home_v5&group_id=32238'
+      direction: Input
     conditions: []
     validations: []
     contexts: []
   - id: RZ47CCEPKkOG22uM33dLYw
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Action
     elementId: GEk96LnsDkSXckVbamJC3w
@@ -148,7 +130,7 @@ tests:
   - id: fH9ledV4L0mrmgPSpXJrEw
     enabled: true
     invertResult: false
-    order: 6
+    order: 5
     repeat: 1
     type: Action
     elementId: AOl8GMGPfk65sWocUnD9QQ
@@ -168,10 +150,30 @@ tests:
   - id: --IV-GTzkkWR8NKpTd97Jw
     enabled: true
     invertResult: false
-    order: 7
+    order: 6
     repeat: 1
     type: Action
     elementId: _iiCfFlR2EKEdGFJiOfweQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GsY_DnsGXEiG3tW7fKT5HA
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: AOl8GMGPfk65sWocUnD9QQ
     settings:
       sleepTime: -1
       timeout: -1
@@ -223,7 +225,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: vipcmember, matthewtest
+      value: globalgsmember, matthewtest
       direction: Input
     conditions: []
     validations: []
@@ -1548,38 +1550,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
-- id: 5R5eB6tgJUGMRB5dHyk9DQ
-  name: MY GROUPS
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'My Groups']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[5]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[5]/a
-    priority: 2
-- id: 8cAX-X_YhEGY10e7tD-EWw
-  name: Youth group
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Youth group']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[5]/ul/li[8]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[5]/ul/li[8]/a
-    priority: 2
 - id: GEk96LnsDkSXckVbamJC3w
   name: I3
   type:
@@ -1617,14 +1587,11 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //a[. = 'matthewTEST VIPCMember']
-    priority: 1
-  - name: XPATH
     value: //td/a
     priority: 0
   - name: XPATH
     value: /html/body/div[1]/div[1]/div[2]/div/div[3]/form/div[1]/div/div[1]/div/div/div/div[2]/div[2]/div[1]/div[2]/div[2]/table/tbody/tr/td[1]/a
-    priority: 2
+    priority: 1
 - id: 7UTwyxXy4kyxXMg63Kb0-w
   name: hr_comment
   description: ''
@@ -1714,6 +1681,10 @@ elements:
     value: '#nd_vms_gs_hours_manager > div.site-container > div.page-wrap > div.site-main > div > div.gs-v5-main > table > tbody > tr > td'
     priority: 1
 projectParameters:
+- id: HkHAS_uwg0CffuBPcOIbSQ
+  name: ARCTP
+  description: ''
+  value: https://arc-testproject.tcheetah09.com
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
   description: ''
