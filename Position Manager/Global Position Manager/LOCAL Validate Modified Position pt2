@@ -1,7 +1,7 @@
-id: JnePqbpeHEe5GdnTdE9Pag
+id: CGcebty2wUG_WcziNPwwqA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-13T05:27:26.5380228Z
+created: 2022-07-13T05:34:48.3083207Z
 protocol: 1
 tests:
 - id: 24Utd3B7-06HU2HcA8SgfA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-13T05:27:17.0000000
-  modificationDate: 2022-07-13T05:27:26.0000000
+  modificationDate: 2022-07-13T05:34:41.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -132,7 +132,31 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: test
+      value: test NEW RESPONSIBILITY!
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: HPKkNxIEW0qwwiEKXr1hYA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: NaLpJtoxYUinf7G4jCO79A
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Program Lead
       direction: Input
     conditions: []
     validations: []
@@ -141,7 +165,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: w-YU6MEjXkCQtmLK7lYawg
@@ -165,7 +189,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: _tipdyWwDkyaYuy1SjglJg
@@ -180,7 +204,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: global position [[globalposname]]
+      value: changed
       direction: Input
     conditions: []
     validations: []
@@ -189,7 +213,7 @@ tests:
     comments: Navigates the specified URL (Auto-generated)
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     settings:
@@ -212,7 +236,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 9
+    order: 10
     repeat: 1
     type: Test
     targetTestId: FNcXZsJiwkKZxOCKCrk5hA
@@ -243,7 +267,7 @@ tests:
   - id: 7T0Ca3QNsUacEUs6TfuWzg
     enabled: true
     invertResult: false
-    order: 10
+    order: 11
     repeat: 1
     type: Action
     elementId: HYTRnr4SkEOta3LtMtoAWA
@@ -263,7 +287,7 @@ tests:
   - id: jabUw0LNqk-yXIDnoC4c8Q
     enabled: true
     invertResult: false
-    order: 11
+    order: 12
     repeat: 1
     type: Action
     elementId: e48zEGfEj0ys9Q9LNHqGkQ
@@ -278,7 +302,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: '[[globalposname]]'
+      value: '[[globalposname]] changed'
       direction: Input
     conditions: []
     validations: []
@@ -286,7 +310,7 @@ tests:
   - id: 2TTz1bT1l0KP9yhHVxihxw
     enabled: true
     invertResult: false
-    order: 12
+    order: 13
     repeat: 1
     type: Action
     elementId: JU_fQvHB8EiCPdw113uE0w
@@ -304,10 +328,10 @@ tests:
     validations: []
     contexts: []
   - id: EvLMaFp5KE6KzTcTipjBng
-    comments: ''
+    comments: no results should appear
     enabled: true
-    invertResult: false
-    order: 13
+    invertResult: true
+    order: 14
     repeat: 1
     type: Action
     elementId: 1qGu4Trz5UG51FTx5jzMgg
@@ -327,122 +351,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: DE-h2AwI4UmyIMx7IfI1EQ
-    enabled: true
-    invertResult: false
-    order: 14
-    repeat: 1
-    type: Action
-    elementId: DGkgku9jPUuMkqEh7H8X9w
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: hKRwnKvGsUeawRTJSVHsXg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 15
-    repeat: 1
-    type: Action
-    elementId: D9rli_eO5EKWj217IkBxRw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: test
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: to8NqBp7Uk2eVuoulxJa6g
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 16
-    repeat: 1
-    type: Action
-    elementId: XbSwIVz9VUegx1ChHo8WuQ
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: seven
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: SUWnYW9m-kK6HD6JDuoo-Q
-    enabled: true
-    invertResult: false
-    order: 17
-    repeat: 1
-    type: Action
-    elementId: fZ7i93up2EKlXNe76iVg7Q
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
-  - id: SBCZ6n2qikO2o55Rfe8_9w
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 18
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 22Nw5UqP7EGqvQhuHT2kqg
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
-    parameterMaps:
-    - name: pause
-      value: ''
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: 7mXmWaJZxkGlNUG_izcBJA
     enabled: true
     invertResult: false
-    order: 19
+    order: 15
     repeat: 1
     type: Action
     elementId: epcR_i7DEUakKZuPJYRjKw
@@ -462,7 +374,7 @@ tests:
   - id: 3OyrLaH4sEq2bNKvsVzYjA
     enabled: true
     invertResult: false
-    order: 20
+    order: 16
     repeat: 1
     type: Action
     elementId: U1bdDH3QPEieXK8EkE_WEQ
@@ -482,7 +394,7 @@ tests:
   - id: MjrOAMRnPEe5jJW7UxvTQQ
     enabled: true
     invertResult: false
-    order: 21
+    order: 17
     repeat: 1
     type: Action
     elementId: AF9dcIquNUOTn1V9magnFA
@@ -502,7 +414,7 @@ tests:
   - id: QI8Bu5OL7UeMB8LUuK3mPg
     enabled: true
     invertResult: false
-    order: 22
+    order: 18
     repeat: 1
     type: Action
     elementId: COC7Stq3XUO2gDXXU6gUNg
@@ -522,7 +434,7 @@ tests:
   - id: x1OmV0aSO0qL386ya2AN5Q
     enabled: true
     invertResult: false
-    order: 23
+    order: 19
     repeat: 1
     type: Action
     elementId: COC7Stq3XUO2gDXXU6gUNg
@@ -537,7 +449,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: '[[globalposname]]'
+      value: '[[globalposname]] changed'
       direction: Input
     conditions: []
     validations: []
@@ -545,7 +457,7 @@ tests:
   - id: _KDtiL67nkOXff97YbDpVQ
     enabled: true
     invertResult: false
-    order: 24
+    order: 20
     repeat: 1
     type: Action
     elementId: y5Dbd5ZnqEGNxd2GqKF8Ng
@@ -566,7 +478,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 25
+    order: 21
     repeat: 1
     type: Action
     elementId: xaw6E7r_jU-0o496ri9iLA
@@ -581,7 +493,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: '[[globalposname]]'
+      value: changed
       direction: Input
     conditions: []
     validations: []
@@ -589,7 +501,7 @@ tests:
   - id: Pgf8HGRPV0KjvlF6evrMJg
     enabled: true
     invertResult: false
-    order: 26
+    order: 22
     repeat: 1
     type: Action
     elementId: QWl0iej5NEKEav6RLAXtrQ
@@ -609,7 +521,7 @@ tests:
   - id: 3q_3kLfPCEWFleEMUce1fQ
     enabled: true
     invertResult: false
-    order: 27
+    order: 23
     repeat: 1
     type: Action
     settings:
@@ -632,7 +544,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 28
+    order: 24
     repeat: 1
     type: Addon
     settings:
@@ -647,7 +559,7 @@ tests:
       addonId: Xey4bVsJQEODIUN7ssaJMg
     parameterMaps:
     - name: code
-      value: return document.querySelectorAll(':disabled').length
+      value: document.querySelectorAll(':checked').length
       direction: Input
     - name: args
       value: ''
@@ -660,42 +572,7 @@ tests:
     - type: Equals
       invert: false
       field: output
-      value: 42
-    contexts: []
-  - id: pI7_bJlp0E-EbG4O4irULg
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 29
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: SFW6Rf9DW0G4jpBW38V4xw
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
-    parameterMaps:
-    - name: code
-      value: >
-        return document.getElementById('opportunity_location_type').value
-      direction: Input
-    - name: args
-      value: ''
-      direction: Input
-    - name: output
-      value: ''
-      direction: Output
-    conditions: []
-    validations:
-    - type: Equals
-      invert: false
-      field: output
-      value: virtual
+      value: 32
     contexts: []
   parameters:
   - name: ApplicationURL
@@ -1284,22 +1161,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/div/form/div/button
     priority: 3
-- id: fZ7i93up2EKlXNe76iVg7Q
-  name: Apply for this position
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Sign Up']
-    priority: 0
-  - name: XPATH
-    value: //div[4]/div/div/div[3]/button[1]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[4]/div/div/div[3]/button[1]
-    priority: 2
 - id: AF9dcIquNUOTn1V9magnFA
   name: Position Manager2
   type:
@@ -1337,13 +1198,13 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //p[. = 'test']
+    value: //*[@id="nd_rco_opportunity_detail"]/main/div[2]/div/div/div/div/div[2]/div/div/div[1]/p[2]
     priority: 0
   - name: XPATH
-    value: //div[2]/div/div/div/p[2]
-    priority: 1
-  - name: XPATH
     value: /html/body/main/div[2]/div/div/div/div/div[2]/div/div/div[1]/p[2]
+    priority: 1
+  - name: CSSSELECTOR
+    value: '#nd_rco_opportunity_detail > main > div.container-fluid > div > div > div > div > div.red-cross-volunteer__main.red-cross-volunteer__main--wide > div > div > div.col-12.col-md-6 > p:nth-child(3)'
     priority: 2
 - id: w-YU6MEjXkCQtmLK7lYawg
   name: seven
@@ -1382,14 +1243,11 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //td[. = 'global position atmxfzpmzgdyttcgpbxj']
+    value: //td[1]
     priority: 0
   - name: XPATH
-    value: //td[1]
-    priority: 1
-  - name: XPATH
     value: /html/body/div/div[2]/div/table/tbody/tr[2]/td[1]
-    priority: 2
+    priority: 1
 - id: QWl0iej5NEKEav6RLAXtrQ
   name: Configure1
   type:
@@ -1419,50 +1277,21 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/ul/li/h3/a
     priority: 1
-- id: DGkgku9jPUuMkqEh7H8X9w
-  name: global position atmxfzpmzgdyttcgpbxj ...2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //li/h3/a
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div[1]/div[2]/ul/li/h3/a
-    priority: 1
-- id: D9rli_eO5EKWj217IkBxRw
-  name: test NEW RESPONSIBILITY!
+- id: NaLpJtoxYUinf7G4jCO79A
+  name: Program Lead
   type:
     id: jUwODgyNjAyNzk2NTk1NTM
     name: Paragraph
     source: System
   locators:
   - name: XPATH
-    value: //p[. = 'test NEW RESPONSIBILITY!']
+    value: //p[. = 'Program Lead']
     priority: 0
   - name: XPATH
-    value: //li[1]/p
+    value: //div[2]/p[2]
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[4]/div/div/div[2]/ul/li[1]/p
-    priority: 2
-- id: XbSwIVz9VUegx1ChHo8WuQ
-  name: seven1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTM
-    name: Paragraph
-    source: System
-  locators:
-  - name: XPATH
-    value: //p[. = 'seven']
-    priority: 0
-  - name: XPATH
-    value: //li[2]/p
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/div[2]/div/div[4]/div/div/div[2]/ul/li[2]/p
+    value: /html/body/main/div[2]/div/div/div/div/div[2]/div/div/div[2]/p[2]
     priority: 2
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
@@ -1478,10 +1307,6 @@ addons:
   source: Store
   version: 1.1.9
   actions:
-  - id: 22Nw5UqP7EGqvQhuHT2kqg
-    name: Accept alert
-    description: Accept alert
-    className: io.testproject.addons.web.alert.AcceptAlert
   - id: SFW6Rf9DW0G4jpBW38V4xw
     name: Execute JavaScript
     description: Execute JavaScript {{code}} with arguments {{args}}
