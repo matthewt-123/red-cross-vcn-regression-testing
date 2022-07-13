@@ -1,18 +1,18 @@
-id: KVPkQY-j2U6G_wXjA1AIlQ
+id: 5W-hbyots0eDDaWdli5-Cw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-13T05:08:56.0950134Z
+created: 2022-07-13T05:09:05.5007973Z
 protocol: 1
 tests:
 - id: 4gz7Q3039Uu1lm3s9PP56w
-  name: LOCAL Validate Position
+  name: LOCAL Validate Position pt2
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-13T05:00:27.0000000
-  modificationDate: 2022-07-13T05:08:05.0000000
+  modificationDate: 2022-07-13T05:09:05.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
