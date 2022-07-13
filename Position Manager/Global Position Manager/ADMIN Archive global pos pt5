@@ -1,18 +1,18 @@
-id: hXaxXg9lz0SkRFzh7LlM8w
+id: FqmOX4wV_0KTtCHn1XGPIA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-13T05:35:53.4642417Z
+created: 2022-07-13T05:36:13.1746882Z
 protocol: 1
 tests:
 - id: rwd0A01XxUqsYqodQr9yFA
-  name: ADMIN Create global pos pt1 - copy
+  name: ADMIN Archive global pos pt5
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-13T05:35:53.0000000
-  modificationDate: 2022-07-13T05:35:53.0000000
+  modificationDate: 2022-07-13T05:36:13.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
