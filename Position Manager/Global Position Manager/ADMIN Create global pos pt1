@@ -1,7 +1,7 @@
-id: zAGHpHFack6EenqCdVzlnw
+id: uPZYjBWX3EqsNYoREP7IVg
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-13T05:15:31.9326236Z
+created: 2022-07-13T05:23:22.1342899Z
 protocol: 1
 tests:
 - id: -goxg1MYiUaETTaQBomxZA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-13T04:44:58.0000000
-  modificationDate: 2022-07-13T05:11:51.0000000
+  modificationDate: 2022-07-13T05:22:10.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -983,13 +983,13 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: 6fZU4mKUz0yu8kqwJcHLRQ
+  - id: 2GAn-tGg1k-xKjEAYFmBSg
     enabled: true
     invertResult: false
     order: 43
     repeat: 1
     type: Action
-    elementId: swwCtmFl20-eUJr3eI6pBw
+    elementId: BdHl-B_QNUib0JGKHLCtEw
     settings:
       sleepTime: -1
       timeout: -1
@@ -997,13 +997,16 @@ tests:
       failureBehaviorType: Inherit
       takeScreenshotConditionType: Inherit
     action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
       source: System
-    parameterMaps: []
+    parameterMaps:
+    - name: value
+      value: Yes
+      direction: Input
     conditions: []
     validations: []
     contexts: []
-  - id: 2GAn-tGg1k-xKjEAYFmBSg
+  - id: 2aF5zZjIa0qcN4S2MpFypg
     enabled: true
     invertResult: false
     order: 44
@@ -1026,30 +1029,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: Ce4Kd0BOOUaCKDwrCJ2xXg
-    enabled: true
-    invertResult: false
-    order: 45
-    repeat: 1
-    type: Action
-    elementId: swwCtmFl20-eUJr3eI6pBw
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 02d572b2-d610-4700-9ad3-40076ddb9807
-      source: System
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: MfnDNlRku0iNl6YcPslJ0A
     enabled: true
     invertResult: false
-    order: 46
+    order: 45
     repeat: 1
     type: Action
     elementId: ZSOL0CxaaE2cmRupyGYs1w
@@ -1069,7 +1052,7 @@ tests:
   - id: vX1_RAxE40e2HnQhMjt3cg
     enabled: true
     invertResult: false
-    order: 47
+    order: 46
     repeat: 1
     type: Action
     elementId: yuV5n2XmCUCw9PasgbonTA
@@ -1089,7 +1072,7 @@ tests:
   - id: ts2hCSZAzEakn0myBTgATA
     enabled: true
     invertResult: false
-    order: 48
+    order: 47
     repeat: 1
     type: Action
     elementId: sHnmFJEKy0yX6Rm3fGDZPA
@@ -1112,7 +1095,7 @@ tests:
   - id: tW4kuo00XE22c6rCIhiWPQ
     enabled: true
     invertResult: false
-    order: 49
+    order: 48
     repeat: 1
     type: Action
     elementId: zIFktEQFR0uJi5BBDn3INg
@@ -1132,7 +1115,7 @@ tests:
   - id: hX1ul3zquEyVMIEqxgHaEA
     enabled: true
     invertResult: false
-    order: 50
+    order: 49
     repeat: 1
     type: Action
     elementId: G26VJjr5HEW1MFN-qbVBVw
@@ -1153,7 +1136,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 51
+    order: 50
     repeat: 1
     type: Addon
     settings:
@@ -1177,7 +1160,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 52
+    order: 51
     repeat: 1
     type: Action
     elementId: xQ0AV054akGQpzBA9nivxg
@@ -2253,6 +2236,17 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div[2]/div[2]/table/tbody/tr[1]/td[3]
     priority: 2
+- id: BdHl-B_QNUib0JGKHLCtEw
+  name: publish select 1
+  description: ''
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDM
+    name: Generic Web Element
+    source: System
+  locators:
+  - name: XPATH
+    value: //tr[1]/td[14]/select
+    priority: 0
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
