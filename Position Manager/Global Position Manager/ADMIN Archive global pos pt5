@@ -1,7 +1,7 @@
-id: WTdqLx9gCUqP_yECeFYUoA
+id: icTKBwz2aU6d0saUgWYgKw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-13T05:45:55.2658327Z
+created: 2022-07-14T05:35:13.6563203Z
 protocol: 1
 tests:
 - id: rwd0A01XxUqsYqodQr9yFA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-13T05:35:53.0000000
-  modificationDate: 2022-07-13T05:45:46.0000000
+  modificationDate: 2022-07-14T05:35:06.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -704,7 +704,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: localpositionadmin
+      value: globalgsmember
       direction: Input
     conditions: []
     validations: []
@@ -2303,14 +2303,11 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //a[. = 'matthewTEST localpositionadmin']
+    value: //td[1]/a
     priority: 0
   - name: XPATH
-    value: //td[1]/a
-    priority: 1
-  - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[12]/div/div/div[2]/div[2]/div[1]/div[2]/div[2]/table/tbody/tr/td[1]/a
-    priority: 2
+    priority: 1
 - id: G26VJjr5HEW1MFN-qbVBVw
   name: Confirm
   type:
