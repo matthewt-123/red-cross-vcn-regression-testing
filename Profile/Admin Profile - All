@@ -1,7 +1,7 @@
-id: tlZ-5LArtkCOvvQ6EdM4vw
+id: 5utZklAMA0SfnY-VSpg65A
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-16T05:16:15.9075335Z
+created: 2022-07-16T05:30:03.5899203Z
 protocol: 1
 tests:
 - id: CFQJCHFfn0WYekSwEBP-CQ
@@ -55,7 +55,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-16T04:22:36.0000000
-  modificationDate: 2022-07-16T05:13:46.0000000
+  modificationDate: 2022-07-16T05:29:29.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -822,10 +822,35 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: FvCAiphEy0OiPOHrM4keWg
+  - id: pMju4kS2dUGlMnPBGh5xHQ
     enabled: true
     invertResult: false
     order: 35
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: -208
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: FvCAiphEy0OiPOHrM4keWg
+    enabled: true
+    invertResult: false
+    order: 36
     repeat: 1
     type: Action
     elementId: vKppmBbzx0ypy2ZuMekGYA
@@ -845,7 +870,7 @@ tests:
   - id: 1Pg20SygZ0KMFRP47v6ByQ
     enabled: true
     invertResult: false
-    order: 36
+    order: 37
     repeat: 1
     type: Action
     elementId: IZYw5dCefEGhOOxhaRY1NA
@@ -865,7 +890,7 @@ tests:
   - id: mYwJJCsvMUeUCV7A2TJO7g
     enabled: true
     invertResult: false
-    order: 37
+    order: 38
     repeat: 1
     type: Action
     elementId: IZYw5dCefEGhOOxhaRY1NA
@@ -888,7 +913,7 @@ tests:
   - id: ZQ2_ntD45UaNQeU2hS-hIg
     enabled: true
     invertResult: false
-    order: 38
+    order: 39
     repeat: 1
     type: Action
     elementId: 3yKeY-BtUESV6RS53zl2eQ
@@ -908,7 +933,7 @@ tests:
   - id: wmIKKBaJfkWeKOjI3AQrDA
     enabled: true
     invertResult: false
-    order: 39
+    order: 40
     repeat: 1
     type: Action
     elementId: 3yKeY-BtUESV6RS53zl2eQ
@@ -931,7 +956,7 @@ tests:
   - id: 9M7OwTvJzEGIhr247gSaHQ
     enabled: true
     invertResult: false
-    order: 40
+    order: 41
     repeat: 1
     type: Action
     elementId: xP0pkSjG-EmhgXpPlu-tUQ
@@ -951,7 +976,7 @@ tests:
   - id: SBsBCH45d0e-ZwgRp09Oig
     enabled: true
     invertResult: false
-    order: 41
+    order: 42
     repeat: 1
     type: Action
     elementId: xP0pkSjG-EmhgXpPlu-tUQ
@@ -974,7 +999,7 @@ tests:
   - id: Uxj0Q5gN30G6lYzpcGmwdg
     enabled: true
     invertResult: false
-    order: 42
+    order: 43
     repeat: 1
     type: Action
     elementId: 8yQugJSBCEGY3mOo0WjrgQ
@@ -994,7 +1019,7 @@ tests:
   - id: D2isRt0G2UynjWpEbqc0xw
     enabled: true
     invertResult: false
-    order: 43
+    order: 44
     repeat: 1
     type: Action
     elementId: 8yQugJSBCEGY3mOo0WjrgQ
@@ -1017,7 +1042,7 @@ tests:
   - id: _hJvMZ2qFE6tXjkF8v0oeg
     enabled: true
     invertResult: false
-    order: 44
+    order: 45
     repeat: 1
     type: Action
     elementId: 48L4BnlOK0SJi496loAWZA
@@ -1037,7 +1062,7 @@ tests:
   - id: VVWURaRrnUC7041v7hbrxQ
     enabled: true
     invertResult: false
-    order: 45
+    order: 46
     repeat: 1
     type: Action
     elementId: 48L4BnlOK0SJi496loAWZA
@@ -1060,7 +1085,7 @@ tests:
   - id: CTaIe0ZWlEitPS0jxUKWiQ
     enabled: true
     invertResult: false
-    order: 46
+    order: 47
     repeat: 1
     type: Action
     elementId: SAKqOkWZRkeS_SdeWrt1jg
@@ -1080,7 +1105,7 @@ tests:
   - id: 51Pft7iohkSz0c7EwHhtXw
     enabled: true
     invertResult: false
-    order: 47
+    order: 48
     repeat: 1
     type: Action
     elementId: SAKqOkWZRkeS_SdeWrt1jg
@@ -1103,7 +1128,7 @@ tests:
   - id: uTnK12PmPUWqV8RV1WAB-A
     enabled: true
     invertResult: false
-    order: 48
+    order: 49
     repeat: 1
     type: Action
     elementId: D32pj-DIdEmcBbq7EpxYEQ
@@ -1123,7 +1148,7 @@ tests:
   - id: hyXlsJN-kk6bX_B81ODkgw
     enabled: true
     invertResult: false
-    order: 49
+    order: 50
     repeat: 1
     type: Action
     elementId: D32pj-DIdEmcBbq7EpxYEQ
@@ -1146,7 +1171,7 @@ tests:
   - id: YqUnJPBFXkiiqZgssjrCdw
     enabled: true
     invertResult: false
-    order: 50
+    order: 51
     repeat: 1
     type: Action
     elementId: xhlwMimJKUG8txwXgNNHlw
@@ -1166,7 +1191,7 @@ tests:
   - id: _Xl7Mtj-ykiPAPWkkFsNsw
     enabled: true
     invertResult: false
-    order: 51
+    order: 52
     repeat: 1
     type: Action
     elementId: xhlwMimJKUG8txwXgNNHlw
@@ -1189,7 +1214,7 @@ tests:
   - id: YiQKIJ_6v0aupJ3vD6Ejew
     enabled: true
     invertResult: false
-    order: 52
+    order: 53
     repeat: 1
     type: Action
     elementId: q12TTFPOOE2CfaU169o8sA
@@ -1210,7 +1235,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 53
+    order: 54
     repeat: 1
     type: Action
     elementId: afr7AtOavk66571Iqu_r2A
@@ -1234,7 +1259,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 54
+    order: 55
     repeat: 1
     type: Action
     elementId: bU5Nx6-A6Eaqq31ru35RAA
@@ -1258,7 +1283,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 55
+    order: 56
     repeat: 1
     type: Action
     elementId: d5onYNG4z0yn8vaJTjo98w
@@ -1282,7 +1307,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 56
+    order: 57
     repeat: 1
     type: Action
     elementId: Kk2pKDhiY0meL1zx6j0ZDg
@@ -1306,7 +1331,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 57
+    order: 58
     repeat: 1
     type: Action
     elementId: 3z8hZ5k43UuHwVo1Q84-Og
@@ -1330,7 +1355,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 58
+    order: 59
     repeat: 1
     type: Action
     elementId: 8w-etNl6SUCXaN_of-Tclg
@@ -1354,7 +1379,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 59
+    order: 60
     repeat: 1
     type: Action
     elementId: hbG3q-jxjUaYWbdqtcHvcw
@@ -1377,7 +1402,7 @@ tests:
   - id: 735pBF32NEiKGCpznX_ERg
     enabled: true
     invertResult: false
-    order: 60
+    order: 61
     repeat: 1
     type: Action
     elementId: uvVfqbPvY0i24EjfdVgHgQ
@@ -1397,7 +1422,7 @@ tests:
   - id: WMhKGRGg306uK3p0HqrykQ
     enabled: true
     invertResult: false
-    order: 61
+    order: 62
     repeat: 1
     type: Action
     elementId: IZYw5dCefEGhOOxhaRY1NA
@@ -1417,7 +1442,7 @@ tests:
   - id: KO4gTOMGq06czlIQg47pKw
     enabled: true
     invertResult: false
-    order: 62
+    order: 63
     repeat: 1
     type: Action
     elementId: IZYw5dCefEGhOOxhaRY1NA
@@ -1440,7 +1465,7 @@ tests:
   - id: i1RGU5hDAEm79r-W30zGbA
     enabled: true
     invertResult: false
-    order: 63
+    order: 64
     repeat: 1
     type: Action
     elementId: 3yKeY-BtUESV6RS53zl2eQ
@@ -1460,7 +1485,7 @@ tests:
   - id: 3sjIGN_59UyYK0UwsF1t2w
     enabled: true
     invertResult: false
-    order: 64
+    order: 65
     repeat: 1
     type: Action
     elementId: 3yKeY-BtUESV6RS53zl2eQ
@@ -1483,7 +1508,7 @@ tests:
   - id: lkE_og6d5UKBjkRvw8pFEA
     enabled: true
     invertResult: false
-    order: 65
+    order: 66
     repeat: 1
     type: Action
     elementId: d8Kf5KRceEadMRlv043feg
@@ -1503,7 +1528,7 @@ tests:
   - id: T3T9QpVTc0SAEgc7eTVKdQ
     enabled: true
     invertResult: false
-    order: 66
+    order: 67
     repeat: 1
     type: Action
     elementId: d8Kf5KRceEadMRlv043feg
@@ -1518,7 +1543,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 12/30/2020
+      value: 12302020
       direction: Input
     conditions: []
     validations: []
@@ -1526,7 +1551,7 @@ tests:
   - id: PzV6Z3ndL0Sxn5sAZvvE5A
     enabled: true
     invertResult: false
-    order: 67
+    order: 68
     repeat: 1
     type: Action
     elementId: OHKCi03_FUezycoz9csK7Q
@@ -1546,7 +1571,7 @@ tests:
   - id: 8e-wWtqq5ECyj5m9hOYejQ
     enabled: true
     invertResult: false
-    order: 68
+    order: 69
     repeat: 1
     type: Action
     elementId: OHKCi03_FUezycoz9csK7Q
@@ -1561,7 +1586,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 12/25/2029
+      value: 12252029
       direction: Input
     conditions: []
     validations: []
@@ -1569,7 +1594,7 @@ tests:
   - id: ls23f3X3qEmpvOUEZYr5jw
     enabled: true
     invertResult: false
-    order: 69
+    order: 70
     repeat: 1
     type: Action
     elementId: 48L4BnlOK0SJi496loAWZA
@@ -1589,7 +1614,7 @@ tests:
   - id: klfVb5ZXIU2kuE2-O9d9dg
     enabled: true
     invertResult: false
-    order: 70
+    order: 71
     repeat: 1
     type: Action
     elementId: 48L4BnlOK0SJi496loAWZA
@@ -1612,7 +1637,7 @@ tests:
   - id: H4kbfAVG_UaiNfjnkwc-zw
     enabled: true
     invertResult: false
-    order: 71
+    order: 72
     repeat: 1
     type: Action
     elementId: SAKqOkWZRkeS_SdeWrt1jg
@@ -1632,7 +1657,7 @@ tests:
   - id: -Td9BinIK0SNz5bu34huWQ
     enabled: true
     invertResult: false
-    order: 72
+    order: 73
     repeat: 1
     type: Action
     elementId: SAKqOkWZRkeS_SdeWrt1jg
@@ -1655,7 +1680,7 @@ tests:
   - id: o1hPqPh3oEaomQYhszjxXg
     enabled: true
     invertResult: false
-    order: 73
+    order: 74
     repeat: 1
     type: Action
     elementId: D32pj-DIdEmcBbq7EpxYEQ
@@ -1675,7 +1700,7 @@ tests:
   - id: jC6_Y5-GTUaBKJmz5vil1g
     enabled: true
     invertResult: false
-    order: 74
+    order: 75
     repeat: 1
     type: Action
     elementId: D32pj-DIdEmcBbq7EpxYEQ
@@ -1698,7 +1723,7 @@ tests:
   - id: nxboB5miuUy8B_NRAfos4g
     enabled: true
     invertResult: false
-    order: 75
+    order: 76
     repeat: 1
     type: Action
     elementId: xhlwMimJKUG8txwXgNNHlw
@@ -1718,7 +1743,7 @@ tests:
   - id: lMP5YYKXrEKOadhfCFzr_g
     enabled: true
     invertResult: false
-    order: 76
+    order: 77
     repeat: 1
     type: Action
     elementId: xhlwMimJKUG8txwXgNNHlw
@@ -1741,7 +1766,7 @@ tests:
   - id: YTsO1Zbva0eCynQyT80c2A
     enabled: true
     invertResult: false
-    order: 77
+    order: 78
     repeat: 1
     type: Action
     elementId: bDpJXncEV0Oj6f5rK_0nZA
@@ -1762,7 +1787,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 78
+    order: 79
     repeat: 1
     type: Action
     elementId: yiDRq6MucUmGrzbkMS2T-Q
@@ -1786,7 +1811,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 79
+    order: 80
     repeat: 1
     type: Action
     elementId: 9QUTCMpPZ02VTBAna3mwFg
@@ -1810,7 +1835,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 80
+    order: 81
     repeat: 1
     type: Action
     elementId: ueXw0j9bQ067IHL-MfR_IA
@@ -1834,7 +1859,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 81
+    order: 82
     repeat: 1
     type: Action
     elementId: TP9AIOuHskCVaBxekWxIOg
@@ -1849,7 +1874,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: 12302020
+      value: 07-15-2022
       direction: Input
     conditions: []
     validations: []
@@ -1858,7 +1883,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 82
+    order: 83
     repeat: 1
     type: Action
     elementId: oYwvL-IVmUyoLN9E0rpOpg
@@ -1873,7 +1898,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: 12252029
+      value: 07-30-2022
       direction: Input
     conditions: []
     validations: []
@@ -1882,7 +1907,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 83
+    order: 84
     repeat: 1
     type: Action
     elementId: wmnffEPyJ0O9MMU7CmBIQg
@@ -1905,7 +1930,7 @@ tests:
   - id: fE_p4f3smEiJpHfcRluhNw
     enabled: true
     invertResult: false
-    order: 84
+    order: 85
     repeat: 1
     type: Action
     elementId: 6Duh1D7I2kGobYoxaTmlOg
@@ -1925,7 +1950,7 @@ tests:
   - id: mbKf8rtyikmTw8i6xOantQ
     enabled: true
     invertResult: false
-    order: 85
+    order: 86
     repeat: 1
     type: Action
     elementId: SjZasFDrQ0KrG40c7BBrUQ
@@ -1945,7 +1970,7 @@ tests:
   - id: eViD8j6wmEKjgVlTk3hwGw
     enabled: true
     invertResult: false
-    order: 86
+    order: 87
     repeat: 1
     type: Action
     settings:
@@ -1967,10 +1992,35 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: PJNNUx5bMUKjaPR2zBWNHg
+    enabled: true
+    invertResult: false
+    order: 88
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a5d4eb31-51f0-4c62-8832-60c6bcd51a16
+      source: System
+    parameterMaps:
+    - name: x
+      value: 0
+      direction: Input
+    - name: y
+      value: -372
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
   - id: m3bi4LXrAUGcxSc3W7Ng6Q
     enabled: true
     invertResult: false
-    order: 87
+    order: 89
     repeat: 1
     type: Action
     elementId: gkM3xGAAs0S7lTbca0g62w
@@ -1990,7 +2040,7 @@ tests:
   - id: H7D6UTmakEG_g6TjNP_WIg
     enabled: true
     invertResult: false
-    order: 88
+    order: 90
     repeat: 1
     type: Action
     elementId: WZ7j-UG_akmEVKfZf3zjAQ
@@ -2010,7 +2060,7 @@ tests:
   - id: JGUroTCTJEaAyM4lx7rPpQ
     enabled: true
     invertResult: false
-    order: 89
+    order: 91
     repeat: 1
     type: Action
     elementId: WZ7j-UG_akmEVKfZf3zjAQ
@@ -2033,7 +2083,7 @@ tests:
   - id: PYn5xZKJjUOV32Ai0EGZ-A
     enabled: true
     invertResult: false
-    order: 90
+    order: 92
     repeat: 1
     type: Action
     elementId: 6KTBXqXEuE2HtXA29_9IwA
@@ -2053,7 +2103,7 @@ tests:
   - id: ujIIHCc4r0yPH9u5NTHTuQ
     enabled: true
     invertResult: false
-    order: 91
+    order: 93
     repeat: 1
     type: Action
     elementId: l7FuYjjCBEOe_F3iL89-wA
@@ -2073,7 +2123,7 @@ tests:
   - id: cU0-z5u8KUKhgVXCGm8w5w
     enabled: true
     invertResult: false
-    order: 92
+    order: 94
     repeat: 1
     type: Action
     elementId: G_tXTI67IEiQTOjP06DOHQ
@@ -2093,7 +2143,7 @@ tests:
   - id: S_UTEwXI-06wiCPanGbmeA
     enabled: true
     invertResult: false
-    order: 93
+    order: 95
     repeat: 1
     type: Action
     elementId: Ex-hUEjXukCX4U-mX9Vimw
@@ -2113,7 +2163,7 @@ tests:
   - id: CMFVeVZHekCDbmQiejHO8w
     enabled: true
     invertResult: false
-    order: 94
+    order: 96
     repeat: 1
     type: Action
     elementId: i5NGYVwr4k-GwtmR3z6gZQ
@@ -2133,7 +2183,7 @@ tests:
   - id: rY02GiI0ckS3IAhtyc_tlA
     enabled: true
     invertResult: false
-    order: 95
+    order: 97
     repeat: 1
     type: Action
     elementId: wqNav6-un0C73x9c1_gjRg
@@ -2153,7 +2203,7 @@ tests:
   - id: hkelfdIJykKCV3v-dkVfYA
     enabled: true
     invertResult: false
-    order: 96
+    order: 98
     repeat: 1
     type: Action
     elementId: wqNav6-un0C73x9c1_gjRg
@@ -2176,7 +2226,7 @@ tests:
   - id: YIGsgaHO3Ui8zm-JArC2EQ
     enabled: true
     invertResult: false
-    order: 97
+    order: 99
     repeat: 1
     type: Action
     elementId: O_Ccjxufe0KFgGOzaFVDPw
@@ -2196,7 +2246,7 @@ tests:
   - id: VIwbMuEzgkabqLTiWDn3vg
     enabled: true
     invertResult: false
-    order: 98
+    order: 100
     repeat: 1
     type: Action
     elementId: OxOD_XIWq0WX5UFPHyv9KA
@@ -2216,7 +2266,7 @@ tests:
   - id: WuHhOABhtUSgrsacC8h55Q
     enabled: true
     invertResult: false
-    order: 99
+    order: 101
     repeat: 1
     type: Action
     elementId: OxOD_XIWq0WX5UFPHyv9KA
@@ -2239,7 +2289,7 @@ tests:
   - id: HtKl8LJu502kprDMUcYrag
     enabled: true
     invertResult: false
-    order: 100
+    order: 102
     repeat: 1
     type: Action
     elementId: woLPTBXOx06d47XWkAl_8g
@@ -2259,7 +2309,7 @@ tests:
   - id: 0XGgyJ-0y02LfQqqzE0TLg
     enabled: true
     invertResult: false
-    order: 101
+    order: 103
     repeat: 1
     type: Action
     elementId: woLPTBXOx06d47XWkAl_8g
@@ -2282,7 +2332,7 @@ tests:
   - id: 6QsS5NGvZ0OVIkyi4T4mNA
     enabled: true
     invertResult: false
-    order: 102
+    order: 104
     repeat: 1
     type: Action
     elementId: 2Xv1sBEsPEWD_O7NMHDsgw
@@ -2302,7 +2352,7 @@ tests:
   - id: bZbc7ADZsUinT7QBuA7-Bw
     enabled: true
     invertResult: false
-    order: 103
+    order: 105
     repeat: 1
     type: Action
     settings:
@@ -2327,7 +2377,7 @@ tests:
   - id: XuXyx1sQzEyQRW49dKK8Gg
     enabled: true
     invertResult: false
-    order: 104
+    order: 106
     repeat: 1
     type: Action
     settings:
@@ -2353,7 +2403,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 105
+    order: 107
     repeat: 1
     type: Action
     elementId: _HL4iZcK106yPt4LrlZbiA
@@ -2377,7 +2427,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 106
+    order: 108
     repeat: 1
     type: Action
     elementId: 2DR2CcZRlUyymI8k7fqKiQ
@@ -2401,7 +2451,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 107
+    order: 109
     repeat: 1
     type: Action
     elementId: Bq9cwgRC1Uq8ptil_KrtVg
@@ -2425,7 +2475,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 108
+    order: 110
     repeat: 1
     type: Action
     elementId: 3u1ix4wMxUS4_8YYfV-5Tg
@@ -2449,7 +2499,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 109
+    order: 111
     repeat: 1
     type: Action
     elementId: kJmAFuO1A0KWpH4IWTzNww
@@ -2473,7 +2523,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 110
+    order: 112
     repeat: 1
     type: Action
     elementId: GkuQ92jh4kaQ9FvM_p9I2w
@@ -2497,7 +2547,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 111
+    order: 113
     repeat: 1
     type: Action
     elementId: GKdV8_IdQEKaJ2_dVTOJ2w
@@ -2521,7 +2571,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 112
+    order: 114
     repeat: 1
     type: Action
     elementId: PbX3PPMHCEefY__-jVnKug
@@ -2545,7 +2595,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 113
+    order: 115
     repeat: 1
     type: Action
     elementId: g620qDDRhUq5TInmLDSQxA
@@ -4808,10 +4858,10 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //td[. = '12-30-2020']
+    value: //div[6]//td[4]
     priority: 0
   - name: XPATH
-    value: //div[6]//td[4]
+    value: //td[. = '12-30-2020']
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div[3]/div/section[7]/div[6]/table/tbody/tr/td[4]
@@ -4824,10 +4874,10 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //td[. = '12-25-2029']
+    value: //div[6]//td[5]
     priority: 0
   - name: XPATH
-    value: //div[6]//td[5]
+    value: //td[. = '12-25-2029']
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/div[3]/div/section[7]/div[6]/table/tbody/tr/td[5]
