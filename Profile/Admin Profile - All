@@ -1,0 +1,106 @@
+id: c-cYvF7lFU-yMgdl0ZckRw
+projectId: 0gbsDtz4lkyiB8B6W2gvHA
+projectName: Red Cross VCN Regression Testing
+created: 2022-07-16T04:22:36.3002408Z
+protocol: 1
+tests:
+- id: CFQJCHFfn0WYekSwEBP-CQ
+  name: Admin Profile - All
+  description: >-
+    Add / Edit Status
+
+    Add/Edit entry point
+
+    Add/edit Hierarchy
+
+    Add / Edit Qualifications
+
+    Add / Edit / End Positions
+
+    Login as User
+
+    Update emergency contact information
+
+    Add/edit activities
+
+    Add/edit Additional Notes
+
+    Add/edit Confidential Notes
+
+    Add/edit documents
+
+    Add Entry Point
+
+    Add Hours
+
+    Add/edit local qualification
+
+    Add/edit qualifications
+
+    Add/edit Acommodation Plan
+
+    Add/edit disaster responder availability
+
+    * try checking/unchecking a variety of geographical availailbity options.
+
+    Edit Disaster Responder Information
+
+    Add/edit DRO restrictions
+
+    Add/edit GAPs
+
+    Add/edit hardship codes
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-07-16T04:22:36.0000000
+  modificationDate: 2022-07-16T04:22:36.0000000
+  settings:
+    automationAssistant: true
+    appId: ySlnJ6rOCUaGlfrlfNXE2Q
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: ySlnJ6rOCUaGlfrlfNXE2Q
+    name: VCN dev site(testproject)
+    url: https://arc-testproject.tcheetah09.com/
+    platform: Web
+  steps:
+  - id: 8UuqLA3C50u1DPDbrUvRIQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://arc-testproject.tcheetah09.com/
+    type: Input
+  tags:
+  - Venkat
+auxTests: []
+elements: []
+projectParameters: []
+addons: []
