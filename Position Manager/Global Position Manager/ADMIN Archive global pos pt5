@@ -1,7 +1,7 @@
-id: icTKBwz2aU6d0saUgWYgKw
+id: JRdhzhKTM0Gt_2XC52ftsA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-14T05:35:13.6563203Z
+created: 2022-07-19T16:52:18.9199438Z
 protocol: 1
 tests:
 - id: rwd0A01XxUqsYqodQr9yFA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-13T05:35:53.0000000
-  modificationDate: 2022-07-14T05:35:06.0000000
+  modificationDate: 2022-07-19T16:49:22.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -255,7 +255,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: 0
+      value: 2
       direction: Input
     conditions: []
     validations: []
@@ -2466,11 +2466,11 @@ projectParameters:
 - id: sVzfYNFGlkOYwfYv0ArzEg
   name: globalposname
   description: ''
-  value: atmxfzpmzgdyttcgpbxj
+  value: baqtpujbkwebpvighuud
 - id: h6573yhj-0urmFeb-y71Ew
   name: global_pos_id
   description: ''
-  value: ''
+  value: 227055
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
