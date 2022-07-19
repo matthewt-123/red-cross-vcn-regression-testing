@@ -1,7 +1,7 @@
-id: -WL6dSRuKEisKpQuxxicsg
+id: Vb4aWw39AUKDMIjiDnSSJQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-14T05:33:14.5338501Z
+created: 2022-07-19T16:52:59.1729613Z
 protocol: 1
 tests:
 - id: yWR81PxX-UaVdKQTplv7MA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-14T05:15:28.0000000
-  modificationDate: 2022-07-14T05:33:02.0000000
+  modificationDate: 2022-07-19T16:52:51.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -354,33 +354,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: NyjX9f5bC0OFq_jdmv4-0w
-    enabled: true
-    invertResult: false
-    order: 16
-    repeat: 1
-    type: Action
-    elementId: RpF1OADQ6UKXDMffY7oFGA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
-      source: System
-    parameterMaps:
-    - name: value
-      value: Yes
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: dfDVGMdhhEObdqQ-SY1Deg
     enabled: true
     invertResult: false
-    order: 17
+    order: 16
     repeat: 1
     type: Action
     elementId: ojsNY-7XsEqYFll-YhtfcQ
@@ -400,7 +377,7 @@ tests:
   - id: iH02Bgc4bUqnxMaHuqlCcg
     enabled: true
     invertResult: false
-    order: 18
+    order: 17
     repeat: 1
     type: Action
     elementId: MD7OauzAhk2HUcRbZZq5rA
@@ -420,7 +397,7 @@ tests:
   - id: bek5ZeqAH0OWw_7opq8d5w
     enabled: true
     invertResult: false
-    order: 19
+    order: 18
     repeat: 1
     type: Action
     elementId: 2crHFJhTs0K0-WdP5Wdumg
@@ -441,7 +418,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 20
+    order: 19
     repeat: 1
     type: Addon
     settings:
@@ -471,7 +448,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 21
+    order: 20
     repeat: 1
     type: Action
     elementId: sxF21yDC3Eau-4ka3RDlTA
@@ -494,7 +471,7 @@ tests:
   - id: ElS0YLqW_Eek-iQt5OTWVg
     enabled: true
     invertResult: false
-    order: 22
+    order: 21
     repeat: 1
     type: Action
     elementId: EF7zHNRVP0aCKPH5mpXMIw
@@ -517,7 +494,7 @@ tests:
   - id: GFAzHaE6_U-iFDK4B6mUGQ
     enabled: true
     invertResult: false
-    order: 23
+    order: 22
     repeat: 1
     type: Action
     elementId: M45mQXxmJ0GC57YPxFdi2Q
@@ -540,7 +517,7 @@ tests:
   - id: Zz4FXy3lkka-1YVYfRS7NA
     enabled: true
     invertResult: false
-    order: 24
+    order: 23
     repeat: 1
     type: Action
     elementId: 3Jt1A3PHNUO8WB3qFQ5c0Q
@@ -560,7 +537,7 @@ tests:
   - id: yivoGQtJqUG0R7IbfVsdKQ
     enabled: true
     invertResult: false
-    order: 25
+    order: 24
     repeat: 1
     type: Action
     elementId: EFVYr2pk30uaru1Wh0sWSA
@@ -580,7 +557,7 @@ tests:
   - id: g8G3wbCdmUet8bmGTlnZZA
     enabled: true
     invertResult: false
-    order: 26
+    order: 25
     repeat: 1
     type: Action
     elementId: Z6CxqS1oAU26_PK5hWGszA
@@ -603,7 +580,7 @@ tests:
   - id: Bue4U9hkbUeGxd6WWtnWng
     enabled: true
     invertResult: false
-    order: 27
+    order: 26
     repeat: 1
     type: Action
     elementId: VbhZ88QFPU-3wIKjrlhABQ
@@ -627,7 +604,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 28
+    order: 27
     repeat: 1
     type: Action
     elementId: nQwr_CkrRU-s9TEde1tV4g
@@ -651,7 +628,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 29
+    order: 28
     repeat: 1
     type: Action
     elementId: DY9UViaTvUqI3dkg0lItdQ
@@ -675,7 +652,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 30
+    order: 29
     repeat: 1
     type: Addon
     settings:
@@ -709,7 +686,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 31
+    order: 30
     repeat: 1
     type: Addon
     settings:
@@ -1457,25 +1434,6 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/a[1]
     priority: 2
-- id: RpF1OADQ6UKXDMffY7oFGA
-  name: enable_group_leader_edit
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#enable_group_leader_edit'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='enable_group_leader_edit']"
-    priority: 1
-  - name: XPATH
-    value: //li[4]//select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/form/fieldset/ul/li[4]/div/select
-    priority: 3
 - id: ojsNY-7XsEqYFll-YhtfcQ
   name: INPUT27
   type:
@@ -1598,11 +1556,11 @@ projectParameters:
 - id: sVzfYNFGlkOYwfYv0ArzEg
   name: globalposname
   description: ''
-  value: atmxfzpmzgdyttcgpbxj
+  value: baqtpujbkwebpvighuud
 - id: h6573yhj-0urmFeb-y71Ew
   name: global_pos_id
   description: ''
-  value: ''
+  value: 227055
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
