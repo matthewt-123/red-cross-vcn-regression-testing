@@ -1,7 +1,7 @@
-id: Vb4aWw39AUKDMIjiDnSSJQ
+id: b3mpdG9dIk20Fqp2GA9i9A
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-19T16:52:59.1729613Z
+created: 2022-08-21T06:44:52.4146415Z
 protocol: 1
 tests:
 - id: yWR81PxX-UaVdKQTplv7MA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-14T05:15:28.0000000
-  modificationDate: 2022-07-19T16:52:51.0000000
+  modificationDate: 2022-08-21T06:44:43.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -209,7 +209,7 @@ tests:
     validations: []
     contexts: []
   - id: JAb4eDPeqE-fLK5U4FxkGw
-    enabled: true
+    enabled: false
     invertResult: false
     order: 9
     repeat: 1
@@ -600,38 +600,14 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: xHNEruqhTUuoYx7AsPzVsA
+  - id: i7IafsBK50KRLha8dwR2-A
     comments: ''
     enabled: true
     invertResult: false
     order: 27
     repeat: 1
     type: Action
-    elementId: nQwr_CkrRU-s9TEde1tV4g
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
-      source: System
-    parameterMaps:
-    - name: text
-      value: Yes
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
-  - id: _5m68nQLX02Y5pvhPzQ6nQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 28
-    repeat: 1
-    type: Action
-    elementId: DY9UViaTvUqI3dkg0lItdQ
+    elementId: v74zE21VdEC_EvbFblN2MA
     settings:
       sleepTime: -1
       timeout: -1
@@ -648,11 +624,11 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: iUNJhNJMEEimSy3yY2B9IQ
+  - id: xHNEruqhTUuoYx7AsPzVsA
     comments: ''
     enabled: true
     invertResult: false
-    order: 29
+    order: 28
     repeat: 1
     type: Addon
     settings:
@@ -667,7 +643,7 @@ tests:
       addonId: Xey4bVsJQEODIUN7ssaJMg
     parameterMaps:
     - name: code
-      value: return document.querySelector("#position_groups_table > tbody > tr > td:nth-child(7) > select").value
+      value: l = document.getElementsByClassName('form_control'); for(i = 0; i < l.length; i++){if(l[i].value != 'Yes'){return false}};return true
       direction: Input
     - name: args
       value: ''
@@ -677,44 +653,10 @@ tests:
       direction: Output
     conditions: []
     validations:
-    - type: Equals
+    - type: Contains
       invert: false
       field: output
-      value: Yes
-    contexts: []
-  - id: 69uqDU2Gz0WyajumP9tsUQ
-    comments: ''
-    enabled: true
-    invertResult: false
-    order: 30
-    repeat: 1
-    type: Addon
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: SFW6Rf9DW0G4jpBW38V4xw
-      source: Store
-      addonId: Xey4bVsJQEODIUN7ssaJMg
-    parameterMaps:
-    - name: code
-      value: document.querySelector("#position_groups_table > tbody > tr > td:nth-child(6) > select").value
-      direction: Input
-    - name: args
-      value: ''
-      direction: Input
-    - name: output
-      value: ''
-      direction: Output
-    conditions: []
-    validations:
-    - type: Equals
-      invert: false
-      field: output
-      value: Yes
+      value: true
     contexts: []
   parameters:
   - name: ApplicationURL
@@ -1509,40 +1451,21 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[4]/div/div/form/div[3]/button
     priority: 3
-- id: nQwr_CkrRU-s9TEde1tV4g
-  name: Yes4
+- id: v74zE21VdEC_EvbFblN2MA
+  name: 116
   type:
-    id: jUwODgyNjAyNzk2NTk1NTY
-    name: TableCell
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
     source: System
   locators:
   - name: XPATH
-    value: //td[. = 'Yes']
+    value: //td/a[. = '1']
     priority: 0
   - name: XPATH
-    value: //td[2]
+    value: //td[3]/a
     priority: 1
   - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/div/div[1]/div[2]/div[2]/table/tbody/tr/td[2]
-    priority: 2
-- id: DY9UViaTvUqI3dkg0lItdQ
-  name: 17
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTY
-    name: TableCell
-    source: System
-  locators:
-  - name: XPATH
-    value: >-
-      //td[. = '
-      	1
-      ']
-    priority: 0
-  - name: XPATH
-    value: //td[3]
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/div/div[1]/div[2]/div[2]/table/tbody/tr/td[3]
+    value: /html/body/div/div[2]/div/div[2]/div/div[1]/div[2]/div[2]/table/tbody/tr/td[3]/a
     priority: 2
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
@@ -1556,11 +1479,11 @@ projectParameters:
 - id: sVzfYNFGlkOYwfYv0ArzEg
   name: globalposname
   description: ''
-  value: baqtpujbkwebpvighuud
+  value: hewxexgzlidwhcbwwixk
 - id: h6573yhj-0urmFeb-y71Ew
   name: global_pos_id
   description: ''
-  value: 227055
+  value: 227058
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
