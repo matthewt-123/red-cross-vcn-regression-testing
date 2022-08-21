@@ -1,7 +1,7 @@
-id: MTPGgNd8r0KxnpGPKDBQYA
+id: VKI0L1B2ykilNQCi1AZVqw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-07-13T05:21:10.3778839Z
+created: 2022-08-21T06:19:30.5832791Z
 protocol: 1
 tests:
 - id: 4gz7Q3039Uu1lm3s9PP56w
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-13T05:00:27.0000000
-  modificationDate: 2022-07-13T05:20:48.0000000
+  modificationDate: 2022-07-19T16:44:23.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -132,7 +132,7 @@ tests:
       source: System
     parameterMaps:
     - name: text
-      value: test
+      value: responsible for stuff
       direction: Input
     conditions: []
     validations: []
@@ -1337,13 +1337,13 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //p[. = 'test']
+    value: //*[@id="nd_rco_opportunity_detail"]/main/div[2]/div/div/div/div/div[2]/div/div/div[1]/p[2]
     priority: 0
   - name: XPATH
-    value: //div[2]/div/div/div/p[2]
-    priority: 1
-  - name: XPATH
     value: /html/body/main/div[2]/div/div/div/div/div[2]/div/div/div[1]/p[2]
+    priority: 1
+  - name: CSSSELECTOR
+    value: '#nd_rco_opportunity_detail > main > div.container-fluid > div > div > div > div > div.red-cross-volunteer__main.red-cross-volunteer__main--wide > div > div > div.col-12.col-md-6 > p:nth-child(3)'
     priority: 2
 - id: w-YU6MEjXkCQtmLK7lYawg
   name: seven
@@ -1382,14 +1382,11 @@ elements:
     source: System
   locators:
   - name: XPATH
-    value: //td[. = 'global position atmxfzpmzgdyttcgpbxj']
+    value: //td[1]
     priority: 0
   - name: XPATH
-    value: //td[1]
-    priority: 1
-  - name: XPATH
     value: /html/body/div/div[2]/div/table/tbody/tr[2]/td[1]
-    priority: 2
+    priority: 1
 - id: QWl0iej5NEKEav6RLAXtrQ
   name: Configure1
   type:
@@ -1472,7 +1469,7 @@ projectParameters:
 - id: sVzfYNFGlkOYwfYv0ArzEg
   name: globalposname
   description: ''
-  value: ''
+  value: uwriraqdhgytzgesluvs
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
