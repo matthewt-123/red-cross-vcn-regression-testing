@@ -1,7 +1,7 @@
-id: lydtVzoF5UegNXHui8Lxqw
+id: 1s5xYDhqWU6Xxc4Qa1B5Rw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T04:13:18.8178389Z
+created: 2022-10-21T07:52:10.8855624Z
 protocol: 1
 tests:
 - id: 41ZEMpB6J02NN99CEuomzQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-01-30T02:32:58.0000000
-  modificationDate: 2022-06-09T23:46:38.0000000
+  modificationDate: 2022-10-21T07:52:08.0000000
   settings:
     automationAssistant: true
     appId: YGurGJJH70CCpF78TOyflQ
@@ -543,7 +543,7 @@ tests:
     contexts: []
   - id: GRFVT54Jk0aZLgc-3qfisQ
     comments: ''
-    enabled: true
+    enabled: false
     invertResult: false
     order: 25
     repeat: 1
@@ -563,7 +563,7 @@ tests:
     contexts: []
   - id: JbbMr_clKUyJSIgFSKqC0Q
     comments: ''
-    enabled: false
+    enabled: true
     invertResult: false
     order: 26
     repeat: 1
@@ -1630,22 +1630,10 @@ addons:
   source: Store
   version: 1.1.9
   actions:
-  - id: SFW6Rf9DW0G4jpBW38V4xw
-    name: Execute JavaScript
-    description: Execute JavaScript {{code}} with arguments {{args}}
-    className: io.testproject.addons.web.actions.ExecuteJavascript
-  - id: 22Nw5UqP7EGqvQhuHT2kqg
-    name: Accept alert
-    description: Accept alert
-    className: io.testproject.addons.web.alert.AcceptAlert
   - id: _eKo7zbUNEaI9yCeGICBnw
     name: Get Numbers Only
     description: Return only numbers from the text
     className: io.testproject.addons.web.element.GetNumbersOnly
-  - id: 7dUz-B_UEEyf3F5EVJ9dXA
-    name: Set window size
-    description: Set window size to ({{width}},{{height}})
-    className: io.testproject.addons.web.window.SetWindowSize
   minSdkLevel: 2
   minSdkVersion: 0.63.1
   sdkGeneration: 1
