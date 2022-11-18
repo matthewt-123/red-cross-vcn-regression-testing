@@ -1,7 +1,7 @@
-id: LzXB49KMEECAWO3IB51Vlg
+id: 3BYN8frMXEqxZGZDZtxSOQ
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T04:13:28.4080549Z
+created: 2022-11-18T05:43:32.4106050Z
 protocol: 1
 tests:
 - id: Bt96PncVYE-9ecUof-aCIQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-08T10:26:26.0000000
-  modificationDate: 2022-06-09T13:30:45.0000000
+  modificationDate: 2022-11-18T05:43:30.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -27,30 +27,11 @@ tests:
     url: https://arc-testproject.tcheetah09.com/
     platform: Web
   steps:
-  - id: Qvticlum40S_qwc5dt0Hkw
-    comments: The target test Sign into VCN was removed
-    enabled: false
-    invertResult: false
-    order: 1
-    repeat: 1
-    type: Test
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      source: None
-    parameterMaps: []
-    conditions: []
-    validations: []
-    contexts: []
   - id: bzZ7-a8JV0O4uV8PRcUJ5Q
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 1
     repeat: 1
     type: Test
     targetTestId: FVwPRXWuIUuZOZO5GAZpiQ
@@ -69,7 +50,7 @@ tests:
   - id: qcPzfRm_v0ajEW7R6RWjkQ
     enabled: true
     invertResult: false
-    order: 3
+    order: 2
     repeat: 1
     type: Action
     elementId: ahBlOHACuU-dcm2hzLH8Rg
@@ -89,7 +70,7 @@ tests:
   - id: pPbOjjc6DU-AXkGif-XXfA
     enabled: true
     invertResult: false
-    order: 4
+    order: 3
     repeat: 1
     type: Action
     elementId: oLmQUgSVY06TjVNvkQYimg
@@ -109,7 +90,7 @@ tests:
   - id: M2qHBWlSmUapW9UM5wIXww
     enabled: true
     invertResult: false
-    order: 5
+    order: 4
     repeat: 1
     type: Action
     elementId: ZSOL0CxaaE2cmRupyGYs1w
@@ -129,7 +110,7 @@ tests:
   - id: 9Rf4AnOCF0yqEh-rE9BHiA
     enabled: true
     invertResult: false
-    order: 6
+    order: 5
     repeat: 1
     type: Action
     elementId: v_ZFa4LakE-Xr1O5ObT8qA
@@ -149,7 +130,7 @@ tests:
   - id: A1oIN5cZ4Um_5W1-2550GA
     enabled: true
     invertResult: false
-    order: 7
+    order: 6
     repeat: 1
     type: Action
     elementId: v_ZFa4LakE-Xr1O5ObT8qA
@@ -172,7 +153,7 @@ tests:
   - id: 3NOJMbhBUkGqVLIQdRewCA
     enabled: true
     invertResult: false
-    order: 8
+    order: 7
     repeat: 1
     type: Action
     elementId: v_ZFa4LakE-Xr1O5ObT8qA
@@ -192,7 +173,7 @@ tests:
   - id: xAOuo29APEyrIeOBtY_tJw
     enabled: true
     invertResult: false
-    order: 9
+    order: 8
     repeat: 1
     type: Action
     elementId: wrVpaPifnki7yKCVmIJ5cg
@@ -213,7 +194,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 10
+    order: 9
     repeat: 1
     type: Action
     elementId: PE9bxa0otkSgciNaME5Jkw
@@ -237,7 +218,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 11
+    order: 10
     repeat: 1
     type: Action
     elementId: _5uC-QaVFke_mtNXmHDo0Q
@@ -769,6 +750,147 @@ auxTests:
   - master
   - login
 elements:
+- id: ZMqsbaYtvkmFoXazdolIEQ
+  name: email2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
+    priority: 1
+- id: zRXNK1Bx2UK6aCUwLg530Q
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
+    priority: 1
+- id: AQsJjVKyU0m3Nsuxix6SHw
+  name: SIGN IN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Sign In']
+    priority: 0
+  - name: XPATH
+    value: //div[6]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
+    priority: 2
+- id: epcR_i7DEUakKZuPJYRjKw
+  name: ADMINISTRATION
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div//a[. = 'Administration']
+    priority: 0
+  - name: XPATH
+    value: //div/nav/ul/li[8]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/a
+    priority: 2
+- id: U1bdDH3QPEieXK8EkE_WEQ
+  name: Unit Configuration
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //div//a[. = 'Unit Configuration']
+    priority: 0
+  - name: XPATH
+    value: //div/nav/ul/li[8]/ul/li[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/ul/li[1]/a
+    priority: 2
+- id: irzcKQnOWUi5bnk7uS5ExA
+  name: user
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='user']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Username']
+    priority: 1
+  - name: XPATH
+    value: //div[1]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
+    priority: 3
+- id: WbTY1D4yNUiPO3wZzLIWOg
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 0
+  - name: XPATH
+    value: //input[@placeholder = 'Password']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
+    priority: 3
+- id: O-GtKTW_20iR0C7LjVf2fA
+  name: login
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
+    priority: 1
+- id: h_l7NFHHUEmNuxny2nw0nw
+  name: Targeted Recruitment1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Targeted Recruitment']
+    priority: 0
+  - name: XPATH
+    value: //a[47]//span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[2]/div/div[2]/a[47]/div/span
+    priority: 2
 - id: ahBlOHACuU-dcm2hzLH8Rg
   name: btSelectItem
   type:
@@ -875,148 +997,15 @@ elements:
   - name: XPATH
     value: /html/body/div/div[2]/div/div[3]/div[2]/div[2]/table/tbody/tr[2]/td[13]
     priority: 2
-- id: epcR_i7DEUakKZuPJYRjKw
-  name: ADMINISTRATION
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Administration']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[8]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/a
-    priority: 2
-- id: U1bdDH3QPEieXK8EkE_WEQ
-  name: Unit Configuration
-  type:
-    id: jUwODgyNjAyNzk2NTk1NTE
-    name: Link
-    source: System
-  locators:
-  - name: XPATH
-    value: //div//a[. = 'Unit Configuration']
-    priority: 0
-  - name: XPATH
-    value: //div/nav/ul/li[8]/ul/li[1]/a
-    priority: 1
-  - name: XPATH
-    value: /html/body/div[1]/div[1]/header/div[2]/nav/ul/li[8]/ul/li[1]/a
-    priority: 2
-- id: h_l7NFHHUEmNuxny2nw0nw
-  name: Targeted Recruitment1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjU
-    name: span
-    source: System
-  locators:
-  - name: XPATH
-    value: //span[. = 'Targeted Recruitment']
-    priority: 0
-  - name: XPATH
-    value: //a[47]//span
-    priority: 1
-  - name: XPATH
-    value: /html/body/div/div[2]/div/div[2]/a[47]/div/span
-    priority: 2
-- id: irzcKQnOWUi5bnk7uS5ExA
-  name: user
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='user']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Username']
-    priority: 1
-  - name: XPATH
-    value: //div[1]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[1]/input
-    priority: 3
-- id: WbTY1D4yNUiPO3wZzLIWOg
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: "[name='password']"
-    priority: 0
-  - name: XPATH
-    value: //input[@placeholder = 'Password']
-    priority: 1
-  - name: XPATH
-    value: //div[2]/input
-    priority: 2
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[2]/input
-    priority: 3
-- id: O-GtKTW_20iR0C7LjVf2fA
-  name: login
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[4]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
-    priority: 1
-- id: ZMqsbaYtvkmFoXazdolIEQ
-  name: email2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[4]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
-    priority: 1
-- id: zRXNK1Bx2UK6aCUwLg530Q
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[5]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
-    priority: 1
-- id: AQsJjVKyU0m3Nsuxix6SHw
-  name: SIGN IN
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDc
-    name: Button
-    source: System
-  locators:
-  - name: XPATH
-    value: //button[. = 'Sign In']
-    priority: 0
-  - name: XPATH
-    value: //div[6]/button
-    priority: 1
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
-    priority: 2
-projectParameters: []
+projectParameters:
+- id: HkHAS_uwg0CffuBPcOIbSQ
+  name: ARCTP
+  description: ''
+  value: https://arc-testproject.tcheetah09.com
+- id: _YguaED0bUq8R4hDs2fgmA
+  name: global_pw
+  description: ''
+  value: p@ssword1
 addons:
 - id: Xey4bVsJQEODIUN7ssaJMg
   source: Store
