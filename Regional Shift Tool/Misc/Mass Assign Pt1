@@ -1,7 +1,7 @@
-id: NBijMXk1lkCzKF7F3DxTKQ
+id: MVj_UpTm1E26IMBBosB8Dw
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-25T04:13:14.3553971Z
+created: 2023-01-06T07:50:24.6900676Z
 protocol: 1
 tests:
 - id: KhlMMqyUWEGoMdXjk8P2gg
@@ -2437,7 +2437,7 @@ elements:
   locators:
   - name: CSSSELECTOR
     value: '#filter_tool_name'
-    priority: 0
+    priority: 3
   - name: CSSSELECTOR
     value: "[name='filter_tool_name']"
     priority: 1
@@ -2446,7 +2446,7 @@ elements:
     priority: 2
   - name: XPATH
     value: //form/div/div/input
-    priority: 3
+    priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div/div[2]/form/div/div[1]/input
     priority: 4
@@ -3047,10 +3047,6 @@ addons:
   source: Store
   version: 1.1.9
   actions:
-  - id: 22Nw5UqP7EGqvQhuHT2kqg
-    name: Accept alert
-    description: Accept alert
-    className: io.testproject.addons.web.alert.AcceptAlert
   - id: SFW6Rf9DW0G4jpBW38V4xw
     name: Execute JavaScript
     description: Execute JavaScript {{code}} with arguments {{args}}
