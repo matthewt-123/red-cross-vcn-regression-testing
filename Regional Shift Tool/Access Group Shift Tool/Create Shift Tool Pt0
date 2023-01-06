@@ -1,7 +1,7 @@
-id: eaOI2LrLhkaR93LNTj4DkA
+id: wgA7gWIaGU2EUQPOo1Pb_A
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T02:14:11.6788325Z
+created: 2023-01-06T07:58:13.4291389Z
 protocol: 1
 tests:
 - id: Sw9gW8rTbEi3978Jd3NbBQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-06-26T01:58:59.0000000
-  modificationDate: 2022-06-26T02:13:44.0000000
+  modificationDate: 2022-06-26T02:40:48.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
@@ -476,33 +476,10 @@ tests:
     conditions: []
     validations: []
     contexts: []
-  - id: nYptehen-kuBiZHSbljE-Q
-    enabled: true
-    invertResult: false
-    order: 21
-    repeat: 1
-    type: Action
-    elementId: Lt0aPzsh0kmP2JcoqQkMBA
-    settings:
-      sleepTime: -1
-      timeout: -1
-      sleepTiming: Inherit
-      failureBehaviorType: Inherit
-      takeScreenshotConditionType: Inherit
-    action:
-      id: 45fdd921-b359-4d6a-b7c5-5f9a3612c0f2
-      source: System
-    parameterMaps:
-    - name: value
-      value: 71925
-      direction: Input
-    conditions: []
-    validations: []
-    contexts: []
   - id: f22yGow5JUyIXj7HGbSaIg
     enabled: true
     invertResult: false
-    order: 22
+    order: 21
     repeat: 1
     type: Action
     elementId: q12TTFPOOE2CfaU169o8sA
@@ -522,7 +499,7 @@ tests:
   - id: IyEdnv4Nbk-SurZPMdEDsw
     enabled: true
     invertResult: false
-    order: 23
+    order: 22
     repeat: 1
     type: Action
     elementId: 74_8E2IPq0C8sAziIhT9zg
@@ -545,7 +522,7 @@ tests:
   - id: kCUFupYchkq530PyoumyRA
     enabled: true
     invertResult: false
-    order: 24
+    order: 23
     repeat: 1
     type: Action
     elementId: 7A_p9uUNVk-JDketdyOaiA
@@ -565,7 +542,7 @@ tests:
   - id: wwTlKVuyz0WJmjUV41u5rA
     enabled: true
     invertResult: false
-    order: 25
+    order: 24
     repeat: 1
     type: Action
     elementId: 9_YskuEIw0qxEYwRH1JfuA
@@ -586,7 +563,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 26
+    order: 25
     repeat: 1
     type: Action
     settings:
@@ -1112,7 +1089,7 @@ elements:
   locators:
   - name: CSSSELECTOR
     value: '#filter_tool_name'
-    priority: 0
+    priority: 3
   - name: CSSSELECTOR
     value: "[name='filter_tool_name']"
     priority: 1
@@ -1121,7 +1098,7 @@ elements:
     priority: 2
   - name: XPATH
     value: //form/div/div/input
-    priority: 3
+    priority: 0
   - name: XPATH
     value: /html/body/div/div[2]/div/div[2]/form/div/div[1]/input
     priority: 4
@@ -1405,25 +1382,6 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/form/div[1]/div[2]/div[2]/div/div[3]/div[1]/select
     priority: 3
-- id: Lt0aPzsh0kmP2JcoqQkMBA
-  name: query_group_id_user_access
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#query_group_id_user_access'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='query_group_id_user_access']"
-    priority: 1
-  - name: XPATH
-    value: //div[2]/div[2]/div/div[3]/div[2]/select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/form/div[1]/div[2]/div[2]/div/div[3]/div[2]/select
-    priority: 3
 projectParameters:
 - id: _YguaED0bUq8R4hDs2fgmA
   name: global_pw
@@ -1432,7 +1390,7 @@ projectParameters:
 - id: j1beoVn84E-QqRM0eMC3Jw
   name: access_shift_url
   description: ''
-  value: ''
+  value: https://arc-testproject.tcheetah09.com/?nd=vms_registration_view&registration_type_id=12969&jid=2273
 addons:
 - id: isPuWQzkBU-t6MMgxY5QrA
   source: Store
