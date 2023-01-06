@@ -1,7 +1,7 @@
-id: _oS5tt9QRk6y0j4hVJQ8Pg
+id: wDn5pOrK6kqqNMGCLQ_WUg
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2022-06-26T02:17:41.9851577Z
+created: 2023-01-06T07:50:24.6897625Z
 protocol: 1
 tests:
 - id: yOVpL37wG0uTpGudiB4Hnw
@@ -1195,48 +1195,44 @@ elements:
   - name: XPATH
     value: /html/body/div[1]/div[2]/div/div[2]/form/div/input
     priority: 2
-- id: ZMqsbaYtvkmFoXazdolIEQ
-  name: email2
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[4]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
-    priority: 1
-- id: zRXNK1Bx2UK6aCUwLg530Q
-  name: password1
-  type:
-    id: jUwODgyNjAyNzk2NTk1NDY
-    name: Textbox
-    source: System
-  locators:
-  - name: XPATH
-    value: //div[5]/input
-    priority: 0
-  - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
-    priority: 1
-- id: AQsJjVKyU0m3Nsuxix6SHw
-  name: SIGN IN
+- id: qHoEBbzmQ0ye1k0HoiVKrQ
+  name: Manage3
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: XPATH
-    value: //button[. = 'Sign In']
+    value: >-
+      //button[. = '
+      							 Manage 
+      						']
     priority: 0
   - name: XPATH
-    value: //div[6]/button
+    value: //div[2]/div/div/button
     priority: 1
   - name: XPATH
-    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
+    value: /html/body/div[1]/div[2]/div/div[2]/div/div/button
     priority: 2
+- id: 4G9Nn0KVoU6tZTRxzbnWlw
+  name: query_group_id
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjQ
+    name: Select
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#query_group_id'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='query_group_id']"
+    priority: 1
+  - name: XPATH
+    value: //li[7]//select
+    priority: 2
+  - name: XPATH
+    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[1]/div[2]/ul/li[7]/div/select
+    priority: 3
 - id: irzcKQnOWUi5bnk7uS5ExA
   name: user
   type:
@@ -1288,54 +1284,67 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div[2]/div/div/div/div/form/div[4]/input
     priority: 1
-- id: qHoEBbzmQ0ye1k0HoiVKrQ
-  name: Manage3
+- id: ZMqsbaYtvkmFoXazdolIEQ
+  name: email2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[4]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[4]/input
+    priority: 1
+- id: zRXNK1Bx2UK6aCUwLg530Q
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[5]/input
+    priority: 0
+  - name: XPATH
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[5]/input
+    priority: 1
+- id: AQsJjVKyU0m3Nsuxix6SHw
+  name: SIGN IN
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
   - name: XPATH
-    value: >-
-      //button[. = '
-      							 Manage 
-      						']
+    value: //button[. = 'Sign In']
     priority: 0
   - name: XPATH
-    value: //div[2]/div/div/button
+    value: //div[6]/button
     priority: 1
   - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/div/div/button
+    value: /html/body/main/div[4]/div[3]/div/div/div/div/div/div/div[1]/div/div/div/div[6]/button
     priority: 2
-- id: 4G9Nn0KVoU6tZTRxzbnWlw
-  name: query_group_id
-  type:
-    id: jUwODgyNjAyNzk2NTk1NjQ
-    name: Select
-    source: System
-  locators:
-  - name: CSSSELECTOR
-    value: '#query_group_id'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='query_group_id']"
-    priority: 1
-  - name: XPATH
-    value: //li[7]//select
-    priority: 2
-  - name: XPATH
-    value: /html/body/div[1]/div[2]/div/div[2]/form/fieldset[1]/div[2]/ul/li[7]/div/select
-    priority: 3
-projectParameters:
-- id: _YguaED0bUq8R4hDs2fgmA
-  name: global_pw
-  description: ''
-  value: p@ssword1
-- id: j1beoVn84E-QqRM0eMC3Jw
-  name: access_shift_url
-  description: ''
-  value: ''
+projectParameters: []
 addons:
+- id: Xey4bVsJQEODIUN7ssaJMg
+  source: Store
+  version: 1.1.9
+  actions:
+  - id: SFW6Rf9DW0G4jpBW38V4xw
+    name: Execute JavaScript
+    description: Execute JavaScript {{code}} with arguments {{args}}
+    className: io.testproject.addons.web.actions.ExecuteJavascript
+  - id: 7dUz-B_UEEyf3F5EVJ9dXA
+    name: Set window size
+    description: Set window size to ({{width}},{{height}})
+    className: io.testproject.addons.web.window.SetWindowSize
+  minSdkLevel: 2
+  minSdkVersion: 0.63.1
+  sdkGeneration: 1
+  language: Java
+  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
 - id: 02zAWIC7IUym1Rp8eFfaCg
   source: Store
   version: 0.2
@@ -1349,20 +1358,3 @@ addons:
   sdkGeneration: 1
   language: Java
   hash: 677F203FEEE0BE5BB69CCB9CAE1792CC1D5CEF2921AEE088065EB7124F85F125
-- id: Xey4bVsJQEODIUN7ssaJMg
-  source: Store
-  version: 1.1.9
-  actions:
-  - id: 7dUz-B_UEEyf3F5EVJ9dXA
-    name: Set window size
-    description: Set window size to ({{width}},{{height}})
-    className: io.testproject.addons.web.window.SetWindowSize
-  - id: SFW6Rf9DW0G4jpBW38V4xw
-    name: Execute JavaScript
-    description: Execute JavaScript {{code}} with arguments {{args}}
-    className: io.testproject.addons.web.actions.ExecuteJavascript
-  minSdkLevel: 2
-  minSdkVersion: 0.63.1
-  sdkGeneration: 1
-  language: Java
-  hash: 2D35A7CE404CDBD8C628208C7BF6C79678E47DC6F249518E97AC68E19F0A0B6D
