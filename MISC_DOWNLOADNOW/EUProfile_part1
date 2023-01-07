@@ -1,18 +1,18 @@
-id: gZwzszB8N0e3xhQ5HOHiEg
+id: XHlapFo4I0OVI2TucFKMQA
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2023-01-06T08:38:58.0392654Z
+created: 2023-01-07T06:03:31.0508754Z
 protocol: 1
 tests:
 - id: B87a0K3c30abi49kcaBf-g
-  name: EUProfile_all
+  name: EUProfile_part1
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2023-01-06T08:14:36.0000000
-  modificationDate: 2023-01-06T08:38:50.0000000
+  modificationDate: 2023-01-07T06:03:31.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
