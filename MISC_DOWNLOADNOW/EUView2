@@ -1,18 +1,18 @@
-id: pLkGMTkiSUGUf8JILvu6aA
+id: 2NNINriuREaOsxPZ_O4Epg
 projectId: 0gbsDtz4lkyiB8B6W2gvHA
 projectName: Red Cross VCN Regression Testing
-created: 2023-01-08T05:18:13.1102362Z
+created: 2023-01-08T05:18:18.3928462Z
 protocol: 1
 tests:
 - id: FIdWWMM29EuVntzlb8K8Uw
-  name: misceuview
+  name: EUView2
   description: ''
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2023-01-08T05:12:41.0000000
-  modificationDate: 2023-01-08T05:17:29.0000000
+  modificationDate: 2023-01-08T05:18:18.0000000
   settings:
     automationAssistant: true
     appId: ySlnJ6rOCUaGlfrlfNXE2Q
